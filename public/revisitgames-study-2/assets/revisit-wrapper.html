@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Unity Game Embedded in reVISit</title>
+  <script src="../../revisitUtilities/revisit-communicate.js"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <iframe id="unity-iframe" allow="fullscreen"></iframe>
+
+
+  <script>
+    const iframe = document.getElementById("unity-iframe");
+    // Parse query parameters
+    const qs = new URLSearchParams(window.location.search);
+    // Assistance integer
+    const assistance = qs.has("assistance") ? parseInt(qs.get("assistance"), 0) : null;
+    // Dynamic Unity build URL
+    let unityUrl = qs.get("unityUrl") || "Build/index.html";
+    // Optionally pass assistance to Unity
+    let urlParams = [];
+    if (assistance !== null && !isNaN(assistance)) {
+      urlParams.push(`assistance=${assistance}`);
+    }
+    if (urlParams.length > 0) {
+      unityUrl += (unityUrl.includes("?") ? "&" : "?") + urlParams.join("&");
+    }
+    iframe.src = unityUrl;
+
+  // Event handler for Unity payloads
+  window.addEventListener("message", (event) => {
+    const { type, payload } = event.data;
+    switch (type) {
+      case "summary_complete":
+        Revisit.postAnswers({ summary_complete: JSON.stringify(payload) });
+        console.log("summary_complete:", payload);
+        break;
+      case "route_complete":
+        Revisit.postAnswers({ route_complete: JSON.stringify(payload) });
+        console.log("route_complete:", payload);
+        break;
+      case "distance_complete":
+        Revisit.postAnswers({ distance_complete: JSON.stringify(payload) });
+        console.log("distance_complete:", payload);
+        break;
+      case "M_Map":
+        Revisit.postAnswers({ M_Map: JSON.stringify(payload) });
+        console.log("M_Map:", payload);
+        break;
+      default:
+        console.log("Unknown event type:", type, payload);
+    }
+  });
+  </script>
+  
+</body>
+
+</html>

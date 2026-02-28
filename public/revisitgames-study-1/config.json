@@ -1,0 +1,586 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/StudyConfigSchema.json",
+  "baseComponents": {
+    "unity-game": {
+      "type": "website"
+    }
+  },
+  "components": {
+    "introduction": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-1/assets/introduction.md",
+      "response": [
+        {
+          "id": "prolificId",
+          "prompt": "Before we move on, please enter your Prolific ID first",
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Prolific ID",
+          "paramCapture": "PROLIFIC_PID"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Consent Form": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-1/assets/consent.md",
+      "nextButtonText": "Agree",
+      "response": [
+        {
+          "id": "signature",
+          "location": "belowStimulus",
+          "placeholder": "Please provide your signature",
+          "prompt": "Your signature (It can be your preferred name)",
+          "required": true,
+          "type": "shortText"
+        },
+        {
+          "id": "accept",
+          "location": "belowStimulus",
+          "options": [
+            "Decline",
+            "Accept"
+          ],
+          "prompt": "Do you consent to the study and wish to continue?",
+          "required": true,
+          "requiredValue": "Accept",
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Attention Check A": {
+      "correctAnswer": [        
+        {
+          "answer": "Disagree",
+          "id": "attentionchecka"
+        }
+      ],
+      "path": "revisitgames-study-1/assets/attentioncheck-a.md",
+      "response": [
+        {
+          "id": "attentionchecka",
+          "prompt": "",
+          "location": "belowStimulus",
+          "required": true,
+          "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+          ],
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Disqualification": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-1/assets/disqualification.md",
+      "nextButtonText":"Disqualified",
+      "response": [
+        {
+          "hidden": true,
+          "id": "disqualification",
+          "prompt":"You have been disqualified from this study.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Game Intro": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-1/assets/game-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Game_0": {
+        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-1/assets/revisit-wrapper.html",
+        "response": [
+          {
+            "id": "level_complete",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "hidden": true,
+            "required": false,
+            "id": "log",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_1": {
+        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=1",
+        "response": [
+          {
+            "id": "level_complete",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "hidden": true,
+            "required": false,
+            "id": "log",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_2": {
+        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=2",
+        "response": [
+          {
+            "id": "level_complete",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "hidden": true,
+            "required": false,
+            "id": "log",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_3": {
+        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=3",
+        "response": [
+          {
+            "id": "level_complete",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "hidden": true,
+            "required": false,
+            "id": "log",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_4": {
+        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=4",
+        "response": [
+          {
+            "id": "level_complete",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "hidden": true,
+            "required": false,
+            "id": "log",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_5": {
+        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=5",
+        "response": [
+          {
+            "id": "level_complete",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "hidden": true,
+            "required": false,
+            "id": "log",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_6": {
+        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=6",
+        "response": [
+          {
+            "id": "level_complete",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "hidden": true,
+            "required": false,
+            "id": "log",
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Questionnaire1": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q1",
+          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not At All",
+            "Slightly",
+            "Moderately",
+            "Fairly",
+            "Extremely"
+          ],
+          "questionOptions": [
+            "I thought it was fun.",
+            "I thought it was hard.",
+            "I felt that I could explore things.",
+            "I enjoyed it.",
+            "I thought it was designed to be humane."
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire2": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q2",
+          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not At All",
+            "Slightly",
+            "Moderately",
+            "Fairly",
+            "Extremely"
+          ],
+          "questionOptions": [
+            "I thought it was fun.",
+            "I thought it was hard.",
+            "I felt that I could explore things.",
+            "I enjoyed it.",
+            "I thought it was designed to be humane."
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire3": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q3",
+          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not At All",
+            "Slightly",
+            "Moderately",
+            "Fairly",
+            "Extremely"
+          ],
+          "questionOptions": [
+            "I thought it was fun.",
+            "I thought it was hard.",
+            "I felt that I could explore things.",
+            "I enjoyed it.",
+            "I thought it was designed to be humane."
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire4": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q4",
+          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not At All",
+            "Slightly",
+            "Moderately",
+            "Fairly",
+            "Extremely"
+          ],
+          "questionOptions": [
+            "I thought it was fun.",
+            "I thought it was hard.",
+            "I felt that I could explore things.",
+            "I enjoyed it.",
+            "I thought it was designed to be humane."
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire5": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q5",
+          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not At All",
+            "Slightly",
+            "Moderately",
+            "Fairly",
+            "Extremely"
+          ],
+          "questionOptions": [
+            "I thought it was fun.",
+            "I thought it was hard.",
+            "I felt that I could explore things.",
+            "I enjoyed it.",
+            "I thought it was designed to be humane."
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire6": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q6",
+          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not At All",
+            "Slightly",
+            "Moderately",
+            "Fairly",
+            "Extremely"
+          ],
+          "questionOptions": [
+            "I thought it was fun.",
+            "I thought it was hard.",
+            "I felt that I could explore things.",
+            "I enjoyed it.",
+            "I thought it was designed to be humane."
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Demographics Intro": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-1/assets/demographics-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Demographics Information": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-1/assets/demographics.md",
+      "response": [
+        {
+          "id": "genderidentity",
+          "location": "belowStimulus",
+          "options": [
+            "Woman",
+            "Man",
+            "Non-binary / Genderqueer / Third gender",
+            "Genderfluid / Gender non-conforming",
+            "Agender",
+            "Transgender",
+            "Prefer not to say"
+          ],
+          "prompt": "What is your gender identity?",
+          "required": true,
+          "secondaryText": "You can select multiple options",
+          "type": "checkbox",
+          "withOther": true
+        },
+        {
+          "id": "education",
+          "location": "belowStimulus",
+          "options": [
+            "Less than high school degree",
+            "High school degree or equivalent (e.g., GED)",
+            "Some college but no degree",
+            "Associate degree / trade degree",
+            "Bachelor degree",
+            "Graduate degree (e.g., MA, MPhil, PhD, etc.)",
+            "Prefer not to say"
+          ],
+          "prompt": "What is the highest level of education you have completed or the highest degree you have received?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "age",
+          "location": "belowStimulus",
+          "placeholder": "Please provide your age number",
+          "prompt": "What is your age?",
+          "secondaryText": "You can write N/A if you prefer.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    }
+  },
+  "sequence": {
+    "components": [
+      "introduction",
+      "Consent Form",
+      {
+        "components": [
+          "Attention Check A",
+          "Disqualification"
+        ],
+        "order": "fixed",
+        "skip": [
+          {
+            "name": "Attention Check A",
+            "check": "response",
+            "responseId": "attentionchecka",
+            "value": "Disagree",
+            "comparison": "equal",
+            "to": "Game Intro"
+          }
+        ]
+      },
+      "Game Intro",
+      "Game_0",
+      {
+        "components": [
+          {
+            "components": [
+              "Game_1",
+              "Questionnaire1"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              "Game_2",
+              "Questionnaire2"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              "Game_3",
+              "Questionnaire3"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              "Game_4",
+              "Questionnaire4"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              "Game_5",
+              "Questionnaire5"
+            ],
+            "order": "fixed"
+          },
+                    {
+            "components": [
+              "Game_6",
+              "Questionnaire6"
+            ],
+            "order": "fixed"
+          }
+        ],
+        "order": "latinSquare"
+      },
+      "Demographics Intro",
+      "Demographics Information"
+    ],
+    "order": "fixed"
+  },
+  "studyMetadata": {
+    "authors": [
+      "[AUTHOR]"
+    ],
+    "date": "2025-08-23",
+    "description": "",
+    "organizations": [
+      "[LAB]"
+    ],
+    "title": "reVISit-Games Study 1: Evaluating PX in Levels Designed by Human and PCG",
+    "version": "1.0"
+  },
+  "uiConfig": {
+    "contactEmail": "[EMAIL]",
+    "helpTextPath": "revisitgames-study-1/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "timeoutReject": true,
+    "nextOnEnter": true,
+    "sidebar": false,
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=CE4N73NX](https://app.prolific.com/submissions/complete?cc=CE4N73NX)",
+    "withProgressBar": true,
+    "urlParticipantIdParam": "PROLIFIC_PID",
+    "participantNameField": "introduction.prolificId",
+    "autoDownloadStudy": false,
+    "autoDownloadTime": 5000
+  }
+}

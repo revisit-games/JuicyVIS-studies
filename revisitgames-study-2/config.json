@@ -1,0 +1,1405 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/StudyConfigSchema.json",
+  "baseComponents": {
+    "unity-game": {
+      "type": "website"
+    }
+  },
+  "components": {
+    "introduction": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/introduction.md",
+      "response": [
+        {
+          "id": "prolificId",
+          "prompt": "Before we move on, please enter your Prolific ID first",
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Prolific ID",
+          "paramCapture": "PROLIFIC_PID"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Consent Form": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/consent.md",
+      "nextButtonText": "Agree",
+      "response": [
+        {
+          "id": "signature",
+          "location": "belowStimulus",
+          "placeholder": "Please provide your signature",
+          "prompt": "Your signature (It can be your preferred name)",
+          "required": true,
+          "type": "shortText"
+        },
+        {
+          "id": "accept",
+          "location": "belowStimulus",
+          "options": [
+            "Decline",
+            "Accept"
+          ],
+          "prompt": "Do you consent to the study and wish to continue?",
+          "required": true,
+          "requiredValue": "Accept",
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Attention Check A": {
+      "correctAnswer": [        
+        {
+          "answer": "Disagree",
+          "id": "attentionchecka"
+        }
+      ],
+      "path": "revisitgames-study-2/assets/attentioncheck-a.md",
+      "response": [
+        {
+          "id": "attentionchecka",
+          "prompt": "",
+          "location": "belowStimulus",
+          "required": true,
+          "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+          ],
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Disqualification": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/disqualification.md",
+      "nextButtonText":"Disqualified",
+      "response": [
+        {
+          "hidden": true,
+          "id": "disqualification",
+          "prompt":"You have been disqualified from this study.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Game Intro": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/game-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Training Intro: Strong Assist Group": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/training-s-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Training Intro: Moderate Assist Group": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/training-m-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Training Intro: No Assist Group": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/training-n-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "ABAB Training End": {
+      "correctAnswer": [
+        {
+          "answer": "Yes",
+          "id": "ababtrainingendanswer"
+        }
+      ],
+      "path": "revisitgames-study-2/assets/training-end.md",
+      "response": [
+        {
+          "id": "ababtrainingend",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "belowStimulus",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
+        }
+      ],
+      "type": "markdown"
+    },
+    "BABA Training End": {
+      "correctAnswer": [
+        {
+          "answer": "Yes",
+          "id": "babatrainingendanswer"
+        }
+      ],
+      "path": "revisitgames-study-2/assets/training-end.md",
+      "response": [
+        {
+          "id": "babatrainingend",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "belowStimulus",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Testing Intro: A-B-A-B": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/testing-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Testing Intro: B-A-B-A": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/testing-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Testing End": {
+      "correctAnswer": [
+        {
+          "answer": "Yes",
+          "id": "testingendanswer"
+        }
+      ],
+      "path": "revisitgames-study-2/assets/testing-end.md",
+      "response": [
+        {
+          "id": "testingend",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "belowStimulus",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Game_S_A": {
+        "instruction": "You need to play a small video game demo with two different maps (with or without navigation systems), in which you will be asked to navigate and move to 8 destinations of each map (16 in total) in a digital city environment. Whenever you finish a game map (no matter if you successfully navigated to the destinations, or not), you will see a tip of **'This is the end of the game, please return to the survey.'** Then you can click the [Next] button to move to the next page of the study. Please **ONLY click the [Next] button when you see the complete tip. Otherwise, it may result in a failure to record your data and ultimately lead to a failure of your study.** You can see the game tutorial at any time by clicking the **[Help]** button in the top-right corner of the screen. **When you finish the game and want to leave the game page but can't find the mouse to click, please try pressing the Esc key.**",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-2/assets/revisit-wrapper.html?unityUrl=Build/scene1_training/index.html&assistance=2",
+        "response": [
+          {
+            "id": "summary_complete",
+            "hidden": false,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "id": "distance_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "route_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "M_Map",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_S_B": {
+        "instruction": "You need to play a small video game demo with two different maps (with or without navigation systems), in which you will be asked to navigate and move to 8 destinations of each map (16 in total) in a digital city environment. Whenever you finish a game map (no matter if you successfully navigated to the destinations, or not), you will see a tip of **'This is the end of the game, please return to the survey.'** Then you can click the [Next] button to move to the next page of the study. Please **ONLY click the [Next] button when you see the complete tip. Otherwise, it may result in a failure to record your data and ultimately lead to a failure of your study.** You can see the game tutorial at any time by clicking the **[Help]** button in the top-right corner of the screen. **When you finish the game and want to leave the game page but can't find the mouse to click, please try pressing the Esc key.**",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-2/assets/revisit-wrapper.html?unityUrl=Build/scene2_training/index.html&assistance=2",
+        "response": [
+          {
+            "id": "summary_complete",
+            "hidden": false,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "id": "distance_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "route_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "M_Map",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_M_A": {
+        "instruction": "You need to play a small video game demo with two different maps (with or without navigation systems), in which you will be asked to navigate and move to 8 destinations of each map (16 in total) in a digital city environment. Whenever you finish a game map (no matter if you successfully navigated to the destinations, or not), you will see a tip of **'This is the end of the game, please return to the survey.'** Then you can click the [Next] button to move to the next page of the study. Please **ONLY click the [Next] button when you see the complete tip. Otherwise, it may result in a failure to record your data and ultimately lead to a failure of your study.** You can see the game tutorial at any time by clicking the **[Help]** button in the top-right corner of the screen. **When you finish the game and want to leave the game page but can't find the mouse to click, please try pressing the Esc key.**",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-2/assets/revisit-wrapper.html?unityUrl=Build/scene1_training/index.html&assistance=1",
+        "response": [
+          {
+            "id": "summary_complete",
+            "hidden": false,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "id": "distance_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "route_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "M_Map",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_M_B": {
+        "instruction": "You need to play a small video game demo with two different maps (with or without navigation systems), in which you will be asked to navigate and move to 8 destinations of each map (16 in total) in a digital city environment. Whenever you finish a game map (no matter if you successfully navigated to the destinations, or not), you will see a tip of **'This is the end of the game, please return to the survey.'** Then you can click the [Next] button to move to the next page of the study. Please **ONLY click the [Next] button when you see the complete tip. Otherwise, it may result in a failure to record your data and ultimately lead to a failure of your study.** You can see the game tutorial at any time by clicking the **[Help]** button in the top-right corner of the screen. **When you finish the game and want to leave the game page but can't find the mouse to click, please try pressing the Esc key.**",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-2/assets/revisit-wrapper.html?unityUrl=Build/scene2_training/index.html&assistance=1",
+        "response": [
+          {
+            "id": "summary_complete",
+            "hidden": false,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "id": "distance_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "route_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "M_Map",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_N_A": {
+        "instruction": "You need to play a small video game demo with two different maps (with or without navigation systems), in which you will be asked to navigate and move to 8 destinations of each map (16 in total) in a digital city environment. Whenever you finish a game map (no matter if you successfully navigated to the destinations, or not), you will see a tip of **'This is the end of the game, please return to the survey.'** Then you can click the [Next] button to move to the next page of the study. Please **ONLY click the [Next] button when you see the complete tip. Otherwise, it may result in a failure to record your data and ultimately lead to a failure of your study.** You can see the game tutorial at any time by clicking the **[Help]** button in the top-right corner of the screen. **When you finish the game and want to leave the game page but can't find the mouse to click, please try pressing the Esc key.**",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-2/assets/revisit-wrapper.html?unityUrl=Build/scene1_training/index.html&assistance=0",
+        "response": [
+          {
+            "id": "summary_complete",
+            "hidden": false,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "id": "distance_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "route_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "M_Map",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_N_B": {
+        "instruction": "You need to play a small video game demo with two different maps (with or without navigation systems), in which you will be asked to navigate and move to 8 destinations of each map (16 in total) in a digital city environment. Whenever you finish a game map (no matter if you successfully navigated to the destinations, or not), you will see a tip of **'This is the end of the game, please return to the survey.'** Then you can click the [Next] button to move to the next page of the study. Please **ONLY click the [Next] button when you see the complete tip. Otherwise, it may result in a failure to record your data and ultimately lead to a failure of your study.** You can see the game tutorial at any time by clicking the **[Help]** button in the top-right corner of the screen. **When you finish the game and want to leave the game page but can't find the mouse to click, please try pressing the Esc key.**",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-2/assets/revisit-wrapper.html?unityUrl=Build/scene2_training/index.html&assistance=0",
+        "response": [
+          {
+            "id": "summary_complete",
+            "hidden": false,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "id": "distance_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "route_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "M_Map",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_Testing_A": {
+        "instruction": "You need to replay these two maps of the game. **You will be shown 4 pictures of landmarks as the destinations of each map (at the upper right corner of the screen), and navigate to get there as directly as possible**, without having any navigation systems. Whenever you finish a game map (no matter if you successfully navigated to the destinations, or not), you will see a tip of **'This is the end of the game, please return to the survey.'** Then you can click the [Next] button to move to the next page of the study. Please **ONLY click the [Next] button when you see the complete tip. Otherwise, it may result in a failure to record your data and ultimately lead to a failure of your study.** You can see the game tutorial at any time by clicking the **[Help]** button in the top-right corner of the screen. **When you finish the game and want to leave the game page but can't find the mouse to click, please try pressing the Esc key.**",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-2/assets/revisit-wrapper.html?unityUrl=Build/scene1_testing/index.html&assistance=3",
+        "response": [
+          {
+            "id": "summary_complete",
+            "hidden": false,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "id": "distance_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "route_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "M_Map",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Game_Testing_B": {
+        "instruction": "You need to replay these two maps of the game. **You will be shown 4 pictures of landmarks as the destinations of each map (at the upper right corner of the screen), and navigate to get there as directly as possible**, without having any navigation systems. Whenever you finish a game map (no matter if you successfully navigated to the destinations, or not), you will see a tip of **'This is the end of the game, please return to the survey.'** Then you can click the [Next] button to move to the next page of the study. Please **ONLY click the [Next] button when you see the complete tip. Otherwise, it may result in a failure to record your data and ultimately lead to a failure of your study.** You can see the game tutorial at any time by clicking the **[Help]** button in the top-right corner of the screen. **When you finish the game and want to leave the game page but can't find the mouse to click, please try pressing the Esc key.**",
+        "baseComponent": "unity-game",
+        "path": "revisitgames-study-2/assets/revisit-wrapper.html?unityUrl=Build/scene2_testing/index.html&assistance=3",
+        "response": [
+          {
+            "id": "summary_complete",
+            "hidden": false,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "reactive"
+          },
+          {
+            "id": "distance_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "route_complete",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          },
+          {
+            "id": "M_Map",
+            "hidden": true,
+            "required": false,
+            "prompt": "",
+            "location": "belowStimulus",
+            "type": "longText",
+            "placeholder": ""
+          }
+        ],
+        "instructionLocation": "aboveStimulus"
+    },
+    "Questionnaire_ABAB_Training": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q1_ABAB_1",
+          "prompt": "Question1_1, **Effort**: How hard did you have to work (mentally and physically) to accomplish your level of performance?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q1_ABAB_2",
+          "prompt": "Question1_2, **Frustration**: How insecure, discouraged, irritated, stressed, and annoyed did you feel during the task?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q1_ABAB_3",
+          "prompt": "Question1_3, **Performance**: How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)? How satisfied were you with your performance in accomplishing these goals?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Good",
+              "value": 1
+            },
+            {
+              "label": "Poor",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q1_ABAB_4",
+          "prompt": "Question1_4, **Mental Demand**: How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching, etc.) to accomplish the task? ",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q1_ABAB_5",
+          "prompt": "Question1_5: A number of statements which people have used to describe themselves are given on the following pages. Read each statement and then select the appropriate button to indicate how you feel during the game playing. There are no right or wrong answers. Do not spend too much time on any one statement but give the answer which seems to describe your present feelings best.",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not at all",
+            "Somewhat",
+            "Moderately so",
+            "Very much so"
+          ],
+          "questionOptions": [
+            "You feel upset",
+            "You feel tense",
+            "You are worried",
+            "You feel calm",
+            "You are relaxed",
+            "You feel content"
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire_BABA_Training": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q1_BABA_1",
+          "prompt": "Question1_1, **Effort**: How hard did you have to work (mentally and physically) to accomplish your level of performance?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q1_BABA_2",
+          "prompt": "Question1_2, **Frustration**: How insecure, discouraged, irritated, stressed, and annoyed did you feel during the task?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q1_BABA_3",
+          "prompt": "Question1_3, **Performance**: How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)? How satisfied were you with your performance in accomplishing these goals?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Good",
+              "value": 1
+            },
+            {
+              "label": "Poor",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q1_BABA_4",
+          "prompt": "Question1_4, **Mental Demand**: How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching, etc.) to accomplish the task? ",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q1_BABA_5",
+          "prompt": "Question1_5: A number of statements which people have used to describe themselves are given on the following pages. Read each statement and then select the appropriate button to indicate how you feel during the game playing. There are no right or wrong answers. Do not spend too much time on any one statement but give the answer which seems to describe your present feelings best.",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not at all",
+            "Somewhat",
+            "Moderately so",
+            "Very much so"
+          ],
+          "questionOptions": [
+            "You feel upset",
+            "You feel tense",
+            "You are worried",
+            "You feel calm",
+            "You are relaxed",
+            "You feel content"
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Testing Question A_1": {
+      "correctAnswer": [
+        {
+          "answer": "B",
+          "id": "testing-q-a-1"
+        },
+        {
+          "answer": "F",
+          "id": "testing-q-a-2"
+        },
+        {
+          "answer": "A",
+          "id": "testing-q-a-3"
+        },
+        {
+          "answer": "E",
+          "id": "testing-q-a-4"
+        }
+      ],
+      "path": "revisitgames-study-2/assets/testing-q-a-1.md",
+      "response": [
+        {
+          "id": "testing-q-a-1",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question A_1: Where is the location of #1?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-a-2",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question A_2: Where is the location of #2?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-a-3",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question A_3: Where is the location of #3?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-a-4",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question A_4: Where is the location of #4?",
+          "required": true,
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Testing Question A_2": {
+      "correctAnswer": [
+        {
+          "answer": "B",
+          "id": "testing-q-a-5"
+        },
+        {
+          "answer": "D",
+          "id": "testing-q-a-6"
+        },
+        {
+          "answer": "E",
+          "id": "testing-q-a-7"
+        }
+      ],
+      "path": "revisitgames-study-2/assets/testing-q-a-2.md",
+      "response": [
+        {
+          "id": "testing-q-a-5",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question A_5: Where is the location of #5?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-a-6",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question A_6: Where is the location of #6?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-a-7",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question A_7: Where is the location of #7?",
+          "required": true,
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Testing Question B_1": {
+      "correctAnswer": [
+        {
+          "answer": "C",
+          "id": "testing-q-b-1"
+        },
+        {
+          "answer": "D",
+          "id": "testing-q-b-2"
+        },
+        {
+          "answer": "B",
+          "id": "testing-q-b-3"
+        },
+        {
+          "answer": "E",
+          "id": "testing-q-b-4"
+        }
+      ],
+      "path": "revisitgames-study-2/assets/testing-q-b-1.md",
+      "response": [
+        {
+          "id": "testing-q-b-1",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question B_1: Where is the location of #1?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-b-2",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question B_2: Where is the location of #2?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-b-3",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question B_3: Where is the location of #3?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-b-4",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question B_4: Where is the location of #4?",
+          "required": true,
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Testing Question B_2": {
+      "correctAnswer": [
+        {
+          "answer": "C",
+          "id": "testing-q-b-5"
+        },
+        {
+          "answer": "F",
+          "id": "testing-q-b-6"
+        },
+        {
+          "answer": "E",
+          "id": "testing-q-b-7"
+        }
+      ],
+      "path": "revisitgames-study-2/assets/testing-q-b-2.md",
+      "response": [
+        {
+          "id": "testing-q-b-5",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question B_5: Where is the location of #5?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-b-6",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question B_6: Where is the location of #6?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "testing-q-b-7",
+          "location": "belowStimulus",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "I don't know"
+          ],
+          "prompt": "Testing Question B_7: Where is the location of #7?",
+          "required": true,
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Questionnaire_Testing": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q2_1",
+          "prompt": "Question2_1, **Effort**: How hard did you have to work (mentally and physically) to accomplish your level of performance?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q2_2",
+          "prompt": "Question2_2, **Frustration**: How insecure, discouraged, irritated, stressed, and annoyed did you feel during the task?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q2_3",
+          "prompt": "Question2_3, **Performance**: How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)? How satisfied were you with your performance in accomplishing these goals?",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Good",
+              "value": 1
+            },
+            {
+              "label": "Poor",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q2_4",
+          "prompt": "Question2_4, **Mental Demand**: How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching, etc.) to accomplish the task? ",
+          "location": "belowStimulus",
+          "startingValue": 6,
+          "options": [
+            {
+              "label": "Low",
+              "value": 1
+            },
+            {
+              "label": "High",
+              "value": 11
+            }
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "slider"
+        },
+        {
+          "id": "q2_5",
+          "prompt": "Question2_5: A number of statements which people have used to describe themselves are given on the following pages. Read each statement and then select the appropriate button to indicate how you feel during the game playing. There are no right or wrong answers. Do not spend too much time on any one statement but give the answer which seems to describe your present feelings best.",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Not at all",
+            "Somewhat",
+            "Moderately so",
+            "Very much so"
+          ],
+          "questionOptions": [
+            "You feel upset",
+            "You feel tense",
+            "You are worried",
+            "You feel calm",
+            "You are relaxed",
+            "You feel content"
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Demographics Intro": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/demographics-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Demographics Information": {
+      "correctAnswer": [],
+      "path": "revisitgames-study-2/assets/demographics.md",
+      "response": [
+        {
+          "id": "genderidentity",
+          "location": "belowStimulus",
+          "options": [
+            "Woman",
+            "Man",
+            "Non-binary / Genderqueer / Third gender",
+            "Genderfluid / Gender non-conforming",
+            "Agender",
+            "Transgender",
+            "Prefer not to say"
+          ],
+          "prompt": "What is your gender identity?",
+          "required": true,
+          "secondaryText": "You can select multiple options",
+          "type": "checkbox",
+          "withOther": true
+        },
+        {
+          "id": "education",
+          "location": "belowStimulus",
+          "options": [
+            "Less than high school degree",
+            "High school degree or equivalent (e.g., GED)",
+            "Some college but no degree",
+            "Associate degree / trade degree",
+            "Bachelor degree",
+            "Graduate degree (e.g., MA, MPhil, PhD, etc.)",
+            "Prefer not to say"
+          ],
+          "prompt": "What is the highest level of education you have completed or the highest degree you have received?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "age",
+          "location": "belowStimulus",
+          "placeholder": "Please provide your age number",
+          "prompt": "What is your age?",
+          "secondaryText": "You can write N/A if you prefer.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    }
+  },
+  "sequence": {
+    "components": [
+      "introduction",
+      "Consent Form",
+      {
+        "components": [
+          "Attention Check A",
+          "Disqualification"
+        ],
+        "order": "fixed",
+        "skip": [
+          {
+            "name": "Attention Check A",
+            "check": "response",
+            "responseId": "attentionchecka",
+            "value": "Disagree",
+            "comparison": "equal",
+            "to": "Game Intro"
+          }
+        ]
+      },
+      "Game Intro",
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "Training Intro: Strong Assist Group",
+                      "Game_S_A",
+                      "Game_S_B",
+                      "ABAB Training End"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "Training Intro: Moderate Assist Group",
+                      "Game_M_A",
+                      "Game_M_B",
+                      "ABAB Training End"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "Training Intro: No Assist Group",
+                      "Game_N_A",
+                      "Game_N_B",
+                      "ABAB Training End"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+                "order":"latinSquare",
+                "skip": [
+                  {
+                    "name": "ABAB Training End",
+                    "check": "response",
+                    "responseId": "ababtrainingend",
+                    "value": "Yes",
+                    "comparison": "equal",
+                    "to": "Questionnaire_ABAB_Training"
+                  }
+                ] 
+              },
+              "Questionnaire_ABAB_Training",
+              {
+                "components": [
+                  "Testing Intro: A-B-A-B",
+                  "Testing Question A_1",
+                  "Testing Question A_2",
+                  "Testing Question B_1",
+                  "Testing Question B_2",
+                  "Game_Testing_A",
+                  "Game_Testing_B",
+                  "Testing End"
+                ],
+                "order": "fixed"
+              }
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "Training Intro: Strong Assist Group",
+                      "Game_S_B",
+                      "Game_S_A",
+                      "BABA Training End"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "Training Intro: Moderate Assist Group",
+                      "Game_M_B",
+                      "Game_M_A",
+                      "BABA Training End"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "Training Intro: No Assist Group",
+                      "Game_N_B",
+                      "Game_N_A",
+                      "BABA Training End"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+                "order":"latinSquare",
+                "skip": [
+                  {
+                    "name": "BABA Training End",
+                    "check": "response",
+                    "responseId": "babatrainingend",
+                    "value": "Yes",
+                    "comparison": "equal",
+                    "to": "Questionnaire_BABA_Training"
+                  }
+                ] 
+              },
+              "Questionnaire_BABA_Training",
+              {
+                "components": [
+                  "Testing Intro: B-A-B-A",
+                  "Testing Question B_1",
+                  "Testing Question B_2",
+                  "Testing Question A_1",
+                  "Testing Question A_2",
+                  "Game_Testing_B",
+                  "Game_Testing_A",
+                  "Testing End"
+                ],
+                "order": "fixed"
+              }
+            ],
+            "order": "fixed"
+          }
+        ],
+        "order": "latinSquare",
+        "skip": [
+          {
+            "name": "Testing End",
+            "check": "response",
+            "responseId": "testingend",
+            "value": "Yes",
+            "comparison": "equal",
+            "to": "Questionnaire_Testing"
+          }
+        ] 
+      },
+      "Questionnaire_Testing",
+      "Demographics Intro",
+      "Demographics Information"
+    ],
+    "order": "fixed"
+  },
+  "studyMetadata": {
+    "authors": [
+      "[AUTHOR]"
+    ],
+    "date": "2025-08-24",
+    "description": "",
+    "organizations": [
+      "[LAB]"
+    ],
+    "title": "reVISit-Games Study 2: Evaluating PX in the Navigation System of a 3D Game",
+    "version": "1.0"
+  },
+  "uiConfig": {
+    "contactEmail": "[EMAIL]",
+    "helpTextPath": "revisitgames-study-2/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "timeoutReject": true,
+    "nextOnEnter": true,
+    "sidebar": false,
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C3D0KYV2](https://app.prolific.com/submissions/complete?cc=C3D0KYV2)",
+    "withProgressBar": true,
+    "urlParticipantIdParam": "PROLIFIC_PID",
+    "participantNameField": "introduction.prolificId",
+    "autoDownloadStudy": false,
+    "autoDownloadTime": 5000
+  }
+}

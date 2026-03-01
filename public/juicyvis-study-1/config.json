@@ -96,6 +96,13 @@
       "response": [],
       "type": "markdown"
     },
+    "JuicyChart_1_1": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=1",
+      "response": [],
+      "instructionLocation": "aboveStimulus"
+    },
     "Game_0": {
         "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
         "baseComponent": "unity-game",
@@ -504,6 +511,7 @@
         ]
       },
       "Game Intro",
+      "JuicyChart_1_1",
       "Game_0",
       {
         "components": [

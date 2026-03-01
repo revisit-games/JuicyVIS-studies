@@ -33,6 +33,17 @@ export function IframeController({ currentConfig, provState, answers }: { curren
   // navigation
   const currentComponent = useCurrentComponent();
 
+  const iframeSrc = useMemo(() => {
+    if (currentConfig.path.startsWith('http')) {
+      return currentConfig.path;
+    }
+
+    const [pathWithoutHash, hash] = currentConfig.path.split('#', 2);
+    const separator = pathWithoutHash.includes('?') ? '&' : '?';
+    const srcWithParams = `${BASE_PREFIX}${pathWithoutHash}${separator}trialid=${encodeURIComponent(currentComponent)}&id=${encodeURIComponent(iframeId)}`;
+    return hash ? `${srcWithParams}#${hash}` : srcWithParams;
+  }, [currentConfig.path, currentComponent, iframeId]);
+
   const sendMessage = useCallback(
     (tag: string, message: unknown) => {
       ref.current?.contentWindow?.postMessage(
@@ -111,11 +122,7 @@ export function IframeController({ currentConfig, provState, answers }: { curren
     <iframe
       ref={ref}
       id={iframeId}
-      src={
-        currentConfig.path.startsWith('http')
-          ? currentConfig.path
-          : `${BASE_PREFIX}${currentConfig.path}?trialid=${currentComponent}&id=${iframeId}`
-      }
+      src={iframeSrc}
       style={{ ...defaultStyle, height }}
       onLoad={() => setHeight((ref.current?.contentWindow?.document.body.scrollHeight || 750) + 20)}
     />

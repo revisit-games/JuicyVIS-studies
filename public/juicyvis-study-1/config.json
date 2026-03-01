@@ -91,6 +91,37 @@
       "response": [],
       "type": "markdown"
     },
+    "Audio Speaker Test": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=0&juicy=0",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
     "JuicyChart_1_0": {
       "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
       "type": "website",
@@ -666,6 +697,7 @@
         ]
       },
       "Game Intro",
+      "Audio Speaker Test",
       "JuicyChart_1_0",
       "JuicyChart_1_1",
       "JuicyChart_2_0",

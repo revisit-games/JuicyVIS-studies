@@ -1,10 +1,5 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/StudyConfigSchema.json",
-  "baseComponents": {
-    "unity-game": {
-      "type": "website"
-    }
-  },
   "components": {
     "introduction": {
       "correctAnswer": [],
@@ -96,341 +91,501 @@
       "response": [],
       "type": "markdown"
     },
+    "JuicyChart_1_0": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=0",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
     "JuicyChart_1_1": {
       "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
       "type": "website",
+      "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=1",
-      "response": [],
-      "instructionLocation": "aboveStimulus"
-    },
-    "Game_0": {
-        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
-        "baseComponent": "unity-game",
-        "path": "juicyvis-study-1/assets/revisit-wrapper.html",
-        "response": [
-          {
-            "id": "level_complete",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "reactive"
-          },
-          {
-            "hidden": true,
-            "required": false,
-            "id": "log",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "longText",
-            "placeholder": ""
-          }
-        ],
-        "instructionLocation": "aboveStimulus"
-    },
-    "Game_1": {
-        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
-        "baseComponent": "unity-game",
-        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=1",
-        "response": [
-          {
-            "id": "level_complete",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "reactive"
-          },
-          {
-            "hidden": true,
-            "required": false,
-            "id": "log",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "longText",
-            "placeholder": ""
-          }
-        ],
-        "instructionLocation": "aboveStimulus"
-    },
-    "Game_2": {
-        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
-        "baseComponent": "unity-game",
-        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=2",
-        "response": [
-          {
-            "id": "level_complete",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "reactive"
-          },
-          {
-            "hidden": true,
-            "required": false,
-            "id": "log",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "longText",
-            "placeholder": ""
-          }
-        ],
-        "instructionLocation": "aboveStimulus"
-    },
-    "Game_3": {
-        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
-        "baseComponent": "unity-game",
-        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=3",
-        "response": [
-          {
-            "id": "level_complete",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "reactive"
-          },
-          {
-            "hidden": true,
-            "required": false,
-            "id": "log",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "longText",
-            "placeholder": ""
-          }
-        ],
-        "instructionLocation": "aboveStimulus"
-    },
-    "Game_4": {
-        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
-        "baseComponent": "unity-game",
-        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=4",
-        "response": [
-          {
-            "id": "level_complete",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "reactive"
-          },
-          {
-            "hidden": true,
-            "required": false,
-            "id": "log",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "longText",
-            "placeholder": ""
-          }
-        ],
-        "instructionLocation": "aboveStimulus"
-    },
-    "Game_5": {
-        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
-        "baseComponent": "unity-game",
-        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=5",
-        "response": [
-          {
-            "id": "level_complete",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "reactive"
-          },
-          {
-            "hidden": true,
-            "required": false,
-            "id": "log",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "longText",
-            "placeholder": ""
-          }
-        ],
-        "instructionLocation": "aboveStimulus"
-    },
-    "Game_6": {
-        "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
-        "baseComponent": "unity-game",
-        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=6",
-        "response": [
-          {
-            "id": "level_complete",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "reactive"
-          },
-          {
-            "hidden": true,
-            "required": false,
-            "id": "log",
-            "prompt": "",
-            "location": "belowStimulus",
-            "type": "longText",
-            "placeholder": ""
-          }
-        ],
-        "instructionLocation": "aboveStimulus"
-    },
-    "Questionnaire1": {
-      "correctAnswer": [],
       "response": [
         {
-          "id": "q1",
-          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
-          "location": "belowStimulus",
-          "answerOptions": [
-            "Not At All",
-            "Slightly",
-            "Moderately",
-            "Fairly",
-            "Extremely"
-          ],
-          "questionOptions": [
-            "I thought it was fun.",
-            "I thought it was hard.",
-            "I felt that I could explore things.",
-            "I enjoyed it.",
-            "I thought it was designed to be humane."
-          ],
+          "id": "quiz",
+          "prompt": "Select A, D, F",
           "required": true,
-          "withDivider": true,
-          "type": "matrix-radio"
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         }
       ],
-      "type": "questionnaire"
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
     },
-    "Questionnaire2": {
-      "correctAnswer": [],
+    "JuicyChart_2_0": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=2&juicy=0",
       "response": [
         {
-          "id": "q2",
-          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
-          "location": "belowStimulus",
-          "answerOptions": [
-            "Not At All",
-            "Slightly",
-            "Moderately",
-            "Fairly",
-            "Extremely"
-          ],
-          "questionOptions": [
-            "I thought it was fun.",
-            "I thought it was hard.",
-            "I felt that I could explore things.",
-            "I enjoyed it.",
-            "I thought it was designed to be humane."
-          ],
+          "id": "quiz",
+          "prompt": "Select A, D, F",
           "required": true,
-          "withDivider": true,
-          "type": "matrix-radio"
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         }
       ],
-      "type": "questionnaire"
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
     },
-    "Questionnaire3": {
-      "correctAnswer": [],
+    "JuicyChart_2_1": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=2&juicy=1",
       "response": [
         {
-          "id": "q3",
-          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
-          "location": "belowStimulus",
-          "answerOptions": [
-            "Not At All",
-            "Slightly",
-            "Moderately",
-            "Fairly",
-            "Extremely"
-          ],
-          "questionOptions": [
-            "I thought it was fun.",
-            "I thought it was hard.",
-            "I felt that I could explore things.",
-            "I enjoyed it.",
-            "I thought it was designed to be humane."
-          ],
+          "id": "quiz",
+          "prompt": "Select A, D, F",
           "required": true,
-          "withDivider": true,
-          "type": "matrix-radio"
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         }
       ],
-      "type": "questionnaire"
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
     },
-    "Questionnaire4": {
-      "correctAnswer": [],
+    "JuicyChart_3_0": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=3&juicy=0",
       "response": [
         {
-          "id": "q4",
-          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
-          "location": "belowStimulus",
-          "answerOptions": [
-            "Not At All",
-            "Slightly",
-            "Moderately",
-            "Fairly",
-            "Extremely"
-          ],
-          "questionOptions": [
-            "I thought it was fun.",
-            "I thought it was hard.",
-            "I felt that I could explore things.",
-            "I enjoyed it.",
-            "I thought it was designed to be humane."
-          ],
+          "id": "quiz",
+          "prompt": "Select A, D, F",
           "required": true,
-          "withDivider": true,
-          "type": "matrix-radio"
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         }
       ],
-      "type": "questionnaire"
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
     },
-    "Questionnaire5": {
-      "correctAnswer": [],
+    "JuicyChart_3_1": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=3&juicy=1",
       "response": [
         {
-          "id": "q5",
-          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
-          "location": "belowStimulus",
-          "answerOptions": [
-            "Not At All",
-            "Slightly",
-            "Moderately",
-            "Fairly",
-            "Extremely"
-          ],
-          "questionOptions": [
-            "I thought it was fun.",
-            "I thought it was hard.",
-            "I felt that I could explore things.",
-            "I enjoyed it.",
-            "I thought it was designed to be humane."
-          ],
+          "id": "quiz",
+          "prompt": "Select A, D, F",
           "required": true,
-          "withDivider": true,
-          "type": "matrix-radio"
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         }
       ],
-      "type": "questionnaire"
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
     },
-    "Questionnaire6": {
-      "correctAnswer": [],
+    "JuicyChart_4_0": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=4&juicy=0",
       "response": [
         {
-          "id": "q6",
-          "prompt": "Question: Please indicate how you felt while playing the game level for each of the items, on the following scale:",
-          "location": "belowStimulus",
-          "answerOptions": [
-            "Not At All",
-            "Slightly",
-            "Moderately",
-            "Fairly",
-            "Extremely"
-          ],
-          "questionOptions": [
-            "I thought it was fun.",
-            "I thought it was hard.",
-            "I felt that I could explore things.",
-            "I enjoyed it.",
-            "I thought it was designed to be humane."
-          ],
+          "id": "quiz",
+          "prompt": "Select A, D, F",
           "required": true,
-          "withDivider": true,
-          "type": "matrix-radio"
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         }
       ],
-      "type": "questionnaire"
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_4_1": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=4&juicy=1",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_5_0": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=5&juicy=0",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_5_1": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=5&juicy=1",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_6_0": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=6&juicy=0",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_6_1": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=6&juicy=1",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_7_0": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=7&juicy=0",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_7_1": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=7&juicy=1",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_8_7": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=7",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_9_3": {
+      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=9&juicy=3",
+      "response": [
+        {
+          "id": "quiz",
+          "prompt": "Select A, D, F",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "quiz",
+          "answer": ["A","D","F"]
+        }
+      ],
+      "instructionLocation": "sidebar"
     },
     "Demographics Intro": {
       "correctAnswer": [],
@@ -511,55 +666,22 @@
         ]
       },
       "Game Intro",
+      "JuicyChart_1_0",
       "JuicyChart_1_1",
-      "Game_0",
-      {
-        "components": [
-          {
-            "components": [
-              "Game_1",
-              "Questionnaire1"
-            ],
-            "order": "fixed"
-          },
-          {
-            "components": [
-              "Game_2",
-              "Questionnaire2"
-            ],
-            "order": "fixed"
-          },
-          {
-            "components": [
-              "Game_3",
-              "Questionnaire3"
-            ],
-            "order": "fixed"
-          },
-          {
-            "components": [
-              "Game_4",
-              "Questionnaire4"
-            ],
-            "order": "fixed"
-          },
-          {
-            "components": [
-              "Game_5",
-              "Questionnaire5"
-            ],
-            "order": "fixed"
-          },
-                    {
-            "components": [
-              "Game_6",
-              "Questionnaire6"
-            ],
-            "order": "fixed"
-          }
-        ],
-        "order": "latinSquare"
-      },
+      "JuicyChart_2_0",
+      "JuicyChart_2_1",
+      "JuicyChart_3_0",
+      "JuicyChart_3_1",
+      "JuicyChart_4_0",
+      "JuicyChart_4_1",
+      "JuicyChart_5_0",
+      "JuicyChart_5_1",
+      "JuicyChart_6_0",
+      "JuicyChart_6_1",
+      "JuicyChart_7_0",
+      "JuicyChart_7_1",
+      "JuicyChart_8_7",
+      "JuicyChart_9_3",
       "Demographics Intro",
       "Demographics Information"
     ],
@@ -583,7 +705,7 @@
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "timeoutReject": true,
     "nextOnEnter": true,
-    "sidebar": false,
+    "sidebar": true,
     "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: []()",
     "withProgressBar": true,
     "urlParticipantIdParam": "PROLIFIC_PID",

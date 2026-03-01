@@ -8,7 +8,7 @@
   "components": {
     "introduction": {
       "correctAnswer": [],
-      "path": "revisitgames-study-1/assets/introduction.md",
+      "path": "juicyvis-study-1/assets/introduction.md",
       "response": [
         {
           "id": "prolificId",
@@ -23,7 +23,7 @@
     },
     "Consent Form": {
       "correctAnswer": [],
-      "path": "revisitgames-study-1/assets/consent.md",
+      "path": "juicyvis-study-1/assets/consent.md",
       "nextButtonText": "Agree",
       "response": [
         {
@@ -56,7 +56,7 @@
           "id": "attentionchecka"
         }
       ],
-      "path": "revisitgames-study-1/assets/attentioncheck-a.md",
+      "path": "juicyvis-study-1/assets/attentioncheck-a.md",
       "response": [
         {
           "id": "attentionchecka",
@@ -77,7 +77,7 @@
     },
     "Disqualification": {
       "correctAnswer": [],
-      "path": "revisitgames-study-1/assets/disqualification.md",
+      "path": "juicyvis-study-1/assets/disqualification.md",
       "nextButtonText":"Disqualified",
       "response": [
         {
@@ -92,14 +92,14 @@
     },
     "Game Intro": {
       "correctAnswer": [],
-      "path": "revisitgames-study-1/assets/game-intro.md",
+      "path": "juicyvis-study-1/assets/game-intro.md",
       "response": [],
       "type": "markdown"
     },
     "Game_0": {
         "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
         "baseComponent": "unity-game",
-        "path": "revisitgames-study-1/assets/revisit-wrapper.html",
+        "path": "juicyvis-study-1/assets/revisit-wrapper.html",
         "response": [
           {
             "id": "level_complete",
@@ -122,7 +122,7 @@
     "Game_1": {
         "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
         "baseComponent": "unity-game",
-        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=1",
+        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=1",
         "response": [
           {
             "id": "level_complete",
@@ -145,7 +145,7 @@
     "Game_2": {
         "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
         "baseComponent": "unity-game",
-        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=2",
+        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=2",
         "response": [
           {
             "id": "level_complete",
@@ -168,7 +168,7 @@
     "Game_3": {
         "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
         "baseComponent": "unity-game",
-        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=3",
+        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=3",
         "response": [
           {
             "id": "level_complete",
@@ -191,7 +191,7 @@
     "Game_4": {
         "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
         "baseComponent": "unity-game",
-        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=4",
+        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=4",
         "response": [
           {
             "id": "level_complete",
@@ -214,7 +214,7 @@
     "Game_5": {
         "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
         "baseComponent": "unity-game",
-        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=5",
+        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=5",
         "response": [
           {
             "id": "level_complete",
@@ -237,7 +237,7 @@
     "Game_6": {
         "instruction": "Your goal is to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Once you do so, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side.",
         "baseComponent": "unity-game",
-        "path": "revisitgames-study-1/assets/revisit-wrapper.html?levelTag=6",
+        "path": "juicyvis-study-1/assets/revisit-wrapper.html?levelTag=6",
         "response": [
           {
             "id": "level_complete",
@@ -427,13 +427,13 @@
     },
     "Demographics Intro": {
       "correctAnswer": [],
-      "path": "revisitgames-study-1/assets/demographics-intro.md",
+      "path": "juicyvis-study-1/assets/demographics-intro.md",
       "response": [],
       "type": "markdown"
     },
     "Demographics Information": {
       "correctAnswer": [],
-      "path": "revisitgames-study-1/assets/demographics.md",
+      "path": "juicyvis-study-1/assets/demographics.md",
       "response": [
         {
           "id": "genderidentity",
@@ -566,17 +566,17 @@
     "organizations": [
       "[LAB]"
     ],
-    "title": "reVISit-Games Study 1: Evaluating PX in Levels Designed by Human and PCG",
-    "version": "1.0"
+    "title": "Juicy VIS study 1: Juicy vs. Non-juicy in Seven Interaction Types",
+    "version": "0.1"
   },
   "uiConfig": {
     "contactEmail": "[EMAIL]",
-    "helpTextPath": "revisitgames-study-1/assets/help.md",
+    "helpTextPath": "juicyvis-study-1/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "timeoutReject": true,
     "nextOnEnter": true,
     "sidebar": false,
-    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=CE4N73NX](https://app.prolific.com/submissions/complete?cc=CE4N73NX)",
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: []()",
     "withProgressBar": true,
     "urlParticipantIdParam": "PROLIFIC_PID",
     "participantNameField": "introduction.prolificId",

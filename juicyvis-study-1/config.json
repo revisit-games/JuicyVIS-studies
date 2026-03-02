@@ -122,6 +122,26 @@
       ],
       "instructionLocation": "sidebar"
     },
+    "JuicyChart_end": {
+      "correctAnswer": [
+        {
+          "answer": "Yes",
+          "id": "juicychart_end"
+        }
+      ],
+      "path": "juicyvis-study-1/assets/juicychart_end.md",
+      "response": [
+        {
+          "id": "juicychart_end",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "belowStimulus",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
+        }
+      ],
+      "type": "markdown"
+    },
     "JuicyChart_1_0": {
       "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
       "type": "website",
@@ -143,12 +163,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart1_0_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart1_0_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -174,12 +206,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart1_1_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart1_1_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -205,12 +249,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart2_0_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart2_0_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -236,12 +292,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart2_1_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart2_1_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -267,12 +335,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart3_0_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart3_0_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -298,12 +378,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart3_1_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart3_1_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -329,12 +421,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart4_0_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart4_0_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -360,12 +464,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart4_1_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart4_1_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -391,12 +507,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart5_0_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart5_0_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -422,12 +550,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart5_1_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart5_1_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -453,12 +593,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart6_0_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart6_0_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -484,12 +636,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart6_1_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart6_1_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -515,12 +679,24 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart7_0_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart7_0_y"
         }
       ],
       "instructionLocation": "sidebar"
@@ -546,77 +722,454 @@
             "F",
             "G"
           ]
+        },
+        {
+          "id": "chart7_1_y",
+          "prompt": "Please click this button [Yes] to continue.",
+          "location": "sidebar",
+          "required": true,
+          "options": ["Yes"],
+          "type": "buttons"
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz",
           "answer": ["A","D","F"]
+        },
+        {
+          "answer": "Yes",
+          "id": "chart7_1_y"
         }
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_8_7": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
-      "type": "website",
+    "Q_Chart1": {
+      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=7",
+      "correctAnswer": [],
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
+          "id": "q-chart1-1",
+          "prompt": "To what extent do you agree that this visual representation is...?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
           "required": true,
-          "location": "sidebar",
-          "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+          "withDivider": true,
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "enjoyable",
+            "likable",
+            "pleasing",
+            "nice",
+            "appealing"
+          ]
+        },
+        {
+          "id": "q-chart1-2",
+          "prompt": "How did you feel while interacting with the infographic/chart just now?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions":[
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "I lost myself in this experience",
+            "The time I spent using this infographic just slipped away",
+            "I was absorbed in this experience",
+            "I felt frustrated while using this infographic",
+            "I found this infographic confusing to use",
+            "Using this infographic was difficult",
+            "This infographic was attractive",
+            "This infographic was aesthetically appealing",
+            "This infographic appealed to my senses",
+            "Using this infographic was worthwhile",
+            "My experience was rewarding",
+            "I felt interested in this experience"
           ]
         }
       ],
-      "correctAnswer": [
-        {
-          "id": "quiz",
-          "answer": ["A","D","F"]
-        }
-      ],
-      "instructionLocation": "sidebar"
+      "type": "questionnaire"
     },
-    "JuicyChart_9_3": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
-      "type": "website",
+    "Q_Chart2": {
+      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=9&juicy=3",
+      "correctAnswer": [],
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
+          "id": "q-chart2-1",
+          "prompt": "To what extent do you agree that this visual representation is...?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
           "required": true,
-          "location": "sidebar",
-          "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+          "withDivider": true,
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "enjoyable",
+            "likable",
+            "pleasing",
+            "nice",
+            "appealing"
+          ]
+        },
+        {
+          "id": "q-chart2-2",
+          "prompt": "How did you feel while interacting with the infographic/chart just now?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions":[
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "I lost myself in this experience",
+            "The time I spent using this infographic just slipped away",
+            "I was absorbed in this experience",
+            "I felt frustrated while using this infographic",
+            "I found this infographic confusing to use",
+            "Using this infographic was difficult",
+            "This infographic was attractive",
+            "This infographic was aesthetically appealing",
+            "This infographic appealed to my senses",
+            "Using this infographic was worthwhile",
+            "My experience was rewarding",
+            "I felt interested in this experience"
           ]
         }
       ],
-      "correctAnswer": [
+      "type": "questionnaire"
+    },
+    "Q_Chart3": {
+      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
+      "nextButtonLocation": "sidebar",
+      "correctAnswer": [],
+      "response": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "q-chart3-1",
+          "prompt": "To what extent do you agree that this visual representation is...?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "enjoyable",
+            "likable",
+            "pleasing",
+            "nice",
+            "appealing"
+          ]
+        },
+        {
+          "id": "q-chart3-2",
+          "prompt": "How did you feel while interacting with the infographic/chart just now?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions":[
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "I lost myself in this experience",
+            "The time I spent using this infographic just slipped away",
+            "I was absorbed in this experience",
+            "I felt frustrated while using this infographic",
+            "I found this infographic confusing to use",
+            "Using this infographic was difficult",
+            "This infographic was attractive",
+            "This infographic was aesthetically appealing",
+            "This infographic appealed to my senses",
+            "Using this infographic was worthwhile",
+            "My experience was rewarding",
+            "I felt interested in this experience"
+          ]
         }
       ],
-      "instructionLocation": "sidebar"
+      "type": "questionnaire"
+    },
+    "Q_Chart4": {
+      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
+      "nextButtonLocation": "sidebar",
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q-chart4-1",
+          "prompt": "To what extent do you agree that this visual representation is...?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "enjoyable",
+            "likable",
+            "pleasing",
+            "nice",
+            "appealing"
+          ]
+        },
+        {
+          "id": "q-chart4-2",
+          "prompt": "How did you feel while interacting with the infographic/chart just now?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions":[
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "I lost myself in this experience",
+            "The time I spent using this infographic just slipped away",
+            "I was absorbed in this experience",
+            "I felt frustrated while using this infographic",
+            "I found this infographic confusing to use",
+            "Using this infographic was difficult",
+            "This infographic was attractive",
+            "This infographic was aesthetically appealing",
+            "This infographic appealed to my senses",
+            "Using this infographic was worthwhile",
+            "My experience was rewarding",
+            "I felt interested in this experience"
+          ]
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Q_Chart5": {
+      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
+      "nextButtonLocation": "sidebar",
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q-chart5-1",
+          "prompt": "To what extent do you agree that this visual representation is...?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "enjoyable",
+            "likable",
+            "pleasing",
+            "nice",
+            "appealing"
+          ]
+        },
+        {
+          "id": "q-chart5-2",
+          "prompt": "How did you feel while interacting with the infographic/chart just now?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions":[
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "I lost myself in this experience",
+            "The time I spent using this infographic just slipped away",
+            "I was absorbed in this experience",
+            "I felt frustrated while using this infographic",
+            "I found this infographic confusing to use",
+            "Using this infographic was difficult",
+            "This infographic was attractive",
+            "This infographic was aesthetically appealing",
+            "This infographic appealed to my senses",
+            "Using this infographic was worthwhile",
+            "My experience was rewarding",
+            "I felt interested in this experience"
+          ]
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Q_Chart6": {
+      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
+      "nextButtonLocation": "sidebar",
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q-chart6-1",
+          "prompt": "To what extent do you agree that this visual representation is...?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "enjoyable",
+            "likable",
+            "pleasing",
+            "nice",
+            "appealing"
+          ]
+        },
+        {
+          "id": "q-chart6-2",
+          "prompt": "How did you feel while interacting with the infographic/chart just now?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions":[
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "I lost myself in this experience",
+            "The time I spent using this infographic just slipped away",
+            "I was absorbed in this experience",
+            "I felt frustrated while using this infographic",
+            "I found this infographic confusing to use",
+            "Using this infographic was difficult",
+            "This infographic was attractive",
+            "This infographic was aesthetically appealing",
+            "This infographic appealed to my senses",
+            "Using this infographic was worthwhile",
+            "My experience was rewarding",
+            "I felt interested in this experience"
+          ]
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Q_Chart7": {
+      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
+      "nextButtonLocation": "sidebar",
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q-chart7-1",
+          "prompt": "To what extent do you agree that this visual representation is...?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "enjoyable",
+            "likable",
+            "pleasing",
+            "nice",
+            "appealing"
+          ]
+        },
+        {
+          "id": "q-chart7-2",
+          "prompt": "How did you feel while interacting with the infographic/chart just now?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions":[
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "I lost myself in this experience",
+            "The time I spent using this infographic just slipped away",
+            "I was absorbed in this experience",
+            "I felt frustrated while using this infographic",
+            "I found this infographic confusing to use",
+            "Using this infographic was difficult",
+            "This infographic was attractive",
+            "This infographic was aesthetically appealing",
+            "This infographic appealed to my senses",
+            "Using this infographic was worthwhile",
+            "My experience was rewarding",
+            "I felt interested in this experience"
+          ]
+        }
+      ],
+      "type": "questionnaire"
     },
     "Demographics Intro": {
       "correctAnswer": [],
@@ -698,22 +1251,256 @@
       },
       "Game Intro",
       "Audio Speaker Test",
-      "JuicyChart_1_0",
-      "JuicyChart_1_1",
-      "JuicyChart_2_0",
-      "JuicyChart_2_1",
-      "JuicyChart_3_0",
-      "JuicyChart_3_1",
-      "JuicyChart_4_0",
-      "JuicyChart_4_1",
-      "JuicyChart_5_0",
-      "JuicyChart_5_1",
-      "JuicyChart_6_0",
-      "JuicyChart_6_1",
-      "JuicyChart_7_0",
-      "JuicyChart_7_1",
-      "JuicyChart_8_7",
-      "JuicyChart_9_3",
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "JuicyChart_1_0",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "JuicyChart_1_1",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+              "order": "latinSquare",
+              "skip": [
+                {
+                  "name": "JuicyChart_end",
+                  "check": "response",
+                  "responseId": "juicychart_end",
+                  "value": "Yes",
+                  "comparison": "equal",
+                  "to": "Q_Chart1"
+                }
+              ]
+              },
+              "Q_Chart1"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "JuicyChart_2_0",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "JuicyChart_2_1",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+              "order": "latinSquare",
+              "skip": [
+                {
+                  "name": "JuicyChart_end",
+                  "check": "response",
+                  "responseId": "juicychart_end",
+                  "value": "Yes",
+                  "comparison": "equal",
+                  "to": "Q_Chart2"
+                }
+              ]
+              },
+              "Q_Chart2"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "JuicyChart_3_0",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "JuicyChart_3_1",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+              "order": "latinSquare",
+              "skip": [
+                {
+                  "name": "JuicyChart_end",
+                  "check": "response",
+                  "responseId": "juicychart_end",
+                  "value": "Yes",
+                  "comparison": "equal",
+                  "to": "Q_Chart3"
+                }
+              ]
+              },
+              "Q_Chart3"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "JuicyChart_4_0",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "JuicyChart_4_1",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+              "order": "latinSquare",
+              "skip": [
+                {
+                  "name": "JuicyChart_end",
+                  "check": "response",
+                  "responseId": "juicychart_end",
+                  "value": "Yes",
+                  "comparison": "equal",
+                  "to": "Q_Chart4"
+                }
+              ]
+              },
+              "Q_Chart4"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "JuicyChart_5_0",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "JuicyChart_5_1",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+              "order": "latinSquare",
+              "skip": [
+                {
+                  "name": "JuicyChart_end",
+                  "check": "response",
+                  "responseId": "juicychart_end",
+                  "value": "Yes",
+                  "comparison": "equal",
+                  "to": "Q_Chart5"
+                }
+              ]
+              },
+              "Q_Chart5"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "JuicyChart_6_0",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "JuicyChart_6_1",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+              "order": "latinSquare",
+              "skip": [
+                {
+                  "name": "JuicyChart_end",
+                  "check": "response",
+                  "responseId": "juicychart_end",
+                  "value": "Yes",
+                  "comparison": "equal",
+                  "to": "Q_Chart6"
+                }
+              ]
+              },
+              "Q_Chart6"
+            ],
+            "order": "fixed"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      "JuicyChart_7_0",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  },
+                  {
+                    "components": [
+                      "JuicyChart_7_1",
+                      "JuicyChart_end"
+                    ],
+                    "order": "fixed"
+                  }
+                ],
+              "order": "latinSquare",
+              "skip": [
+                {
+                  "name": "JuicyChart_end",
+                  "check": "response",
+                  "responseId": "juicychart_end",
+                  "value": "Yes",
+                  "comparison": "equal",
+                  "to": "Q_Chart7"
+                }
+              ]
+              },
+              "Q_Chart7"
+            ],
+            "order": "fixed"
+          }
+        ],
+        "order": "latinSquare"
+      },
       "Demographics Intro",
       "Demographics Information"
     ],

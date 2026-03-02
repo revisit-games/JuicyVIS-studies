@@ -1171,6 +1171,66 @@
       ],
       "type": "questionnaire"
     },
+    "Q_all": {
+      "instruction": "**Final Questions**. You can proceed to the next page when finished.",
+      "nextButtonLocation": "sidebar",
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q-all-1",
+          "prompt": "Considering the different visualization experiences you encountered in this study, if you had to choose a default style, which would you prefer?",
+          "location": "aboveStimulus",
+          "type": "radio",
+          "required": true,
+          "withDivider": true,
+          "options": [
+            "No feedback/embellishments",
+            "Less feedback/embellishments",
+            "More feedback/embellishments",
+            "No difference"
+          ],
+          "withOther": true
+        },
+        {
+          "id": "q-all-2",
+          "prompt": "Reflecting on the visualization versions you interacted with in this study, which version did you prefer overall, and why?",
+          "location": "aboveStimulus",
+          "type": "longText",
+          "required": true,
+          "withDivider": true,
+          "placeholder": "Enter your response here"
+        },
+        {
+          "id": "q-all-3",
+          "prompt": "What's your preference on the feedback/embellishments of infographics/charts?",
+          "location": "aboveStimulus",
+          "type": "slider",
+          "startingValue": 5,
+          "required": true,
+          "withDivider": true,
+          "options": [
+            {
+              "label": "strongly prefer substantially less feedback/embellishments",
+              "value": 0
+            },
+            {
+              "label": "strongly prefer substantially more feedback/embellishments",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": "q-all-4",
+          "prompt": "Please explain why you made the selections/answers above.",
+          "location": "aboveStimulus",
+          "type": "longText",
+          "required": true,
+          "withDivider": true,
+          "placeholder": "Enter your response here"
+        }
+      ],
+      "type": "questionnaire"
+    },
     "Demographics Intro": {
       "correctAnswer": [],
       "path": "juicyvis-study-1/assets/demographics-intro.md",
@@ -1501,6 +1561,7 @@
         ],
         "order": "latinSquare"
       },
+      "Q_all",
       "Demographics Intro",
       "Demographics Information"
     ],
@@ -1515,7 +1576,7 @@
     "organizations": [
       "[LAB]"
     ],
-    "title": "Juicy VIS study 1: Juicy vs. Non-juicy in Seven Interaction Types",
+    "title": "Juicy VIS study 1: Embellishment and Juicy Feedback on infographics/charts",
     "version": "0.1"
   },
   "uiConfig": {

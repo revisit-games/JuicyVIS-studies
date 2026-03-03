@@ -1,0 +1,17 @@
+In this study, you will interact a total of 7 interactable Infographics/diagrams/charts, **some of which may have, and some may not have** embellishments/juicy feedback (*such as animation, visual arts, and sound effects*). Each interactive graphic has an instruction and tasks (for example, questions about what you may learned from the graphics). For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
+
+---
+
+Whenever you finish your answer, you will be able to click the **[Next]** button, to move to the next page of the study. Upon completing the infographics and questionnaires, you will receive a Prolific completion code on the final page. 
+
+---
+
+We will review your consent form signature, graphics interaction logs/records, and questionnaire answers, and make the approval and payment in 1-2 days. At any point during the study, whether or not you have signed the consent form, you retain the right to withdraw from the study, and all of your data will be removed from any further investigation.
+
+---
+
+We suggest **maximizing** your browser window, as the infographics/diagrams/charts can be on the larger side.
+
+---
+
+If you faced any issues during the study, please contact the investigator through either Prolific's chat (an investigator will be online to answer your questions during the study) or via email (sliang1@wpi.edu / mjchen@wpi.edu / ltharrison@wpi.edu).

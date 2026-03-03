@@ -70,14 +70,14 @@
       ],
       "type": "markdown"
     },
-    "Disqualification": {
+    "Disqualification_a": {
       "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/disqualification.md",
+      "path": "juicyvis-study-1/assets/disqualification-a.md",
       "nextButtonText":"Disqualified",
       "response": [
         {
           "hidden": true,
-          "id": "disqualification",
+          "id": "disqualification-a",
           "prompt":"You have been disqualified from this study.",
           "required": true,
           "type": "shortText"
@@ -85,42 +85,55 @@
       ],
       "type": "markdown"
     },
-    "Game Intro": {
-      "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/game-intro.md",
-      "response": [],
-      "type": "markdown"
-    },
     "Audio Speaker Test": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please click the **[Play Speaker Test Audio]** button in the right center of the screen to listen to which numbers the audio said. It should have 4 numbers, and below you need to select the correct 4 numbers you heard from the audio. We suggest that you play the audio several times to make sure you hear the numbers.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=0&juicy=0",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
+          "id": "quiz2",
+          "prompt": "Please select the correct numbers you heard",
+          "withDivider": true,
           "required": true,
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "radio",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "3179",
+            "3497",
+            "3879",
+            "3197"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "quiz2",
+          "answer": "3179"
         }
       ],
       "instructionLocation": "sidebar"
+    },
+    "Disqualification_b": {
+      "correctAnswer": [],
+      "path": "juicyvis-study-1/assets/disqualification-b.md",
+      "nextButtonText":"Disqualified",
+      "response": [
+        {
+          "hidden": true,
+          "id": "disqualification-b",
+          "prompt":"You have been disqualified from this study.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    },
+    "JuicyCharts Intro": {
+      "correctAnswer": [],
+      "path": "juicyvis-study-1/assets/juicycharts-intro.md",
+      "response": [],
+      "type": "markdown"
     },
     "JuicyChart_end": {
       "correctAnswer": [
@@ -143,603 +156,1219 @@
       "type": "markdown"
     },
     "JuicyChart_1_0": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=0",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart1_0_Q1",
+          "prompt": "Click the leftmost point on the chart (the point closest to the left edge). What is its Affiliation?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "Academia",
+            "Academia and industry collaboration",
+            "Industry",
+            "Not specified",
+            "Other"
           ]
         },
         {
-          "id": "chart1_0_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart1_0_Q2",
+          "prompt": "Still on the leftmost point, what is its Parameters value shown in the details box?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "10",
+            "40",
+            "80",
+            "100",
+            "120"
+          ]
+        },
+        {
+          "id": "chart1_0_Q3",
+          "prompt": "Click the lowest point of **[Not specified]** affiliation (the yellow points) on the chart. What is its name?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Theseus",
+            "Variational",
+            "Bankruptcy-NN",
+            "Samuel Neural Checkers",
+            "GNN"
+          ]
+        },
+        {
+          "id": "chart1_0_Q4",
+          "prompt": "Still on the lowest yellow point, what is its Parameters value shown in the details box?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "12",
+            "24",
+            "36",
+            "48",
+            "60"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart1_0_Q1",
+          "answer": "Industry"
         },
         {
-          "answer": "Yes",
-          "id": "chart1_0_y"
+          "id": "chart1_0_Q2",
+          "answer": "40"
+        },
+        {
+          "id": "chart1_0_Q3",
+          "answer": "Bankruptcy-NN"
+        },
+        {
+          "id": "chart1_0_Q4",
+          "answer": "36"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_1_1": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=1",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart1_1_Q1",
+          "prompt": "Click the leftmost point on the chart (the point closest to the left edge). What is its Affiliation?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "Academia",
+            "Academia and industry collaboration",
+            "Industry",
+            "Not specified",
+            "Other"
           ]
         },
         {
-          "id": "chart1_1_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart1_1_Q2",
+          "prompt": "Still on the leftmost point, what is its Parameters value shown in the details box?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "10",
+            "40",
+            "80",
+            "100",
+            "120"
+          ]
+        },
+        {
+          "id": "chart1_1_Q3",
+          "prompt": "Click the lowest point of **[Not specified]** affiliation (the yellow points) on the chart. What is its name?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Theseus",
+            "Variational",
+            "Bankruptcy-NN",
+            "Samuel Neural Checkers",
+            "GNN"
+          ]
+        },
+        {
+          "id": "chart1_1_Q4",
+          "prompt": "Still on the lowest yellow point, what is its Parameters value shown in the details box?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "12",
+            "24",
+            "36",
+            "48",
+            "60"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart1_1_Q1",
+          "answer": "Industry"
         },
         {
-          "answer": "Yes",
-          "id": "chart1_1_y"
+          "id": "chart1_1_Q2",
+          "answer": "40"
+        },
+        {
+          "id": "chart1_1_Q3",
+          "answer": "Bankruptcy-NN"
+        },
+        {
+          "id": "chart1_1_Q4",
+          "answer": "36"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_2_0": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=2&juicy=0",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart2_0_Q1",
+          "prompt": "Find and click **Mexico**. What value is shown for Mexico?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "0.47",
+            "1.25",
+            "1.73",
+            "2.42",
+            "3.16"
           ]
         },
         {
-          "id": "chart2_0_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart2_0_Q2",
+          "prompt": "Find and click **India**. What value is shown for India?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "0.74",
+            "1.31",
+            "1.98",
+            "2.77",
+            "2.56"
+          ]
+        },
+        {
+          "id": "chart2_0_Q3",
+          "prompt": "Find and click **Germany** (it should be under Norway). What value is shown for Germany?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "0.37",
+            "0.45",
+            "1.18",
+            "2.21",
+            "3.38"
+          ]
+        },
+        {
+          "id": "chart2_0_Q4",
+          "prompt": "Between **Mexico**, **India**, and **Germany**, which country has the highest value?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Mexico",
+            "India",
+            "Germany",
+            "They are the same",
+            "Not sure"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart2_0_Q1",
+          "answer": "1.25"
         },
         {
-          "answer": "Yes",
-          "id": "chart2_0_y"
+          "id": "chart2_0_Q2",
+          "answer": "2.77"
+        },
+        {
+          "id": "chart2_0_Q3",
+          "answer": "0.37"
+        },
+        {
+          "id": "chart2_0_Q4",
+          "answer": "India"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_2_1": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=2&juicy=1",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart2_1_Q1",
+          "prompt": "Find and click **Mexico**. What value is shown for Mexico?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "0.47",
+            "1.25",
+            "1.73",
+            "2.42",
+            "3.16"
           ]
         },
         {
-          "id": "chart2_1_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart2_1_Q2",
+          "prompt": "Find and click **India**. What value is shown for India?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "0.74",
+            "1.31",
+            "1.98",
+            "2.77",
+            "2.56"
+          ]
+        },
+        {
+          "id": "chart2_1_Q3",
+          "prompt": "Find and click **Germany** (it should be under Norway). What value is shown for Germany?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "0.37",
+            "0.45",
+            "1.18",
+            "2.21",
+            "3.38"
+          ]
+        },
+        {
+          "id": "chart2_1_Q4",
+          "prompt": "Between **Mexico**, **India**, and **Germany**, which country has the highest value?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Mexico",
+            "India",
+            "Germany",
+            "They are the same",
+            "Not sure"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart2_1_Q1",
+          "answer": "1.25"
         },
         {
-          "answer": "Yes",
-          "id": "chart2_1_y"
+          "id": "chart2_1_Q2",
+          "answer": "2.77"
+        },
+        {
+          "id": "chart2_1_Q3",
+          "answer": "0.37"
+        },
+        {
+          "id": "chart2_1_Q4",
+          "answer": "India"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_3_0": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=3&juicy=0",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart3_0_Q1",
+          "prompt": "Which country is ranked 4th highest for the **Hydropower** energy source type?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "France",
+            "Canada",
+            "Brazil",
+            "Sweden",
+            "Russia"
           ]
         },
         {
-          "id": "chart3_0_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart3_0_Q2",
+          "prompt": "Which country is ranked 5th highest for the **Oil** energy source type?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "Norway",
+            "Australia",
+            "Netherlands",
+            "Spain",
+            "United States"
+          ]
+        },
+        {
+          "id": "chart3_0_Q3",
+          "prompt": "Which country is ranked 3th highes for the **Solar** energy source type?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Spain",
+            "Japan",
+            "Netherlands",
+            "Australia",
+            "United States"
+          ]
+        },
+        {
+          "id": "chart3_0_Q4",
+          "prompt": "Which country is ranked 4th highest for the **Wind** energy source type?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Norway",
+            "Spain",
+            "Sweden",
+            "Netherlands",
+            "Germany"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart3_0_Q1",
+          "answer": "Brazil"
         },
         {
-          "answer": "Yes",
-          "id": "chart3_0_y"
+          "id": "chart3_0_Q2",
+          "answer": "Australia"
+        },
+        {
+          "id": "chart3_0_Q3",
+          "answer": "Spain"
+        },
+        {
+          "id": "chart3_0_Q4",
+          "answer": "Germany"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_3_1": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=3&juicy=1",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart3_1_Q1",
+          "prompt": "Which country is ranked 4th highest for the **Hydropower** energy source type?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "France",
+            "Canada",
+            "Brazil",
+            "Sweden",
+            "Russia"
           ]
         },
         {
-          "id": "chart3_1_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart3_1_Q2",
+          "prompt": "Which country is ranked 5th highest for the **Oil** energy source type?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "Norway",
+            "Australia",
+            "Netherlands",
+            "Spain",
+            "United States"
+          ]
+        },
+        {
+          "id": "chart3_1_Q3",
+          "prompt": "Which country is ranked 3th highes for the **Solar** energy source type?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Spain",
+            "Japan",
+            "Netherlands",
+            "Australia",
+            "United States"
+          ]
+        },
+        {
+          "id": "chart3_1_Q4",
+          "prompt": "Which country is ranked 4th highest for the **Wind** energy source type?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Norway",
+            "Spain",
+            "Sweden",
+            "Netherlands",
+            "Germany"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart3_1_Q1",
+          "answer": "Brazil"
         },
         {
-          "answer": "Yes",
-          "id": "chart3_1_y"
+          "id": "chart3_1_Q2",
+          "answer": "Australia"
+        },
+        {
+          "id": "chart3_1_Q3",
+          "answer": "Spain"
+        },
+        {
+          "id": "chart3_1_Q4",
+          "answer": "Germany"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_4_0": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=4&juicy=0",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart4_0_Q1",
+          "prompt": "Click the year 2020 and switch to different infographics. What value is shown for the **Fish & Seafood** segment in China?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "20.5kg",
+            "22.2kg",
+            "23.6kg",
+            "32.9kg",
+            "41.1kg"
           ]
         },
         {
-          "id": "chart4_0_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart4_0_Q2",
+          "prompt": "In the year 2020, which country has the largest **Poultry** share in its infographic bar?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "Brazil",
+            "United States",
+            "Argentina",
+            "Canada",
+            "China"
+          ]
+        },
+        {
+          "id": "chart4_0_Q3",
+          "prompt": "Go back to re-select a different year. What is the **total value** shown at the end of the bar for Japan in the year 2017?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "110kg",
+            "101kg",
+            "96.1kg",
+            "94.1kg",
+            "141kg"
+          ]
+        },
+        {
+          "id": "chart4_0_Q4",
+          "prompt": "For the year 2013, which country has the largest **Pork** share in its infographic bar?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Spain",
+            "China",
+            "France",
+            "Japan",
+            "Australia"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart4_0_Q1",
+          "answer": "41.1kg"
         },
         {
-          "answer": "Yes",
-          "id": "chart4_0_y"
+          "id": "chart4_0_Q2",
+          "answer": "Brazil"
+        },
+        {
+          "id": "chart4_0_Q3",
+          "answer": "96.1kg"
+        },
+        {
+          "id": "chart4_0_Q4",
+          "answer": "China"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_4_1": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=4&juicy=1",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart4_1_Q1",
+          "prompt": "Click the year 2020 and switch to different infographics. What value is shown for the **Fish & Seafood** segment in China?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "20.5kg",
+            "22.2kg",
+            "23.6kg",
+            "32.9kg",
+            "41.1kg"
           ]
         },
         {
-          "id": "chart4_1_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart4_1_Q2",
+          "prompt": "In the year 2020, which country has the largest **Poultry** share in its infographic bar?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "Brazil",
+            "United States",
+            "Argentina",
+            "Canada",
+            "China"
+          ]
+        },
+        {
+          "id": "chart4_1_Q3",
+          "prompt": "Go back to re-select a different year. What is the **total value** shown at the end of the bar for Japan in the year 2017?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "110kg",
+            "101kg",
+            "96.1kg",
+            "94.1kg",
+            "141kg"
+          ]
+        },
+        {
+          "id": "chart4_1_Q4",
+          "prompt": "For the year 2013, which country has the largest **Pork** share in its infographic bar?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Spain",
+            "China",
+            "France",
+            "Japan",
+            "Australia"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart4_1_Q1",
+          "answer": "41.1kg"
         },
         {
-          "answer": "Yes",
-          "id": "chart4_1_y"
+          "id": "chart4_1_Q2",
+          "answer": "Brazil"
+        },
+        {
+          "id": "chart4_1_Q3",
+          "answer": "96.1kg"
+        },
+        {
+          "id": "chart4_1_Q4",
+          "answer": "China"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_5_0": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Left-click a rectangle to drill in. Right-click to go back. Hover to see the tooltip number.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=5&juicy=0",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart5_0_Q1",
+          "prompt": "Left-click to enter the infographic of Years. Find the year 2019. What population is shown?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "6.17B",
+            "7.33B",
+            "7.81B",
+            "8.09B",
+            "7.29B"
           ]
         },
         {
-          "id": "chart5_0_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart5_0_Q2",
+          "prompt": "How many people aged 25-64 were there in China in 2019?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "811.7M",
+            "827.7M",
+            "541.1M",
+            "424.1M",
+            "171.7M"
+          ]
+        },
+        {
+          "id": "chart5_0_Q3",
+          "prompt": "Which age groups of Mexico in the year 2015 has largest population?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Ages 65+",
+            "Ages 25-64",
+            "Ages Under 25",
+            "Ages 15-24",
+            "Ages 5-14"
+          ]
+        },
+        {
+          "id": "chart5_0_Q4",
+          "prompt": "Which age groups in the United States in 2023 have the largest population?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Ages 65+",
+            "Ages 25-64",
+            "Ages Under 25",
+            "Ages 15-24",
+            "Ages 5-14"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart5_0_Q1",
+          "answer": "7.81B"
         },
         {
-          "answer": "Yes",
-          "id": "chart5_0_y"
+          "id": "chart5_0_Q2",
+          "answer": "827.7M"
+        },
+        {
+          "id": "chart5_0_Q3",
+          "answer": "Ages 25-64"
+        },
+        {
+          "id": "chart5_0_Q4",
+          "answer": "Ages 25-64"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_5_1": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Left-click a rectangle to drill in. Right-click to go back. Hover to see the tooltip number.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=5&juicy=1",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart5_1_Q1",
+          "prompt": "Left-click to enter the infographic of Years. Find the year 2019. What population is shown?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "6.17B",
+            "7.33B",
+            "7.81B",
+            "8.09B",
+            "7.29B"
           ]
         },
         {
-          "id": "chart5_1_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart5_1_Q2",
+          "prompt": "How many people aged 25-64 were there in China in 2019?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "811.7M",
+            "827.7M",
+            "541.1M",
+            "424.1M",
+            "171.7M"
+          ]
+        },
+        {
+          "id": "chart5_1_Q3",
+          "prompt": "Which age groups of Mexico in the year 2015 has largest population?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Ages 65+",
+            "Ages 25-64",
+            "Ages Under 25",
+            "Ages 15-24",
+            "Ages 5-14"
+          ]
+        },
+        {
+          "id": "chart5_1_Q4",
+          "prompt": "Which age groups in the United States in 2023 have the largest population?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Ages 65+",
+            "Ages 25-64",
+            "Ages Under 25",
+            "Ages 15-24",
+            "Ages 5-14"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart5_1_Q1",
+          "answer": "7.81B"
         },
         {
-          "answer": "Yes",
-          "id": "chart5_1_y"
+          "id": "chart5_1_Q2",
+          "answer": "827.7M"
+        },
+        {
+          "id": "chart5_1_Q3",
+          "answer": "Ages 25-64"
+        },
+        {
+          "id": "chart5_1_Q4",
+          "answer": "Ages 25-64"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_6_0": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Use the controls on the right to filter (**Focus Year**, **Gini min/max**, **Regions**). Hover a line to see a country tooltip.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=6&juicy=0",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart6_0_Q1",
+          "prompt": "In the year 1993, how many countries had a Gini index above 0.43?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "16",
+            "14",
+            "12",
+            "10",
+            "8"
           ]
         },
         {
-          "id": "chart6_0_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart6_0_Q2",
+          "prompt": "In the year 2008, which country in South America had the lowest Gini index?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "Colombia",
+            "Brazil",
+            "Paraguay",
+            "Peru",
+            "Uruguay"
+          ]
+        },
+        {
+          "id": "chart6_0_Q3",
+          "prompt": "In the year 2015, how many countries in North America had a Gini index below 0.47?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "7",
+            "6",
+            "5",
+            "4",
+            "3"
+          ]
+        },
+        {
+          "id": "chart6_0_Q4",
+          "prompt": "In the year 2018, which country in Asia had the highest Gini index?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Thailand",
+            "Malaysia",
+            "Turkey",
+            "Vietnam",
+            "Philippines"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart6_0_Q1",
+          "answer": "12"
         },
         {
-          "answer": "Yes",
-          "id": "chart6_0_y"
+          "id": "chart6_0_Q2",
+          "answer": "Uruguay"
+        },
+        {
+          "id": "chart6_0_Q3",
+          "answer": "4"
+        },
+        {
+          "id": "chart6_0_Q4",
+          "answer": "Turkey"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_6_1": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Use the controls on the right to filter (**Focus Year**, **Gini min/max**, **Regions**). Hover a line to see a country tooltip.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=6&juicy=1",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart6_1_Q1",
+          "prompt": "In the year 1993, how many countries had a Gini index above 0.43?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "16",
+            "14",
+            "12",
+            "10",
+            "8"
           ]
         },
         {
-          "id": "chart6_1_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart6_1_Q2",
+          "prompt": "In the year 2008, which country in South America had the lowest Gini index?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "Colombia",
+            "Brazil",
+            "Paraguay",
+            "Peru",
+            "Uruguay"
+          ]
+        },
+        {
+          "id": "chart6_1_Q3",
+          "prompt": "In the year 2015, how many countries in North America had a Gini index below 0.47?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "7",
+            "6",
+            "5",
+            "4",
+            "3"
+          ]
+        },
+        {
+          "id": "chart6_1_Q4",
+          "prompt": "In the year 2018, which country in Asia had the highest Gini index?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Thailand",
+            "Malaysia",
+            "Turkey",
+            "Vietnam",
+            "Philippines"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart6_1_Q1",
+          "answer": "12"
         },
         {
-          "answer": "Yes",
-          "id": "chart6_1_y"
+          "id": "chart6_1_Q2",
+          "answer": "Uruguay"
+        },
+        {
+          "id": "chart6_1_Q3",
+          "answer": "4"
+        },
+        {
+          "id": "chart6_1_Q4",
+          "answer": "Turkey"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_7_0": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Use the **Focus Year** slider to set the year. Click a dot or line to select a country, and the bottom-right will show the related countries to the selected country.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=7&juicy=0",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart7_0_Q1",
+          "prompt": "Which country had the highest % of internet use in 2005?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Denmark",
+            "Iceland"
           ]
         },
         {
-          "id": "chart7_0_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart7_0_Q2",
+          "prompt": "Which country had the highest % of internet use in 2000?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "Iceland",
+            "Denmark",
+            "Norway",
+            "Canada",
+            "United States"
+          ]
+        },
+        {
+          "id": "chart7_0_Q3",
+          "prompt": "What were the three top related countries to Iceland in 2009?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Norway, Luxembourg, Denmark",
+            "Norway, Netherlands, Denmark",
+            "Norway, Sweden, Netherlands",
+            "Sweden, Netherlands, Denmark",
+            "Luxembourg, Denmark, United Kingdom"
+          ]
+        },
+        {
+          "id": "chart7_0_Q4",
+          "prompt": "What were the two countries with internet use above 60% in 2001?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Switzerland and Canada",
+            "New Zealand and Norway",
+            "Australia and New Zealand",
+            "Norway and Switzerland",
+            "Norway and Canada"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart7_0_Q1",
+          "answer": "Iceland"
         },
         {
-          "answer": "Yes",
-          "id": "chart7_0_y"
+          "id": "chart7_0_Q2",
+          "answer": "Norway"
+        },
+        {
+          "id": "chart7_0_Q3",
+          "answer": "Norway, Sweden, Netherlands"
+        },
+        {
+          "id": "chart7_0_Q4",
+          "answer": "Norway and Canada"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_7_1": {
-      "instruction": "Please complete this chart trial. You can proceed to the next page when finished.",
+      "instruction": "Use the **Focus Year** slider to set the year. Click a dot or line to select a country, and the bottom-right will show the related countries to the selected country.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=7&juicy=1",
       "response": [
         {
-          "id": "quiz",
-          "prompt": "Select A, D, F",
-          "required": true,
+          "id": "chart7_1_Q1",
+          "prompt": "Which country had the highest % of internet use in 2005?",
           "location": "sidebar",
-          "type": "checkbox",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Denmark",
+            "Iceland"
           ]
         },
         {
-          "id": "chart7_1_y",
-          "prompt": "Please click this button [Yes] to continue.",
+          "id": "chart7_1_Q2",
+          "prompt": "Which country had the highest % of internet use in 2000?",
           "location": "sidebar",
+          "type": "dropdown",
           "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
+          "placeholder": "Select the answer",
+          "options": [
+            "Iceland",
+            "Denmark",
+            "Norway",
+            "Canada",
+            "United States"
+          ]
+        },
+        {
+          "id": "chart7_1_Q3",
+          "prompt": "What were the three top related countries to Iceland in 2009?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Norway, Luxembourg, Denmark",
+            "Norway, Netherlands, Denmark",
+            "Norway, Sweden, Netherlands",
+            "Sweden, Netherlands, Denmark",
+            "Luxembourg, Denmark, United Kingdom"
+          ]
+        },
+        {
+          "id": "chart7_1_Q4",
+          "prompt": "What were the two countries with internet use above 60% in 2001?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Switzerland and Canada",
+            "New Zealand and Norway",
+            "Australia and New Zealand",
+            "Norway and Switzerland",
+            "Norway and Canada"
+          ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "quiz",
-          "answer": ["A","D","F"]
+          "id": "chart7_1_Q1",
+          "answer": "Iceland"
         },
         {
-          "answer": "Yes",
-          "id": "chart7_1_y"
+          "id": "chart7_1_Q2",
+          "answer": "Norway"
+        },
+        {
+          "id": "chart7_1_Q3",
+          "answer": "Norway, Sweden, Netherlands"
+        },
+        {
+          "id": "chart7_1_Q4",
+          "answer": "Norway and Canada"
         }
       ],
       "instructionLocation": "sidebar"
@@ -1295,7 +1924,7 @@
       {
         "components": [
           "Attention Check A",
-          "Disqualification"
+          "Disqualification_a"
         ],
         "order": "fixed",
         "skip": [
@@ -1305,12 +1934,28 @@
             "responseId": "attentionchecka",
             "value": "Disagree",
             "comparison": "equal",
-            "to": "Game Intro"
+            "to": "Audio Speaker Test"
           }
         ]
       },
-      "Game Intro",
-      "Audio Speaker Test",
+      {
+        "components": [
+          "Audio Speaker Test",
+          "Disqualification_b"
+        ],
+        "order": "fixed",
+        "skip": [
+          {
+            "name": "Audio Speaker Test",
+            "check": "response",
+            "responseId": "quiz2",
+            "value": "3179",
+            "comparison": "equal",
+            "to": "JuicyCharts Intro"
+          }
+        ]
+      },
+      "JuicyCharts Intro",
       {
         "components": [
           {
@@ -1576,7 +2221,7 @@
     "organizations": [
       "[LAB]"
     ],
-    "title": "Juicy VIS study 1: Embellishment and Juicy Feedback on infographics/charts",
+    "title": "Juicy VIS study 1: Embellishment and Juicy Feedback on infographics",
     "version": "0.1"
   },
   "uiConfig": {
@@ -1586,6 +2231,7 @@
     "timeoutReject": true,
     "nextOnEnter": true,
     "sidebar": true,
+    "sidebarWidth": 400,
     "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: []()",
     "withProgressBar": true,
     "urlParticipantIdParam": "PROLIFIC_PID",

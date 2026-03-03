@@ -1,18 +1,16 @@
-# Evaluating Player Experience in Levels Designed by Human and PCG
+# Evaluating Users' Experience of Infographics with/without Embellishment and Juicy Feedback
 
-Thank you for participating in this research study! 
+Thank you for participating in this research study! This study aims to evaluate your experiences of using different infographics/diagrams/charts **with or without** embellishments and **juicy feedback** (*such as animation, visual arts, and sound effects*).
 
-This study aims to evaluate your playing experiences from playing game levels designed by humans or game levels made by AI (Artificial Intelligence). 
+The study has two sections: 
 
-The study has three sections: (1) The first will show you explanations of the study objectives and procedures, as well as a digital consent form; (2) the second section includes a 2D pixel dungeon-exploration action game, where you will need to collect keys and chests, fight the enemy monsters, and find a way out; and (3) after finishing the game, the last section will show you a follow-up questionnaire that asks about your playing experiences.
-
----
-
-## Important Notice:
-
-* Please note that the video game used in this study is not compatible with certain browsers, including **Firefox**. To ensure proper functionality, please use **Google Chrome** or **Microsoft Edge** when participating in this study. If you are currently accessing this study via Firefox from the Prolific platform, please exit and reopen the study from Prolific using Google Chrome or Microsoft Edge. Thank you for your understanding!
-<img src="./assets/browsers.jpg" width="auto" height="100px">
-* We suggest maximizing your browser window, as the video game can be on the larger side.
+- **(1)** The first will briefly show you explanations of the study objectives, procedures, a digital consent form, and an audio speaker test (because this study will need you to have an audio speaker to play and listen to sound clips/effects); and
+- **(2)** the second section includes a series of interactive infographics/diagrams/charts that may have or not have embellishment and juicy feedbacks, where you will be asked to interact with them and gain the answer for tasks. After each infographic, you will be asked about your experiences of using/playing them.
 
 ---
 
+# Important Notice:
+
+We suggest **maximizing** your browser window, as the infographics/diagrams/charts can be on the larger side.
+
+---

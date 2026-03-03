@@ -3,7 +3,7 @@
   "components": {
     "introduction": {
       "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/introduction.md",
+      "path": "juicyvis-study-2/assets/introduction.md",
       "response": [
         {
           "id": "prolificId",
@@ -18,7 +18,7 @@
     },
     "Consent Form": {
       "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/consent.md",
+      "path": "juicyvis-study-2/assets/consent.md",
       "nextButtonText": "Agree",
       "response": [
         {
@@ -51,7 +51,7 @@
           "id": "attentionchecka"
         }
       ],
-      "path": "juicyvis-study-1/assets/attentioncheck-a.md",
+      "path": "juicyvis-study-2/assets/attentioncheck-a.md",
       "response": [
         {
           "id": "attentionchecka",
@@ -72,7 +72,7 @@
     },
     "Disqualification_a": {
       "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/disqualification-a.md",
+      "path": "juicyvis-study-2/assets/disqualification-a.md",
       "nextButtonText":"Disqualified",
       "response": [
         {
@@ -116,7 +116,7 @@
     },
     "Disqualification_b": {
       "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/disqualification-b.md",
+      "path": "juicyvis-study-2/assets/disqualification-b.md",
       "nextButtonText":"Disqualified",
       "response": [
         {
@@ -131,7 +131,7 @@
     },
     "JuicyCharts Intro": {
       "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/juicycharts-intro.md",
+      "path": "juicyvis-study-2/assets/juicycharts-intro.md",
       "response": [],
       "type": "markdown"
     },
@@ -142,7 +142,7 @@
           "id": "juicychart_end"
         }
       ],
-      "path": "juicyvis-study-1/assets/juicychart_end.md",
+      "path": "juicyvis-study-2/assets/juicychart_end.md",
       "response": [
         {
           "id": "juicychart_end",
@@ -155,11 +155,11 @@
       ],
       "type": "markdown"
     },
-    "JuicyChart_1_0": {
+    "JuicyChart_8_0": {
       "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=0",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=0",
       "response": [
         {
           "id": "chart1_0_Q1",
@@ -242,11 +242,11 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_1_1": {
+    "JuicyChart_8_1": {
       "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=1",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=1",
       "response": [
         {
           "id": "chart1_1_Q1",
@@ -329,11 +329,11 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_2_0": {
+    "JuicyChart_8_2": {
       "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=2&juicy=0",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=2",
       "response": [
         {
           "id": "chart2_0_Q1",
@@ -416,11 +416,11 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_2_1": {
+    "JuicyChart_8_3": {
       "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=2&juicy=1",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=3",
       "response": [
         {
           "id": "chart2_1_Q1",
@@ -503,11 +503,11 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_3_0": {
+    "JuicyChart_8_4": {
       "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=3&juicy=0",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=4",
       "response": [
         {
           "id": "chart3_0_Q1",
@@ -590,11 +590,11 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_3_1": {
+    "JuicyChart_8_5": {
       "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=3&juicy=1",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=5",
       "response": [
         {
           "id": "chart3_1_Q1",
@@ -677,11 +677,11 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_4_0": {
+    "JuicyChart_8_6": {
       "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=4&juicy=0",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=6",
       "response": [
         {
           "id": "chart4_0_Q1",
@@ -764,11 +764,11 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_4_1": {
+    "JuicyChart_8_7": {
       "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=4&juicy=1",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=7",
       "response": [
         {
           "id": "chart4_1_Q1",
@@ -851,529 +851,7 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_5_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Left-click a rectangle to drill in. Right-click to go back. Hover to see the tooltip number.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=5&juicy=0",
-      "response": [
-        {
-          "id": "chart5_0_Q1",
-          "prompt": "Left-click to enter the infographic of Years. Find the year 2019. What population is shown?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "6.17B",
-            "7.33B",
-            "7.81B",
-            "8.09B",
-            "7.29B"
-          ]
-        },
-        {
-          "id": "chart5_0_Q2",
-          "prompt": "How many people aged 25-64 were there in China in 2019?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "811.7M",
-            "827.7M",
-            "541.1M",
-            "424.1M",
-            "171.7M"
-          ]
-        },
-        {
-          "id": "chart5_0_Q3",
-          "prompt": "Which age groups of Mexico in the year 2015 has largest population?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Ages 65+",
-            "Ages 25-64",
-            "Ages Under 25",
-            "Ages 15-24",
-            "Ages 5-14"
-          ]
-        },
-        {
-          "id": "chart5_0_Q4",
-          "prompt": "Which age groups in the United States in 2023 have the largest population?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Ages 65+",
-            "Ages 25-64",
-            "Ages Under 25",
-            "Ages 15-24",
-            "Ages 5-14"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "chart5_0_Q1",
-          "answer": "7.81B"
-        },
-        {
-          "id": "chart5_0_Q2",
-          "answer": "827.7M"
-        },
-        {
-          "id": "chart5_0_Q3",
-          "answer": "Ages 25-64"
-        },
-        {
-          "id": "chart5_0_Q4",
-          "answer": "Ages 25-64"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_5_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Left-click a rectangle to drill in. Right-click to go back. Hover to see the tooltip number.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=5&juicy=1",
-      "response": [
-        {
-          "id": "chart5_1_Q1",
-          "prompt": "Left-click to enter the infographic of Years. Find the year 2019. What population is shown?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "6.17B",
-            "7.33B",
-            "7.81B",
-            "8.09B",
-            "7.29B"
-          ]
-        },
-        {
-          "id": "chart5_1_Q2",
-          "prompt": "How many people aged 25-64 were there in China in 2019?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "811.7M",
-            "827.7M",
-            "541.1M",
-            "424.1M",
-            "171.7M"
-          ]
-        },
-        {
-          "id": "chart5_1_Q3",
-          "prompt": "Which age groups of Mexico in the year 2015 has largest population?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Ages 65+",
-            "Ages 25-64",
-            "Ages Under 25",
-            "Ages 15-24",
-            "Ages 5-14"
-          ]
-        },
-        {
-          "id": "chart5_1_Q4",
-          "prompt": "Which age groups in the United States in 2023 have the largest population?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Ages 65+",
-            "Ages 25-64",
-            "Ages Under 25",
-            "Ages 15-24",
-            "Ages 5-14"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "chart5_1_Q1",
-          "answer": "7.81B"
-        },
-        {
-          "id": "chart5_1_Q2",
-          "answer": "827.7M"
-        },
-        {
-          "id": "chart5_1_Q3",
-          "answer": "Ages 25-64"
-        },
-        {
-          "id": "chart5_1_Q4",
-          "answer": "Ages 25-64"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_6_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Use the controls on the right to filter (**Focus Year**, **Gini min/max**, **Regions**). Hover a line to see a country tooltip.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=6&juicy=0",
-      "response": [
-        {
-          "id": "chart6_0_Q1",
-          "prompt": "In the year 1993, how many countries had a Gini index above 0.43?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "16",
-            "14",
-            "12",
-            "10",
-            "8"
-          ]
-        },
-        {
-          "id": "chart6_0_Q2",
-          "prompt": "In the year 2008, which country in South America had the lowest Gini index?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Colombia",
-            "Brazil",
-            "Paraguay",
-            "Peru",
-            "Uruguay"
-          ]
-        },
-        {
-          "id": "chart6_0_Q3",
-          "prompt": "In the year 2015, how many countries in North America had a Gini index below 0.47?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "7",
-            "6",
-            "5",
-            "4",
-            "3"
-          ]
-        },
-        {
-          "id": "chart6_0_Q4",
-          "prompt": "In the year 2018, which country in Asia had the highest Gini index?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Thailand",
-            "Malaysia",
-            "Turkey",
-            "Vietnam",
-            "Philippines"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "chart6_0_Q1",
-          "answer": "12"
-        },
-        {
-          "id": "chart6_0_Q2",
-          "answer": "Uruguay"
-        },
-        {
-          "id": "chart6_0_Q3",
-          "answer": "4"
-        },
-        {
-          "id": "chart6_0_Q4",
-          "answer": "Turkey"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_6_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Use the controls on the right to filter (**Focus Year**, **Gini min/max**, **Regions**). Hover a line to see a country tooltip.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=6&juicy=1",
-      "response": [
-        {
-          "id": "chart6_1_Q1",
-          "prompt": "In the year 1993, how many countries had a Gini index above 0.43?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "16",
-            "14",
-            "12",
-            "10",
-            "8"
-          ]
-        },
-        {
-          "id": "chart6_1_Q2",
-          "prompt": "In the year 2008, which country in South America had the lowest Gini index?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Colombia",
-            "Brazil",
-            "Paraguay",
-            "Peru",
-            "Uruguay"
-          ]
-        },
-        {
-          "id": "chart6_1_Q3",
-          "prompt": "In the year 2015, how many countries in North America had a Gini index below 0.47?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "7",
-            "6",
-            "5",
-            "4",
-            "3"
-          ]
-        },
-        {
-          "id": "chart6_1_Q4",
-          "prompt": "In the year 2018, which country in Asia had the highest Gini index?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Thailand",
-            "Malaysia",
-            "Turkey",
-            "Vietnam",
-            "Philippines"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "chart6_1_Q1",
-          "answer": "12"
-        },
-        {
-          "id": "chart6_1_Q2",
-          "answer": "Uruguay"
-        },
-        {
-          "id": "chart6_1_Q3",
-          "answer": "4"
-        },
-        {
-          "id": "chart6_1_Q4",
-          "answer": "Turkey"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_7_0": {
-      "instruction": "Use the **Focus Year** slider to set the year. Click a dot or line to select a country, and the bottom-right will show the related countries to the selected country.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=7&juicy=0",
-      "response": [
-        {
-          "id": "chart7_0_Q1",
-          "prompt": "Which country had the highest % of internet use in 2005?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "United States",
-            "Canada",
-            "United Kingdom",
-            "Denmark",
-            "Iceland"
-          ]
-        },
-        {
-          "id": "chart7_0_Q2",
-          "prompt": "Which country had the highest % of internet use in 2000?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Iceland",
-            "Denmark",
-            "Norway",
-            "Canada",
-            "United States"
-          ]
-        },
-        {
-          "id": "chart7_0_Q3",
-          "prompt": "What were the three top related countries to Iceland in 2009?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Norway, Luxembourg, Denmark",
-            "Norway, Netherlands, Denmark",
-            "Norway, Sweden, Netherlands",
-            "Sweden, Netherlands, Denmark",
-            "Luxembourg, Denmark, United Kingdom"
-          ]
-        },
-        {
-          "id": "chart7_0_Q4",
-          "prompt": "What were the two countries with internet use above 60% in 2001?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Switzerland and Canada",
-            "New Zealand and Norway",
-            "Australia and New Zealand",
-            "Norway and Switzerland",
-            "Norway and Canada"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "chart7_0_Q1",
-          "answer": "Iceland"
-        },
-        {
-          "id": "chart7_0_Q2",
-          "answer": "Norway"
-        },
-        {
-          "id": "chart7_0_Q3",
-          "answer": "Norway, Sweden, Netherlands"
-        },
-        {
-          "id": "chart7_0_Q4",
-          "answer": "Norway and Canada"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_7_1": {
-      "instruction": "Use the **Focus Year** slider to set the year. Click a dot or line to select a country, and the bottom-right will show the related countries to the selected country.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=7&juicy=1",
-      "response": [
-        {
-          "id": "chart7_1_Q1",
-          "prompt": "Which country had the highest % of internet use in 2005?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "United States",
-            "Canada",
-            "United Kingdom",
-            "Denmark",
-            "Iceland"
-          ]
-        },
-        {
-          "id": "chart7_1_Q2",
-          "prompt": "Which country had the highest % of internet use in 2000?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Iceland",
-            "Denmark",
-            "Norway",
-            "Canada",
-            "United States"
-          ]
-        },
-        {
-          "id": "chart7_1_Q3",
-          "prompt": "What were the three top related countries to Iceland in 2009?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Norway, Luxembourg, Denmark",
-            "Norway, Netherlands, Denmark",
-            "Norway, Sweden, Netherlands",
-            "Sweden, Netherlands, Denmark",
-            "Luxembourg, Denmark, United Kingdom"
-          ]
-        },
-        {
-          "id": "chart7_1_Q4",
-          "prompt": "What were the two countries with internet use above 60% in 2001?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Switzerland and Canada",
-            "New Zealand and Norway",
-            "Australia and New Zealand",
-            "Norway and Switzerland",
-            "Norway and Canada"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "chart7_1_Q1",
-          "answer": "Iceland"
-        },
-        {
-          "id": "chart7_1_Q2",
-          "answer": "Norway"
-        },
-        {
-          "id": "chart7_1_Q3",
-          "answer": "Norway, Sweden, Netherlands"
-        },
-        {
-          "id": "chart7_1_Q4",
-          "answer": "Norway and Canada"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "Q_Chart1": {
+    "Q_Juicy0": {
       "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
       "correctAnswer": [],
@@ -1434,7 +912,68 @@
       ],
       "type": "questionnaire"
     },
-    "Q_Chart2": {
+    "Q_Juicy1&2": {
+      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
+      "nextButtonLocation": "sidebar",
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q-chart1-1",
+          "prompt": "To what extent do you agree that this visual representation is...?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "enjoyable",
+            "likable",
+            "pleasing",
+            "nice",
+            "appealing"
+          ]
+        },
+        {
+          "id": "q-chart1-2",
+          "prompt": "How did you feel while interacting with the infographic/chart just now?",
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "withDivider": true,
+          "answerOptions":[
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ],
+          "questionOptions": [
+            "I lost myself in this experience",
+            "The time I spent using this infographic just slipped away",
+            "I was absorbed in this experience",
+            "I felt frustrated while using this infographic",
+            "I found this infographic confusing to use",
+            "Using this infographic was difficult",
+            "This infographic was attractive",
+            "This infographic was aesthetically appealing",
+            "This infographic appealed to my senses",
+            "Using this infographic was worthwhile",
+            "My experience was rewarding",
+            "I felt interested in this experience"
+          ]
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Q_Juicy4&5": {
       "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
       "correctAnswer": [],
@@ -1495,7 +1034,7 @@
       ],
       "type": "questionnaire"
     },
-    "Q_Chart3": {
+    "Q_Juicy3&6": {
       "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
       "correctAnswer": [],
@@ -1556,7 +1095,7 @@
       ],
       "type": "questionnaire"
     },
-    "Q_Chart4": {
+    "Q_Juicy7": {
       "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
       "correctAnswer": [],
@@ -1587,189 +1126,6 @@
         },
         {
           "id": "q-chart4-2",
-          "prompt": "How did you feel while interacting with the infographic/chart just now?",
-          "location": "aboveStimulus",
-          "type": "matrix-radio",
-          "required": true,
-          "withDivider": true,
-          "answerOptions":[
-            "Strongly Disagree",
-            "Disagree",
-            "Neither Agree nor Disagree",
-            "Agree",
-            "Strongly Agree"
-          ],
-          "questionOptions": [
-            "I lost myself in this experience",
-            "The time I spent using this infographic just slipped away",
-            "I was absorbed in this experience",
-            "I felt frustrated while using this infographic",
-            "I found this infographic confusing to use",
-            "Using this infographic was difficult",
-            "This infographic was attractive",
-            "This infographic was aesthetically appealing",
-            "This infographic appealed to my senses",
-            "Using this infographic was worthwhile",
-            "My experience was rewarding",
-            "I felt interested in this experience"
-          ]
-        }
-      ],
-      "type": "questionnaire"
-    },
-    "Q_Chart5": {
-      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
-      "nextButtonLocation": "sidebar",
-      "correctAnswer": [],
-      "response": [
-        {
-          "id": "q-chart5-1",
-          "prompt": "To what extent do you agree that this visual representation is...?",
-          "location": "aboveStimulus",
-          "type": "matrix-radio",
-          "required": true,
-          "withDivider": true,
-          "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Slightly disagree",
-            "Neutral",
-            "Slightly agree",
-            "Agree",
-            "Strongly Agree"
-          ],
-          "questionOptions": [
-            "enjoyable",
-            "likable",
-            "pleasing",
-            "nice",
-            "appealing"
-          ]
-        },
-        {
-          "id": "q-chart5-2",
-          "prompt": "How did you feel while interacting with the infographic/chart just now?",
-          "location": "aboveStimulus",
-          "type": "matrix-radio",
-          "required": true,
-          "withDivider": true,
-          "answerOptions":[
-            "Strongly Disagree",
-            "Disagree",
-            "Neither Agree nor Disagree",
-            "Agree",
-            "Strongly Agree"
-          ],
-          "questionOptions": [
-            "I lost myself in this experience",
-            "The time I spent using this infographic just slipped away",
-            "I was absorbed in this experience",
-            "I felt frustrated while using this infographic",
-            "I found this infographic confusing to use",
-            "Using this infographic was difficult",
-            "This infographic was attractive",
-            "This infographic was aesthetically appealing",
-            "This infographic appealed to my senses",
-            "Using this infographic was worthwhile",
-            "My experience was rewarding",
-            "I felt interested in this experience"
-          ]
-        }
-      ],
-      "type": "questionnaire"
-    },
-    "Q_Chart6": {
-      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
-      "nextButtonLocation": "sidebar",
-      "correctAnswer": [],
-      "response": [
-        {
-          "id": "q-chart6-1",
-          "prompt": "To what extent do you agree that this visual representation is...?",
-          "location": "aboveStimulus",
-          "type": "matrix-radio",
-          "required": true,
-          "withDivider": true,
-          "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Slightly disagree",
-            "Neutral",
-            "Slightly agree",
-            "Agree",
-            "Strongly Agree"
-          ],
-          "questionOptions": [
-            "enjoyable",
-            "likable",
-            "pleasing",
-            "nice",
-            "appealing"
-          ]
-        },
-        {
-          "id": "q-chart6-2",
-          "prompt": "How did you feel while interacting with the infographic/chart just now?",
-          "location": "aboveStimulus",
-          "type": "matrix-radio",
-          "required": true,
-          "withDivider": true,
-          "answerOptions":[
-            "Strongly Disagree",
-            "Disagree",
-            "Neither Agree nor Disagree",
-            "Agree",
-            "Strongly Agree"
-          ],
-          "questionOptions": [
-            "I lost myself in this experience",
-            "The time I spent using this infographic just slipped away",
-            "I was absorbed in this experience",
-            "I felt frustrated while using this infographic",
-            "I found this infographic confusing to use",
-            "Using this infographic was difficult",
-            "This infographic was attractive",
-            "This infographic was aesthetically appealing",
-            "This infographic appealed to my senses",
-            "Using this infographic was worthwhile",
-            "My experience was rewarding",
-            "I felt interested in this experience"
-          ]
-        }
-      ],
-      "type": "questionnaire"
-    },
-    "Q_Chart7": {
-      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
-      "nextButtonLocation": "sidebar",
-      "correctAnswer": [],
-      "response": [
-        {
-          "id": "q-chart7-1",
-          "prompt": "To what extent do you agree that this visual representation is...?",
-          "location": "aboveStimulus",
-          "type": "matrix-radio",
-          "required": true,
-          "withDivider": true,
-          "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Slightly disagree",
-            "Neutral",
-            "Slightly agree",
-            "Agree",
-            "Strongly Agree"
-          ],
-          "questionOptions": [
-            "enjoyable",
-            "likable",
-            "pleasing",
-            "nice",
-            "appealing"
-          ]
-        },
-        {
-          "id": "q-chart7-2",
           "prompt": "How did you feel while interacting with the infographic/chart just now?",
           "location": "aboveStimulus",
           "type": "matrix-radio",
@@ -1862,13 +1218,13 @@
     },
     "Demographics Intro": {
       "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/demographics-intro.md",
+      "path": "juicyvis-study-2/assets/demographics-intro.md",
       "response": [],
       "type": "markdown"
     },
     "Demographics Information": {
       "correctAnswer": [],
-      "path": "juicyvis-study-1/assets/demographics.md",
+      "path": "juicyvis-study-2/assets/demographics.md",
       "response": [
         {
           "id": "genderidentity",
@@ -1960,36 +1316,9 @@
         "components": [
           {
             "components": [
-              {
-                "components": [
-                  {
-                    "components": [
-                      "JuicyChart_1_0",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  },
-                  {
-                    "components": [
-                      "JuicyChart_1_1",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  }
-                ],
-              "order": "latinSquare",
-              "skip": [
-                {
-                  "name": "JuicyChart_end",
-                  "check": "response",
-                  "responseId": "juicychart_end",
-                  "value": "Yes",
-                  "comparison": "equal",
-                  "to": "Q_Chart1"
-                }
-              ]
-              },
-              "Q_Chart1"
+              "JuicyChart_8_0",
+              "JuicyChart_end",
+              "Q_Juicy0"
             ],
             "order": "fixed"
           },
@@ -1999,14 +1328,14 @@
                 "components": [
                   {
                     "components": [
-                      "JuicyChart_2_0",
+                      "JuicyChart_8_1",
                       "JuicyChart_end"
                     ],
                     "order": "fixed"
                   },
                   {
                     "components": [
-                      "JuicyChart_2_1",
+                      "JuicyChart_8_2",
                       "JuicyChart_end"
                     ],
                     "order": "fixed"
@@ -2020,11 +1349,11 @@
                   "responseId": "juicychart_end",
                   "value": "Yes",
                   "comparison": "equal",
-                  "to": "Q_Chart2"
+                  "to": "Q_Juicy1&2"
                 }
               ]
               },
-              "Q_Chart2"
+              "Q_Juicy1&2"
             ],
             "order": "fixed"
           },
@@ -2034,14 +1363,14 @@
                 "components": [
                   {
                     "components": [
-                      "JuicyChart_3_0",
+                      "JuicyChart_8_4",
                       "JuicyChart_end"
                     ],
                     "order": "fixed"
                   },
                   {
                     "components": [
-                      "JuicyChart_3_1",
+                      "JuicyChart_8_5",
                       "JuicyChart_end"
                     ],
                     "order": "fixed"
@@ -2055,11 +1384,11 @@
                   "responseId": "juicychart_end",
                   "value": "Yes",
                   "comparison": "equal",
-                  "to": "Q_Chart3"
+                  "to": "Q_Juicy4&5"
                 }
               ]
               },
-              "Q_Chart3"
+              "Q_Juicy4&5"
             ],
             "order": "fixed"
           },
@@ -2069,14 +1398,14 @@
                 "components": [
                   {
                     "components": [
-                      "JuicyChart_4_0",
+                      "JuicyChart_8_3",
                       "JuicyChart_end"
                     ],
                     "order": "fixed"
                   },
                   {
                     "components": [
-                      "JuicyChart_4_1",
+                      "JuicyChart_8_6",
                       "JuicyChart_end"
                     ],
                     "order": "fixed"
@@ -2090,116 +1419,19 @@
                   "responseId": "juicychart_end",
                   "value": "Yes",
                   "comparison": "equal",
-                  "to": "Q_Chart4"
+                  "to": "Q_Juicy3&6"
                 }
               ]
               },
-              "Q_Chart4"
+              "Q_Juicy3&6"
             ],
             "order": "fixed"
           },
           {
             "components": [
-              {
-                "components": [
-                  {
-                    "components": [
-                      "JuicyChart_5_0",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  },
-                  {
-                    "components": [
-                      "JuicyChart_5_1",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  }
-                ],
-              "order": "latinSquare",
-              "skip": [
-                {
-                  "name": "JuicyChart_end",
-                  "check": "response",
-                  "responseId": "juicychart_end",
-                  "value": "Yes",
-                  "comparison": "equal",
-                  "to": "Q_Chart5"
-                }
-              ]
-              },
-              "Q_Chart5"
-            ],
-            "order": "fixed"
-          },
-          {
-            "components": [
-              {
-                "components": [
-                  {
-                    "components": [
-                      "JuicyChart_6_0",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  },
-                  {
-                    "components": [
-                      "JuicyChart_6_1",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  }
-                ],
-              "order": "latinSquare",
-              "skip": [
-                {
-                  "name": "JuicyChart_end",
-                  "check": "response",
-                  "responseId": "juicychart_end",
-                  "value": "Yes",
-                  "comparison": "equal",
-                  "to": "Q_Chart6"
-                }
-              ]
-              },
-              "Q_Chart6"
-            ],
-            "order": "fixed"
-          },
-          {
-            "components": [
-              {
-                "components": [
-                  {
-                    "components": [
-                      "JuicyChart_7_0",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  },
-                  {
-                    "components": [
-                      "JuicyChart_7_1",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  }
-                ],
-              "order": "latinSquare",
-              "skip": [
-                {
-                  "name": "JuicyChart_end",
-                  "check": "response",
-                  "responseId": "juicychart_end",
-                  "value": "Yes",
-                  "comparison": "equal",
-                  "to": "Q_Chart7"
-                }
-              ]
-              },
-              "Q_Chart7"
+              "JuicyChart_8_7",
+              "JuicyChart_end",
+              "Q_Juicy7"
             ],
             "order": "fixed"
           }
@@ -2216,17 +1448,17 @@
     "authors": [
       "Shano Liang, Max Chen, Lane Harrison"
     ],
-    "date": "2025-08-23",
+    "date": "2026-03-03",
     "description": "",
     "organizations": [
       "VIEW Lab, WPI"
     ],
-    "title": "Juicy VIS study 1: Embellishment and Juicy Feedback on infographics",
-    "version": "0.2"
+    "title": "Juicy VIS study 2: Embellishment and Juicy Feedback on infographics",
+    "version": "0.1"
   },
   "uiConfig": {
     "contactEmail": "sliang1@wpi.edu",
-    "helpTextPath": "juicyvis-study-1/assets/help.md",
+    "helpTextPath": "juicyvis-study-2/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "timeoutReject": true,
     "nextOnEnter": true,

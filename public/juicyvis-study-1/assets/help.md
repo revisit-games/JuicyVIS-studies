@@ -1,13 +1,17 @@
-In this study, you will play and complete a total of 6 levels (and one tutorial level) of a small 2D pixel top-down dungeon-exploration action video game. You will need to explore the dungeon, collect keys and chests, fight the enemy monsters, and find a way out. Some of the game levels are made by human designers, while some are made by AI (Artificial Intelligence). Whenever you finish a game level, you will be able to click the **[Next]** button, which is located at the bottom of the game screen, to move to the next page of the study. 
+In this study, you will interact a total of 7 interactable Infographics/diagrams/charts, **some of which may have, and some may not have** embellishments/juicy feedback (*such as animation, visual arts, and sound effects*). Each interactive graphic has an instruction and tasks (for example, questions about what you may learned from the graphics). For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
 
-Below is a brief tutorial on how to play the game, and the game objective description about how to complete this part of the study. Please read below carefully. You will also be able to revisit this information at any time by clicking the **Help** button in the top-right corner of the screen. We suggest maximizing your browser window, as the video game can be on the larger side. Please make sure that you are using **Google Chrome** or **Microsoft Edge** browsers when participating in this study.
+---
 
-# Gameplay Tutorial
+Whenever you finish your answer, you will be able to click the **[Next]** button, to move to the next page of the study. Upon completing the infographics and questionnaires, you will receive a Prolific completion code on the final page. 
 
-The following keys are for control of the character:
+---
 
-**W**, **A**, **S**, **D** or **↑**, **↓**, **←**, **→**: Movement.
+We will review your consent form signature, graphics interaction logs/records, and questionnaire answers, and make the approval and payment in 1-2 days. At any point during the study, whether or not you have signed the consent form, you retain the right to withdraw from the study, and all of your data will be removed from any further investigation.
 
-**Space**: Swing your sword to Attack.
+---
 
-<img src="./assets/tutorial01.gif" width="auto" height="400px">
+We suggest **maximizing** your browser window, as the infographics/diagrams/charts can be on the larger side.
+
+---
+
+If you faced any issues during the study, please contact the investigator through either Prolific's chat (an investigator will be online to answer your questions during the study) or via email (sliang1@wpi.edu / mjchen@wpi.edu / ltharrison@wpi.edu).

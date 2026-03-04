@@ -2290,7 +2290,7 @@
     "nextOnEnter": true,
     "sidebar": true,
     "sidebarWidth": 400,
-    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: []()",
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C10PIQT8](https://app.prolific.com/submissions/complete?cc=C10PIQT8)",
     "withProgressBar": true,
     "urlParticipantIdParam": "PROLIFIC_PID",
     "participantNameField": "introduction.prolificId",

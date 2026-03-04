@@ -6,4 +6,10 @@ Whenever you finish your answer, you will be able to click the **[Next]** button
 
 ---
 
+## Note:
+
+Each infographic has a **"*Name*"** shown in the top-left corner. At the end, we will ask about your experience with a specific infographic. Please try to notice/remember the "*Name*" so we know which one you mean. Thank you!
+
+---
+
 

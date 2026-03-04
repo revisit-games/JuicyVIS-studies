@@ -154,7 +154,6 @@
       },
       "type": "image"
     },
-    
     "Disqualification_c": {
       "correctAnswer": [],
       "path": "juicyvis-study-2/assets/disqualification-c.md",
@@ -1381,7 +1380,7 @@
             "name": "Color Blindness Test",
             "check": "response",
             "responseId": "colorblindness-test",
-            "value": "45",
+            "value": 45,
             "comparison": "equal",
             "to": "JuicyCharts Intro"
           }

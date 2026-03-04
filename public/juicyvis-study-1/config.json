@@ -156,7 +156,7 @@
       "type": "markdown"
     },
     "JuicyChart_1_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right.",
+      "instruction": "**[Infographic Name]: AI System** \n\n **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=0",
@@ -243,7 +243,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_1_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right.",
+      "instruction": "**[Infographic Name]: AI System** \n\n **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right. \n\n Please **TRY YOUR BEST** to find the answers from the infographic. ",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=1&juicy=1",
@@ -330,7 +330,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_2_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries.",
+      "instruction": "**[Infographic Name]: The Map** \n\n **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=2&juicy=0",
@@ -417,7 +417,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_2_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries.",
+      "instruction": "**[Infographic Name]: The Map** \n\n **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=2&juicy=1",

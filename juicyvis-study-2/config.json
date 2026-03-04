@@ -129,6 +129,47 @@
       ],
       "type": "markdown"
     },
+    "Color Blindness Test": {
+      "instruction": "What number do you see in this image?",
+      "path": "juicyvis-study-2/assets/Ishihara9.png",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "colorblindness-test",
+          "location": "sidebar",
+          "prompt": "Enter the number you see:",
+          "required": true,
+          "type": "numerical",
+          "withDontKnow": true
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "colorblindness-test",
+          "answer": 45
+        }
+      ],
+      "style": {
+        "width": "300px"
+      },
+      "type": "image"
+    },
+    
+    "Disqualification_c": {
+      "correctAnswer": [],
+      "path": "juicyvis-study-2/assets/disqualification-c.md",
+      "nextButtonText":"Disqualified",
+      "response": [
+        {
+          "hidden": true,
+          "id": "disqualification-c",
+          "prompt":"You have been disqualified from this study.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    },
     "JuicyCharts Intro": {
       "correctAnswer": [],
       "path": "juicyvis-study-2/assets/juicycharts-intro.md",
@@ -156,697 +197,697 @@
       "type": "markdown"
     },
     "JuicyChart_8_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right.",
+      "instruction": "**[Infographic Name]: Electricity** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=0",
       "response": [
         {
-          "id": "chart1_0_Q1",
-          "prompt": "Click the leftmost point on the chart (the point closest to the left edge). What is its Affiliation?",
+          "id": "juicy_0_Q1",
+          "prompt": "Set the **[Focus year]** to 2000. Which country's value is closer to 60%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Academia",
-            "Academia and industry collaboration",
-            "Industry",
-            "Not specified",
-            "Other"
+            "Cape Verde",
+            "Kiribati",
+            "India",
+            "Yemen",
+            "Djibouti"
           ]
         },
         {
-          "id": "chart1_0_Q2",
-          "prompt": "Still on the leftmost point, what is its Parameters value shown in the details box?",
+          "id": "juicy_0_Q2",
+          "prompt": "Reconfigure to **[Growth]** and change the focus year, from 2000 to 2020, which country's value has the highest (top-1) growth rate?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "10",
-            "40",
-            "80",
-            "100",
-            "120"
+            "Afghanistan",
+            "Bangladesh",
+            "Albania",
+            "East Timor",
+            "Laos"
           ]
         },
         {
-          "id": "chart1_0_Q3",
-          "prompt": "Click the lowest point of **[Not specified]** affiliation (the yellow points) on the chart. What is its name?",
+          "id": "juicy_0_Q3",
+          "prompt": "In 2010, which country has the highest value among those between 30% and 40%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Theseus",
-            "Variational",
-            "Bankruptcy-NN",
-            "Samuel Neural Checkers",
-            "GNN"
+            "Zimbabwe",
+            "East Timor",
+            "Haiti",
+            "Congo",
+            "Eritrea"
           ]
         },
         {
-          "id": "chart1_0_Q4",
-          "prompt": "Still on the lowest yellow point, what is its Parameters value shown in the details box?",
+          "id": "juicy_0_Q4",
+          "prompt": "Set Filter. In 2015, how many countries had values above 80%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "12",
-            "24",
-            "36",
-            "48",
-            "60"
+            "177",
+            "163",
+            "161",
+            "158",
+            "152"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "chart1_0_Q1",
-          "answer": "Industry"
+          "id": "juicy_0_Q1",
+          "answer": "India"
         },
         {
-          "id": "chart1_0_Q2",
-          "answer": "40"
+          "id": "juicy_0_Q2",
+          "answer": "Afghanistan"
         },
         {
-          "id": "chart1_0_Q3",
-          "answer": "Bankruptcy-NN"
+          "id": "juicy_0_Q3",
+          "answer": "Zimbabwe"
         },
         {
-          "id": "chart1_0_Q4",
-          "answer": "36"
+          "id": "juicy_0_Q4",
+          "answer": "163"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_8_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: After you click to select a point, a details box appears, and you'll see it is selected and listed on the right.",
+      "instruction": "**[Infographic Name]: Cooking** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=1",
       "response": [
         {
-          "id": "chart1_1_Q1",
-          "prompt": "Click the leftmost point on the chart (the point closest to the left edge). What is its Affiliation?",
+          "id": "juicy_1_Q1",
+          "prompt": "Set the **[Focus year]** to 2000. Which country's value is closer to 60%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Academia",
-            "Academia and industry collaboration",
-            "Industry",
-            "Not specified",
-            "Other"
+            "El Salvador",
+            "North Macedonia",
+            "Serbia",
+            "Thailand",
+            "South Africa"
           ]
         },
         {
-          "id": "chart1_1_Q2",
-          "prompt": "Still on the leftmost point, what is its Parameters value shown in the details box?",
+          "id": "juicy_1_Q2",
+          "prompt": "Reconfigure to **[Growth]**, which country's value has the highest (top-1) growth rate?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "10",
-            "40",
-            "80",
-            "100",
-            "120"
+            "Maldives",
+            "Indonesia",
+            "Tuvalu",
+            "Bhutan",
+            "Vietnam"
           ]
         },
         {
-          "id": "chart1_1_Q3",
-          "prompt": "Click the lowest point of **[Not specified]** affiliation (the yellow points) on the chart. What is its name?",
+          "id": "juicy_1_Q3",
+          "prompt": "In 2010, which country has the highest value among those between 40% and 60%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Theseus",
-            "Variational",
-            "Bankruptcy-NN",
-            "Samuel Neural Checkers",
-            "GNN"
+            "Nicaragua",
+            "Yemen",
+            "India",
+            "Sudan",
+            "Angola"
           ]
         },
         {
-          "id": "chart1_1_Q4",
-          "prompt": "Still on the lowest yellow point, what is its Parameters value shown in the details box?",
+          "id": "juicy_1_Q4",
+          "prompt": "Set Filter. In 2020, how many countries had values below 40%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "12",
-            "24",
-            "36",
-            "48",
-            "60"
+            "58",
+            "56",
+            "51",
+            "47",
+            "45"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "chart1_1_Q1",
-          "answer": "Industry"
+          "id": "juicy_1_Q1",
+          "answer": "Thailand"
         },
         {
-          "id": "chart1_1_Q2",
-          "answer": "40"
+          "id": "juicy_1_Q2",
+          "answer": "Vietnam"
         },
         {
-          "id": "chart1_1_Q3",
-          "answer": "Bankruptcy-NN"
+          "id": "juicy_1_Q3",
+          "answer": "Yemen"
         },
         {
-          "id": "chart1_1_Q4",
-          "answer": "36"
+          "id": "juicy_1_Q4",
+          "answer": "51"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_8_2": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries.",
+      "instruction": "**[Infographic Name]: Renewables** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=2",
       "response": [
         {
-          "id": "chart2_0_Q1",
-          "prompt": "Find and click **Mexico**. What value is shown for Mexico?",
+          "id": "juicy_2_Q1",
+          "prompt": "Set the **[Focus year]** to 2002. Which country's value is closer to 80%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "0.47",
-            "1.25",
-            "1.73",
-            "2.42",
-            "3.16"
+            "Afghanistan",
+            "Kenya",
+            "Colombia",
+            "Central African Republic",
+            "Fiji"
           ]
         },
         {
-          "id": "chart2_0_Q2",
-          "prompt": "Find and click **India**. What value is shown for India?",
+          "id": "juicy_2_Q2",
+          "prompt": "Reconfigure to **[Growth]**, which country's value has the highest (top-1) growth rate?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "0.74",
-            "1.31",
-            "1.98",
-            "2.77",
-            "2.56"
-          ]
-        },
-        {
-          "id": "chart2_0_Q3",
-          "prompt": "Find and click **Germany** (it should be under Norway). What value is shown for Germany?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "0.37",
-            "0.45",
-            "1.18",
-            "2.21",
-            "3.38"
-          ]
-        },
-        {
-          "id": "chart2_0_Q4",
-          "prompt": "Between **Mexico**, **India**, and **Germany**, which country has the highest value?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Mexico",
-            "India",
             "Germany",
-            "They are the same",
-            "Not sure"
+            "Ireland",
+            "Denmark",
+            "Estonia",
+            "Luxenmbourg"
+          ]
+        },
+        {
+          "id": "juicy_2_Q3",
+          "prompt": "In 2012, which country has the highest value among those between 60% and 80%?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Myanmar",
+            "Austria",
+            "Kenya",
+            "Cameroon",
+            "Greenland"
+          ]
+        },
+        {
+          "id": "juicy_2_Q4",
+          "prompt": "Set Filter. In 2018, how many countries had values above 80%?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "41",
+            "36",
+            "32",
+            "27",
+            "24"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "chart2_0_Q1",
-          "answer": "1.25"
+          "id": "juicy_2_Q1",
+          "answer": "Afghanistan"
         },
         {
-          "id": "chart2_0_Q2",
-          "answer": "2.77"
+          "id": "juicy_2_Q2",
+          "answer": "Denmark"
         },
         {
-          "id": "chart2_0_Q3",
-          "answer": "0.37"
+          "id": "juicy_2_Q3",
+          "answer": "Cameroon"
         },
         {
-          "id": "chart2_0_Q4",
-          "answer": "India"
+          "id": "juicy_2_Q4",
+          "answer": "27"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_8_3": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Drag to pan the map, and scroll to zoom in or out. Click a country to select it. You can select multiple countries to compare their values. Click “Clear selection” to remove all selected countries.",
+      "instruction": "**[Infographic Name]: Urban** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=3",
       "response": [
         {
-          "id": "chart2_1_Q1",
-          "prompt": "Find and click **Mexico**. What value is shown for Mexico?",
+          "id": "juicy_3_Q1",
+          "prompt": "Set the **[Focus year]** to 2004. Which country's value is lowest?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "0.47",
-            "1.25",
-            "1.73",
-            "2.42",
-            "3.16"
+            "Uganda",
+            "Malawi",
+            "Cambodia",
+            "Niger",
+            "Burundi"
           ]
         },
         {
-          "id": "chart2_1_Q2",
-          "prompt": "Find and click **India**. What value is shown for India?",
+          "id": "juicy_3_Q2",
+          "prompt": "Reconfigure to **[Growth]**, in **2015**, which country's value has the highest (top-1) growth rate?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "0.74",
-            "1.31",
-            "1.98",
-            "2.77",
-            "2.56"
+            "Cape Verde",
+            "Gabon",
+            "Libya",
+            "Oman",
+            "Turkey"
           ]
         },
         {
-          "id": "chart2_1_Q3",
-          "prompt": "Find and click **Germany** (it should be under Norway). What value is shown for Germany?",
+          "id": "juicy_3_Q3",
+          "prompt": "Set **[Encode]** option. In 2010, how many countries had values between 90% to 100%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "0.37",
-            "0.45",
-            "1.18",
-            "2.21",
-            "3.38"
+            "26",
+            "24",
+            "22",
+            "20",
+            "18"
           ]
         },
         {
-          "id": "chart2_1_Q4",
-          "prompt": "Between **Mexico**, **India**, and **Germany**, which country has the highest value?",
+          "id": "juicy_3_Q4",
+          "prompt": "Set Filter. In 2020, how many countries had values below 30%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Mexico",
-            "India",
-            "Germany",
-            "They are the same",
-            "Not sure"
+            "27",
+            "25",
+            "23",
+            "21",
+            "19"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "chart2_1_Q1",
-          "answer": "1.25"
+          "id": "juicy_3_Q1",
+          "answer": "Burundi"
         },
         {
-          "id": "chart2_1_Q2",
-          "answer": "2.77"
+          "id": "juicy_3_Q2",
+          "answer": "Gabon"
         },
         {
-          "id": "chart2_1_Q3",
-          "answer": "0.37"
+          "id": "juicy_3_Q3",
+          "answer": "26"
         },
         {
-          "id": "chart2_1_Q4",
-          "answer": "India"
+          "id": "juicy_3_Q4",
+          "answer": "25"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_8_4": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value.",
+      "instruction": "**[Infographic Name]: One-Year-Olds** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=4",
       "response": [
         {
-          "id": "chart3_0_Q1",
-          "prompt": "Which country is ranked 4th highest for the **Hydropower** energy source type?",
+          "id": "juicy_4_Q1",
+          "prompt": "Set the **[Focus year]** to 2004. Which country's value is closer to 40%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "France",
-            "Canada",
-            "Brazil",
-            "Sweden",
-            "Russia"
+            "Nigeria",
+            "Liberia",
+            "Chad",
+            "Ethiopia",
+            "Somalia"
           ]
         },
         {
-          "id": "chart3_0_Q2",
-          "prompt": "Which country is ranked 5th highest for the **Oil** energy source type?",
+          "id": "juicy_4_Q2",
+          "prompt": "Reconfigure to **[Growth]**, from 2000 to 2024, which country's value has the highest (top-1) growth rate?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Norway",
-            "Australia",
-            "Netherlands",
-            "Spain",
-            "United States"
+            "Maldives",
+            "Niue",
+            "Bhutan",
+            "Ghana",
+            "Bangladesh"
           ]
         },
         {
-          "id": "chart3_0_Q3",
-          "prompt": "Which country is ranked 3th highes for the **Solar** energy source type?",
+          "id": "juicy_4_Q3",
+          "prompt": "Set **[Encode]** option. In 2020, how many countries had values between 50% to 60%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Spain",
-            "Japan",
-            "Netherlands",
-            "Australia",
-            "United States"
+            "9",
+            "8",
+            "7",
+            "6",
+            "5"
           ]
         },
         {
-          "id": "chart3_0_Q4",
-          "prompt": "Which country is ranked 4th highest for the **Wind** energy source type?",
+          "id": "juicy_4_Q4",
+          "prompt": "Set Filter. In 1980, how many countries had values above 80%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Norway",
-            "Spain",
-            "Sweden",
-            "Netherlands",
-            "Germany"
+            "19",
+            "18",
+            "17",
+            "16",
+            "15"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "chart3_0_Q1",
-          "answer": "Brazil"
+          "id": "juicy_4_Q1",
+          "answer": "Ethiopia"
         },
         {
-          "id": "chart3_0_Q2",
-          "answer": "Australia"
+          "id": "juicy_4_Q2",
+          "answer": "Bangladesh"
         },
         {
-          "id": "chart3_0_Q3",
-          "answer": "Spain"
+          "id": "juicy_4_Q3",
+          "answer": "9"
         },
         {
-          "id": "chart3_0_Q4",
-          "answer": "Germany"
+          "id": "juicy_4_Q4",
+          "answer": "18"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_8_5": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value.",
+      "instruction": "**[Infographic Name]: Tobacco** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=5",
       "response": [
         {
-          "id": "chart3_1_Q1",
-          "prompt": "Which country is ranked 4th highest for the **Hydropower** energy source type?",
+          "id": "juicy_5_Q1",
+          "prompt": "Set the **[Focus year]** to 2000. Which country's value is closer to 60%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "France",
-            "Canada",
-            "Brazil",
-            "Sweden",
-            "Russia"
+            "Greece",
+            "India",
+            "Bangladesh",
+            "Madagascar",
+            "Austria"
           ]
         },
         {
-          "id": "chart3_1_Q2",
-          "prompt": "Which country is ranked 5th highest for the **Oil** energy source type?",
+          "id": "juicy_5_Q2",
+          "prompt": "Reconfigure to **[Growth]**, from 2000 to 2022, which country's value has the **3rd-ranked** growth rate?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Norway",
-            "Australia",
-            "Netherlands",
-            "Spain",
-            "United States"
+            "Congo",
+            "Jordan",
+            "Egypt",
+            "Moldova",
+            "Indonesia"
           ]
         },
         {
-          "id": "chart3_1_Q3",
-          "prompt": "Which country is ranked 3th highes for the **Solar** energy source type?",
+          "id": "juicy_5_Q3",
+          "prompt": "Set **[Encode]** option. In 2007, which value range contains the most countries?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Spain",
-            "Japan",
-            "Netherlands",
-            "Australia",
-            "United States"
+            "0% to 10%",
+            "10% to 20%",
+            "20% to 30%",
+            "30% to 40%",
+            "40% to 50%"
           ]
         },
         {
-          "id": "chart3_1_Q4",
-          "prompt": "Which country is ranked 4th highest for the **Wind** energy source type?",
+          "id": "juicy_5_Q4",
+          "prompt": "Set Filter. In 2010, how many countries had values above 30%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Norway",
-            "Spain",
-            "Sweden",
-            "Netherlands",
-            "Germany"
+            "51",
+            "50",
+            "49",
+            "48",
+            "47"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "chart3_1_Q1",
-          "answer": "Brazil"
+          "id": "juicy_5_Q1",
+          "answer": "Bangladesh"
         },
         {
-          "id": "chart3_1_Q2",
-          "answer": "Australia"
+          "id": "juicy_5_Q2",
+          "answer": "Jordan"
         },
         {
-          "id": "chart3_1_Q3",
-          "answer": "Spain"
+          "id": "juicy_5_Q3",
+          "answer": "20% to 30%"
         },
         {
-          "id": "chart3_1_Q4",
-          "answer": "Germany"
+          "id": "juicy_5_Q4",
+          "answer": "49"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_8_6": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year.",
+      "instruction": "**[Infographic Name]: Obesity** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=6",
       "response": [
         {
-          "id": "chart4_0_Q1",
-          "prompt": "Click the year 2020 and switch to different infographics. What value is shown for the **Fish & Seafood** segment in China?",
+          "id": "juicy_6_Q1",
+          "prompt": "Set the **[Focus year]** to 2002. Which country's value is closer to 60%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "20.5kg",
-            "22.2kg",
-            "23.6kg",
-            "32.9kg",
-            "41.1kg"
+            "Tonga",
+            "Tuvalu",
+            "Niue",
+            "Tokelau",
+            "Samoa"
           ]
         },
         {
-          "id": "chart4_0_Q2",
-          "prompt": "In the year 2020, which country has the largest **Poultry** share in its infographic bar?",
+          "id": "juicy_6_Q2",
+          "prompt": "Reconfigure to **[Growth]**, from 2000 to 2022, which country's value has the **2nd-ranked** growth rate?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Brazil",
-            "United States",
-            "Argentina",
-            "Canada",
-            "China"
+            "Bahamas",
+            "Romania",
+            "Samoa",
+            "Chile",
+            "Tonga"
           ]
         },
         {
-          "id": "chart4_0_Q3",
-          "prompt": "Go back to re-select a different year. What is the **total value** shown at the end of the bar for Japan in the year 2017?",
+          "id": "juicy_6_Q3",
+          "prompt": "Set **[Encode]** option. In 2012, which value range contains the most countries?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "110kg",
-            "101kg",
-            "96.1kg",
-            "94.1kg",
-            "141kg"
+            "0% to 10%",
+            "10% to 20%",
+            "20% to 30%",
+            "30% to 40%",
+            "40% to 50%"
           ]
         },
         {
-          "id": "chart4_0_Q4",
-          "prompt": "For the year 2013, which country has the largest **Pork** share in its infographic bar?",
+          "id": "juicy_6_Q4",
+          "prompt": "Set Filter. In 2020, how many countries had values above 40%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Spain",
-            "China",
-            "France",
-            "Japan",
-            "Australia"
+            "28",
+            "26",
+            "24",
+            "22",
+            "20"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "chart4_0_Q1",
-          "answer": "41.1kg"
+          "id": "juicy_6_Q1",
+          "answer": "Tokelau"
         },
         {
-          "id": "chart4_0_Q2",
-          "answer": "Brazil"
+          "id": "juicy_6_Q2",
+          "answer": "Romania"
         },
         {
-          "id": "chart4_0_Q3",
-          "answer": "96.1kg"
+          "id": "juicy_6_Q3",
+          "answer": "20% to 30%"
         },
         {
-          "id": "chart4_0_Q4",
-          "answer": "China"
+          "id": "juicy_6_Q4",
+          "answer": "20"
         }
       ],
       "instructionLocation": "sidebar"
     },
     "JuicyChart_8_7": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year.",
+      "instruction": "**[Infographic Name]: Internet** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=7",
       "response": [
         {
-          "id": "chart4_1_Q1",
-          "prompt": "Click the year 2020 and switch to different infographics. What value is shown for the **Fish & Seafood** segment in China?",
+          "id": "juicy_7_Q1",
+          "prompt": "Set the **[Focus year]** to 2002. Which country's value is closer to 60%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "20.5kg",
-            "22.2kg",
-            "23.6kg",
-            "32.9kg",
-            "41.1kg"
+            "Sweden",
+            "Norway",
+            "Iceland",
+            "Denmark",
+            "Finland"
           ]
         },
         {
-          "id": "chart4_1_Q2",
-          "prompt": "In the year 2020, which country has the largest **Poultry** share in its infographic bar?",
+          "id": "juicy_7_Q2",
+          "prompt": "Reconfigure to **[Growth]**, from 2005 to 2024, which country's value has the highest (top-1) growth rate?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Brazil",
-            "United States",
-            "Argentina",
-            "Canada",
-            "China"
+            "United Arab Emirates",
+            "Iceland",
+            "Kuwait",
+            "Saudi Arabia",
+            "Bahrain"
           ]
         },
         {
-          "id": "chart4_1_Q3",
-          "prompt": "Go back to re-select a different year. What is the **total value** shown at the end of the bar for Japan in the year 2017?",
+          "id": "juicy_7_Q3",
+          "prompt": "Set **[Encode]** option. In 2017, which value range contains the most countries?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "110kg",
-            "101kg",
-            "96.1kg",
-            "94.1kg",
-            "141kg"
+            "50% to 60%",
+            "60% to 70%",
+            "70% to 80%",
+            "80% to 90%",
+            "90% to 100%"
           ]
         },
         {
-          "id": "chart4_1_Q4",
-          "prompt": "For the year 2013, which country has the largest **Pork** share in its infographic bar?",
+          "id": "juicy_7_Q4",
+          "prompt": "Set Filter. In 2017, how many countries had values below 10%?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Spain",
-            "China",
-            "France",
-            "Japan",
-            "Australia"
+            "17",
+            "15",
+            "13",
+            "11",
+            "9"
           ]
         }
       ],
       "correctAnswer": [
         {
-          "id": "chart4_1_Q1",
-          "answer": "41.1kg"
+          "id": "juicy_7_Q1",
+          "answer": "Iceland"
         },
         {
-          "id": "chart4_1_Q2",
-          "answer": "Brazil"
+          "id": "juicy_7_Q2",
+          "answer": "Bahrain"
         },
         {
-          "id": "chart4_1_Q3",
-          "answer": "96.1kg"
+          "id": "juicy_7_Q3",
+          "answer": "60% to 70%"
         },
         {
-          "id": "chart4_1_Q4",
-          "answer": "China"
+          "id": "juicy_7_Q4",
+          "answer": "13"
         }
       ],
       "instructionLocation": "sidebar"
@@ -1178,7 +1219,25 @@
         },
         {
           "id": "q-all-2",
+          "prompt": "Considering the different visualization experiences you encountered in this study, if you had to choose a default style, which would you prefer?",
+          "location": "aboveStimulus",
+          "type": "checkbox",
+          "required": true,
+          "withDivider": true,
+          "options": [
+            "No feedback/embellishments",
+            "Feedback/embellishments **before** my interaction",
+            "Feedback/embellishments **during** my interaction",
+            "Feedback/embellishments **just after** my interaction",
+            "All feedback/embellishments",
+            "No difference"
+          ],
+          "withOther": true
+        },
+        {
+          "id": "q-all-3",
           "prompt": "Reflecting on the visualization versions you interacted with in this study, which version did you prefer overall, and why?",
+          "secondaryText": "For your memory, names of all infographics we have are: **[Electricity]**, **[Cooking]**, **[Renewables]**, **[Urban]**, **[One-Year-Olds]**, **[Tobacco]**, **[Obesity]**, **[Internet]**.",
           "location": "aboveStimulus",
           "type": "longText",
           "required": true,
@@ -1186,7 +1245,7 @@
           "placeholder": "Enter your response here"
         },
         {
-          "id": "q-all-3",
+          "id": "q-all-4",
           "prompt": "What's your preference on the feedback/embellishments of infographics/charts?",
           "location": "aboveStimulus",
           "type": "slider",
@@ -1205,7 +1264,7 @@
           ]
         },
         {
-          "id": "q-all-4",
+          "id": "q-all-5",
           "prompt": "Please explain why you made the selections/answers above.",
           "location": "aboveStimulus",
           "type": "longText",
@@ -1306,6 +1365,23 @@
             "check": "response",
             "responseId": "quiz2",
             "value": "3179",
+            "comparison": "equal",
+            "to": "Color Blindness Test"
+          }
+        ]
+      },
+      {
+        "components": [
+          "Color Blindness Test",
+          "Disqualification_c"
+        ],
+        "order": "fixed",
+        "skip": [
+          {
+            "name": "Color Blindness Test",
+            "check": "response",
+            "responseId": "colorblindness-test",
+            "value": "45",
             "comparison": "equal",
             "to": "JuicyCharts Intro"
           }
@@ -1463,7 +1539,7 @@
     "timeoutReject": true,
     "nextOnEnter": true,
     "sidebar": true,
-    "sidebarWidth": 400,
+    "sidebarWidth": 350,
     "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: []()",
     "withProgressBar": true,
     "urlParticipantIdParam": "PROLIFIC_PID",

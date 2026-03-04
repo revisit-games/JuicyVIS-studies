@@ -1,4 +1,4 @@
-In this study, you will interact a total of 7 interactable Infographics/diagrams/charts, **some of which may have, and some may not have** embellishments/juicy feedback (*such as animation, visual arts, and sound effects*). Each interactive graphic has an instruction and tasks (for example, questions about what you may learned from the graphics). For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
+In this study, you will interact with a total of 7 interactable Infographics/diagrams/charts, **some of which may have, and some may not have** embellishments/juicy feedback (*such as animation, visual arts, and sound effects*). Each interactive graphic has an instruction and tasks (for example, questions about what you may learned from the graphics). For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
 
 ---
 

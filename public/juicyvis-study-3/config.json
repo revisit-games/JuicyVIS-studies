@@ -3,7 +3,7 @@
   "components": {
     "introduction": {
       "correctAnswer": [],
-      "path": "juicyvis-study-2/assets/introduction.md",
+      "path": "juicyvis-study-3/assets/introduction.md",
       "response": [
         {
           "id": "prolificId",
@@ -18,7 +18,7 @@
     },
     "Consent Form": {
       "correctAnswer": [],
-      "path": "juicyvis-study-2/assets/consent.md",
+      "path": "juicyvis-study-3/assets/consent.md",
       "nextButtonText": "Agree",
       "response": [
         {
@@ -51,7 +51,7 @@
           "id": "attentionchecka"
         }
       ],
-      "path": "juicyvis-study-2/assets/attentioncheck-a.md",
+      "path": "juicyvis-study-3/assets/attentioncheck-a.md",
       "response": [
         {
           "id": "attentionchecka",
@@ -72,7 +72,7 @@
     },
     "Disqualification_a": {
       "correctAnswer": [],
-      "path": "juicyvis-study-2/assets/disqualification-a.md",
+      "path": "juicyvis-study-3/assets/disqualification-a.md",
       "nextButtonText":"Disqualified",
       "response": [
         {
@@ -116,7 +116,7 @@
     },
     "Disqualification_b": {
       "correctAnswer": [],
-      "path": "juicyvis-study-2/assets/disqualification-b.md",
+      "path": "juicyvis-study-3/assets/disqualification-b.md",
       "nextButtonText":"Disqualified",
       "response": [
         {
@@ -131,7 +131,7 @@
     },
     "Color Blindness Test": {
       "instruction": "What number do you see in this image?",
-      "path": "juicyvis-study-2/assets/Ishihara9.png",
+      "path": "juicyvis-study-3/assets/Ishihara9.png",
       "nextButtonLocation": "sidebar",
       "response": [
         {
@@ -156,7 +156,7 @@
     },
     "Disqualification_c": {
       "correctAnswer": [],
-      "path": "juicyvis-study-2/assets/disqualification-c.md",
+      "path": "juicyvis-study-3/assets/disqualification-c.md",
       "nextButtonText":"Disqualified",
       "response": [
         {
@@ -171,35 +171,15 @@
     },
     "JuicyCharts Intro": {
       "correctAnswer": [],
-      "path": "juicyvis-study-2/assets/juicycharts-intro.md",
+      "path": "juicyvis-study-3/assets/juicycharts-intro.md",
       "response": [],
       "type": "markdown"
     },
-    "JuicyChart_end": {
-      "correctAnswer": [
-        {
-          "answer": "Yes",
-          "id": "juicychart_end"
-        }
-      ],
-      "path": "juicyvis-study-2/assets/juicychart_end.md",
-      "response": [
-        {
-          "id": "juicychart_end",
-          "prompt": "Please click this button [Yes] to continue.",
-          "location": "belowStimulus",
-          "required": true,
-          "options": ["Yes"],
-          "type": "buttons"
-        }
-      ],
-      "type": "markdown"
-    },
-    "JuicyChart_8_0": {
+    "JuicyChart_9_0": {
       "instruction": "**[Infographic Name]: Electricity** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=0",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=9&juicy=0",
       "response": [
         {
           "id": "juicy_0_Q1",
@@ -282,11 +262,11 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_8_1": {
+    "JuicyChart_9_1": {
       "instruction": "**[Infographic Name]: Cooking** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=1",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=9&juicy=1",
       "response": [
         {
           "id": "juicy_1_Q1",
@@ -369,449 +349,14 @@
       ],
       "instructionLocation": "sidebar"
     },
-    "JuicyChart_8_2": {
-      "instruction": "**[Infographic Name]: Renewables** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=2",
-      "response": [
-        {
-          "id": "juicy_2_Q1",
-          "prompt": "Set the **[Focus year]** to 2002. Which country's value is closer to 80%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Afghanistan",
-            "Kenya",
-            "Colombia",
-            "Central African Republic",
-            "Fiji"
-          ]
-        },
-        {
-          "id": "juicy_2_Q2",
-          "prompt": "Reconfigure to **[Growth]**. In 1995, which country's value has the highest (top-1) growth rate?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Germany",
-            "Ireland",
-            "Denmark",
-            "Estonia",
-            "Luxenmbourg"
-          ]
-        },
-        {
-          "id": "juicy_2_Q3",
-          "prompt": "Set **[Encode]** option. In 2012, how many countries had values between 70% to 80%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "18",
-            "16",
-            "14",
-            "12",
-            "10"
-          ]
-        },
-        {
-          "id": "juicy_2_Q4",
-          "prompt": "Set Filter. In 2018, how many countries had values above 80%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "41",
-            "36",
-            "32",
-            "27",
-            "24"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "juicy_2_Q1",
-          "answer": "Afghanistan"
-        },
-        {
-          "id": "juicy_2_Q2",
-          "answer": "Denmark"
-        },
-        {
-          "id": "juicy_2_Q3",
-          "answer": "10"
-        },
-        {
-          "id": "juicy_2_Q4",
-          "answer": "27"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_8_3": {
-      "instruction": "**[Infographic Name]: Urban** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=3",
-      "response": [
-        {
-          "id": "juicy_3_Q1",
-          "prompt": "Set the **[Focus year]** to 2004. Which country's value is lowest?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Uganda",
-            "Malawi",
-            "Cambodia",
-            "Niger",
-            "Burundi"
-          ]
-        },
-        {
-          "id": "juicy_3_Q2",
-          "prompt": "Reconfigure to **[Growth]**, in **2015**, which country's value has the highest (top-1) growth rate?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "China",
-            "Turkey",
-            "Nepal",
-            "Thailand",
-            "Syria"
-          ]
-        },
-        {
-          "id": "juicy_3_Q3",
-          "prompt": "Set **[Encode]** option. In 2010, how many countries had values between 90% to 100%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "26",
-            "24",
-            "22",
-            "20",
-            "18"
-          ]
-        },
-        {
-          "id": "juicy_3_Q4",
-          "prompt": "Set Filter. In 2020, how many countries had values below 30%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "27",
-            "25",
-            "23",
-            "21",
-            "19"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "juicy_3_Q1",
-          "answer": "Burundi"
-        },
-        {
-          "id": "juicy_3_Q2",
-          "answer": "Nepal"
-        },
-        {
-          "id": "juicy_3_Q3",
-          "answer": "26"
-        },
-        {
-          "id": "juicy_3_Q4",
-          "answer": "25"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_8_4": {
-      "instruction": "**[Infographic Name]: One-Year-Olds** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=4",
-      "response": [
-        {
-          "id": "juicy_4_Q1",
-          "prompt": "Set the **[Focus year]** to 2004. Which country's value is closer to 40%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Nigeria",
-            "Liberia",
-            "Chad",
-            "Ethiopia",
-            "Somalia"
-          ]
-        },
-        {
-          "id": "juicy_4_Q2",
-          "prompt": "Reconfigure to **[Growth]**, from 2000 to 2024, which country's value has the highest (top-1) growth rate?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Niger",
-            "Cambodia",
-            "Sudan",
-            "Afghanistan",
-            "Burkina Faso"
-          ]
-        },
-        {
-          "id": "juicy_4_Q3",
-          "prompt": "Set **[Encode]** option. In 2020, how many countries had values between 50% to 60%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "9",
-            "8",
-            "7",
-            "6",
-            "5"
-          ]
-        },
-        {
-          "id": "juicy_4_Q4",
-          "prompt": "Set Filter. In 1980, how many countries had values above 80%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "19",
-            "18",
-            "17",
-            "16",
-            "15"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "juicy_4_Q1",
-          "answer": "Ethiopia"
-        },
-        {
-          "id": "juicy_4_Q2",
-          "answer": "Niger"
-        },
-        {
-          "id": "juicy_4_Q3",
-          "answer": "9"
-        },
-        {
-          "id": "juicy_4_Q4",
-          "answer": "18"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_8_5": {
-      "instruction": "**[Infographic Name]: Tobacco** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=5",
-      "response": [
-        {
-          "id": "juicy_5_Q1",
-          "prompt": "Set the **[Focus year]** to 2000. Which country's value is closer to 60%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Greece",
-            "India",
-            "Bangladesh",
-            "Madagascar",
-            "Austria"
-          ]
-        },
-        {
-          "id": "juicy_5_Q2",
-          "prompt": "Reconfigure to **[Growth]**, from 2000 to 2022, which country's value has the **3rd-ranked** growth rate?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Congo",
-            "Jordan",
-            "Egypt",
-            "Moldova",
-            "Indonesia"
-          ]
-        },
-        {
-          "id": "juicy_5_Q3",
-          "prompt": "Set **[Encode]** option. In 2007, which value range contains the most countries?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "0% to 10%",
-            "10% to 20%",
-            "20% to 30%",
-            "30% to 40%",
-            "40% to 50%"
-          ]
-        },
-        {
-          "id": "juicy_5_Q4",
-          "prompt": "Set Filter. In 2010, how many countries had values above 30%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "51",
-            "50",
-            "49",
-            "48",
-            "47"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "juicy_5_Q1",
-          "answer": "Bangladesh"
-        },
-        {
-          "id": "juicy_5_Q2",
-          "answer": "Jordan"
-        },
-        {
-          "id": "juicy_5_Q3",
-          "answer": "20% to 30%"
-        },
-        {
-          "id": "juicy_5_Q4",
-          "answer": "49"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_8_6": {
-      "instruction": "**[Infographic Name]: Obesity** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
-      "type": "website",
-      "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=6",
-      "response": [
-        {
-          "id": "juicy_6_Q1",
-          "prompt": "Set the **[Focus year]** to 2002. Which country's value is closer to 60%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Tonga",
-            "Tuvalu",
-            "Niue",
-            "Tokelau",
-            "Samoa"
-          ]
-        },
-        {
-          "id": "juicy_6_Q2",
-          "prompt": "Reconfigure to **[Growth]**, from 2000 to 2022, which country's value has the **2nd-ranked** growth rate?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Bahamas",
-            "Romania",
-            "Samoa",
-            "Chile",
-            "Tonga"
-          ]
-        },
-        {
-          "id": "juicy_6_Q3",
-          "prompt": "Set **[Encode]** option. In 2012, which value range contains the most countries?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "0% to 10%",
-            "10% to 20%",
-            "20% to 30%",
-            "30% to 40%",
-            "40% to 50%"
-          ]
-        },
-        {
-          "id": "juicy_6_Q4",
-          "prompt": "Set Filter. In 2020, how many countries had values above 40%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "28",
-            "26",
-            "24",
-            "22",
-            "20"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "juicy_6_Q1",
-          "answer": "Tokelau"
-        },
-        {
-          "id": "juicy_6_Q2",
-          "answer": "Bahamas"
-        },
-        {
-          "id": "juicy_6_Q3",
-          "answer": "20% to 30%"
-        },
-        {
-          "id": "juicy_6_Q4",
-          "answer": "20"
-        }
-      ],
-      "instructionLocation": "sidebar"
-    },
-    "JuicyChart_8_7": {
+    "JuicyChart_9_2": {
       "instruction": "**[Infographic Name]: Internet** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
-      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=8&juicy=7",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=9&juicy=2",
       "response": [
         {
-          "id": "juicy_7_Q1",
+          "id": "juicy_2_Q1",
           "prompt": "Set the **[Focus year]** to 2002. Which country's value is closer to 80%?",
           "location": "sidebar",
           "type": "dropdown",
@@ -826,7 +371,7 @@
           ]
         },
         {
-          "id": "juicy_7_Q2",
+          "id": "juicy_2_Q2",
           "prompt": "Reconfigure to **[Growth]**, from 2005 to 2024, which country's value has the highest (top-1) growth rate?",
           "location": "sidebar",
           "type": "dropdown",
@@ -841,7 +386,7 @@
           ]
         },
         {
-          "id": "juicy_7_Q3",
+          "id": "juicy_2_Q3",
           "prompt": "Set **[Encode]** option. In 2017, which value range contains the most countries?",
           "location": "sidebar",
           "type": "dropdown",
@@ -856,7 +401,7 @@
           ]
         },
         {
-          "id": "juicy_7_Q4",
+          "id": "juicy_2_Q4",
           "prompt": "Set Filter. In 2017, how many countries had values below 10%?",
           "location": "sidebar",
           "type": "dropdown",
@@ -873,20 +418,107 @@
       ],
       "correctAnswer": [
         {
-          "id": "juicy_7_Q1",
+          "id": "juicy_2_Q1",
           "answer": "Iceland"
         },
         {
-          "id": "juicy_7_Q2",
+          "id": "juicy_2_Q2",
           "answer": "United Arab Emirates"
         },
         {
-          "id": "juicy_7_Q3",
+          "id": "juicy_2_Q3",
           "answer": "60% to 70%"
         },
         {
-          "id": "juicy_7_Q4",
+          "id": "juicy_2_Q4",
           "answer": "13"
+        }
+      ],
+      "instructionLocation": "sidebar"
+    },
+    "JuicyChart_9_3": {
+      "instruction": "**[Infographic Name]: One-Year-Olds** \n\n **[Instruction]**: Hover to see values. Click a country. Use the top legend + right controls (Year / Filter / Reconfigure / Encode / View / Detail).\n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
+      "type": "website",
+      "nextButtonLocation": "sidebar",
+      "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=9&juicy=3",
+      "response": [
+        {
+          "id": "juicy_3_Q1",
+          "prompt": "Set the **[Focus year]** to 2004. Which country's value is closer to 40%?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Nigeria",
+            "Liberia",
+            "Chad",
+            "Ethiopia",
+            "Somalia"
+          ]
+        },
+        {
+          "id": "juicy_3_Q2",
+          "prompt": "Reconfigure to **[Growth]**, from 2000 to 2024, which country's value has the highest (top-1) growth rate?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "Maldives",
+            "Niue",
+            "Bhutan",
+            "Ghana",
+            "Bangladesh"
+          ]
+        },
+        {
+          "id": "juicy_3_Q3",
+          "prompt": "Set **[Encode]** option. In 2020, how many countries had values between 50% to 60%?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "9",
+            "8",
+            "7",
+            "6",
+            "5"
+          ]
+        },
+        {
+          "id": "juicy_3_Q4",
+          "prompt": "Set Filter. In 1980, how many countries had values above 80%?",
+          "location": "sidebar",
+          "type": "dropdown",
+          "required": true,
+          "placeholder": "Select the answer",
+          "options": [
+            "19",
+            "18",
+            "17",
+            "16",
+            "15"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "juicy_3_Q1",
+          "answer": "Ethiopia"
+        },
+        {
+          "id": "juicy_3_Q2",
+          "answer": "Bangladesh"
+        },
+        {
+          "id": "juicy_3_Q3",
+          "answer": "9"
+        },
+        {
+          "id": "juicy_3_Q4",
+          "answer": "18"
         }
       ],
       "instructionLocation": "sidebar"
@@ -952,13 +584,13 @@
       ],
       "type": "questionnaire"
     },
-    "Q_Juicy1&2": {
+    "Q_Juicy1": {
       "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
       "correctAnswer": [],
       "response": [
         {
-          "id": "q-juicy1&2-1",
+          "id": "q-juicy1-1",
           "prompt": "To what extent do you agree that this visual representation is...?",
           "location": "aboveStimulus",
           "type": "matrix-radio",
@@ -982,7 +614,7 @@
           ]
         },
         {
-          "id": "q-juicy1&2-2",
+          "id": "q-juicy1-2",
           "prompt": "How did you feel while interacting with the infographic/chart just now?",
           "location": "aboveStimulus",
           "type": "matrix-radio",
@@ -1013,13 +645,13 @@
       ],
       "type": "questionnaire"
     },
-    "Q_Juicy4&5": {
+    "Q_Juicy2": {
       "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
       "correctAnswer": [],
       "response": [
         {
-          "id": "q-juicy4&5-1",
+          "id": "q-juicy2-1",
           "prompt": "To what extent do you agree that this visual representation is...?",
           "location": "aboveStimulus",
           "type": "matrix-radio",
@@ -1043,7 +675,7 @@
           ]
         },
         {
-          "id": "q-juicy4&5-2",
+          "id": "q-juicy2-2",
           "prompt": "How did you feel while interacting with the infographic/chart just now?",
           "location": "aboveStimulus",
           "type": "matrix-radio",
@@ -1074,13 +706,13 @@
       ],
       "type": "questionnaire"
     },
-    "Q_Juicy3&6": {
+    "Q_Juicy3": {
       "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
       "nextButtonLocation": "sidebar",
       "correctAnswer": [],
       "response": [
         {
-          "id": "q-juicy3&6-1",
+          "id": "q-juicy3-1",
           "prompt": "To what extent do you agree that this visual representation is...?",
           "location": "aboveStimulus",
           "type": "matrix-radio",
@@ -1104,68 +736,7 @@
           ]
         },
         {
-          "id": "q-juicy3&6-2",
-          "prompt": "How did you feel while interacting with the infographic/chart just now?",
-          "location": "aboveStimulus",
-          "type": "matrix-radio",
-          "required": true,
-          "withDivider": true,
-          "answerOptions":[
-            "Strongly Disagree",
-            "Disagree",
-            "Neither Agree nor Disagree",
-            "Agree",
-            "Strongly Agree"
-          ],
-          "questionOptions": [
-            "I lost myself in this experience",
-            "The time I spent using this infographic just slipped away",
-            "I was absorbed in this experience",
-            "I felt frustrated while using this infographic",
-            "I found this infographic confusing to use",
-            "Using this infographic was difficult",
-            "This infographic was attractive",
-            "This infographic was aesthetically appealing",
-            "This infographic appealed to my senses",
-            "Using this infographic was worthwhile",
-            "My experience was rewarding",
-            "I felt interested in this experience"
-          ]
-        }
-      ],
-      "type": "questionnaire"
-    },
-    "Q_Juicy7": {
-      "instruction": "Please complete the questions about your experiences with the infographic/chart you just played. You can proceed to the next page when finished.",
-      "nextButtonLocation": "sidebar",
-      "correctAnswer": [],
-      "response": [
-        {
-          "id": "q-juicy7-1",
-          "prompt": "To what extent do you agree that this visual representation is...?",
-          "location": "aboveStimulus",
-          "type": "matrix-radio",
-          "required": true,
-          "withDivider": true,
-          "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Slightly disagree",
-            "Neutral",
-            "Slightly agree",
-            "Agree",
-            "Strongly Agree"
-          ],
-          "questionOptions": [
-            "enjoyable",
-            "likable",
-            "pleasing",
-            "nice",
-            "appealing"
-          ]
-        },
-        {
-          "id": "q-juicy7-2",
+          "id": "q-juicy3-2",
           "prompt": "How did you feel while interacting with the infographic/chart just now?",
           "location": "aboveStimulus",
           "type": "matrix-radio",
@@ -1276,13 +847,13 @@
     },
     "Demographics Intro": {
       "correctAnswer": [],
-      "path": "juicyvis-study-2/assets/demographics-intro.md",
+      "path": "juicyvis-study-3/assets/demographics-intro.md",
       "response": [],
       "type": "markdown"
     },
     "Demographics Information": {
       "correctAnswer": [],
-      "path": "juicyvis-study-2/assets/demographics.md",
+      "path": "juicyvis-study-3/assets/demographics.md",
       "response": [
         {
           "id": "genderidentity",
@@ -1391,122 +962,29 @@
         "components": [
           {
             "components": [
-              "JuicyChart_8_0",
-              "JuicyChart_end",
+              "JuicyChart_9_0",
               "Q_Juicy0"
             ],
             "order": "fixed"
           },
           {
             "components": [
-              {
-                "components": [
-                  {
-                    "components": [
-                      "JuicyChart_8_1",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  },
-                  {
-                    "components": [
-                      "JuicyChart_8_2",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  }
-                ],
-              "order": "latinSquare",
-              "skip": [
-                {
-                  "name": "JuicyChart_end",
-                  "check": "response",
-                  "responseId": "juicychart_end",
-                  "value": "Yes",
-                  "comparison": "equal",
-                  "to": "Q_Juicy1&2"
-                }
-              ]
-              },
-              "Q_Juicy1&2"
+              "JuicyChart_9_1",
+              "Q_Juicy1"
             ],
             "order": "fixed"
           },
           {
             "components": [
-              {
-                "components": [
-                  {
-                    "components": [
-                      "JuicyChart_8_4",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  },
-                  {
-                    "components": [
-                      "JuicyChart_8_5",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  }
-                ],
-              "order": "latinSquare",
-              "skip": [
-                {
-                  "name": "JuicyChart_end",
-                  "check": "response",
-                  "responseId": "juicychart_end",
-                  "value": "Yes",
-                  "comparison": "equal",
-                  "to": "Q_Juicy4&5"
-                }
-              ]
-              },
-              "Q_Juicy4&5"
+              "JuicyChart_9_2",
+              "Q_Juicy2"
             ],
             "order": "fixed"
           },
           {
             "components": [
-              {
-                "components": [
-                  {
-                    "components": [
-                      "JuicyChart_8_3",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  },
-                  {
-                    "components": [
-                      "JuicyChart_8_6",
-                      "JuicyChart_end"
-                    ],
-                    "order": "fixed"
-                  }
-                ],
-              "order": "latinSquare",
-              "skip": [
-                {
-                  "name": "JuicyChart_end",
-                  "check": "response",
-                  "responseId": "juicychart_end",
-                  "value": "Yes",
-                  "comparison": "equal",
-                  "to": "Q_Juicy3&6"
-                }
-              ]
-              },
-              "Q_Juicy3&6"
-            ],
-            "order": "fixed"
-          },
-          {
-            "components": [
-              "JuicyChart_8_7",
-              "JuicyChart_end",
-              "Q_Juicy7"
+              "JuicyChart_9_3",
+              "Q_Juicy3"
             ],
             "order": "fixed"
           }
@@ -1523,17 +1001,17 @@
     "authors": [
       "Shano Liang, Max Chen, Lane Harrison"
     ],
-    "date": "2026-03-03",
+    "date": "2026-03-04",
     "description": "",
     "organizations": [
       "VIEW Lab, WPI"
     ],
-    "title": "Juicy VIS study 2: Embellishment and Juicy Feedback on infographics",
-    "version": "0.2"
+    "title": "Juicy VIS study 3: Embellishment and Juicy Feedback on infographics",
+    "version": "0.1"
   },
   "uiConfig": {
     "contactEmail": "sliang1@wpi.edu",
-    "helpTextPath": "juicyvis-study-2/assets/help.md",
+    "helpTextPath": "juicyvis-study-3/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "timeoutReject": true,
     "nextOnEnter": true,

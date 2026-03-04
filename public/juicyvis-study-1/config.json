@@ -740,7 +740,7 @@
         },
         {
           "id": "chart4_0_Q2",
-          "prompt": "In the year 2020, which country has the largest **Poultry** share in its infographic bar?",
+          "prompt": "In the year 2020, which country had the highest **Poultry** share (**%**) of its country's total meat & fish consumption?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
@@ -770,7 +770,7 @@
         },
         {
           "id": "chart4_0_Q4",
-          "prompt": "For the year 2013, which country has the largest **Pork** share in its infographic bar?",
+          "prompt": "For the year 2013, wwhich country had the highest **Pork** share (**%**) of its country's total meat & fish consumption?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
@@ -827,7 +827,7 @@
         },
         {
           "id": "chart4_1_Q2",
-          "prompt": "In the year 2020, which country has the largest **Poultry** share in its infographic bar?",
+          "prompt": "In the year 2020, which country had the highest **Poultry** share (**%**) of its country's total meat & fish consumption?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
@@ -857,7 +857,7 @@
         },
         {
           "id": "chart4_1_Q4",
-          "prompt": "For the year 2013, which country has the largest **Pork** share in its infographic bar?",
+          "prompt": "For the year 2013, wwhich country had the highest **Pork** share (**%**) of its country's total meat & fish consumption?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
@@ -914,7 +914,7 @@
         },
         {
           "id": "chart5_0_Q2",
-          "prompt": "How many people aged 25-64 were there in China in 2019?",
+          "prompt": "How many people aged 25-64 were there in **China** in 2019?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
@@ -929,7 +929,7 @@
         },
         {
           "id": "chart5_0_Q3",
-          "prompt": "Which age groups of Mexico in the year 2015 has largest population?",
+          "prompt": "Which age groups of **Mexico** in the year 2015 has largest population?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
@@ -1001,7 +1001,7 @@
         },
         {
           "id": "chart5_1_Q2",
-          "prompt": "How many people aged 25-64 were there in China in 2019?",
+          "prompt": "How many people aged 25-64 were there in **China** in 2019?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,
@@ -1016,7 +1016,7 @@
         },
         {
           "id": "chart5_1_Q3",
-          "prompt": "Which age groups of Mexico in the year 2015 has largest population?",
+          "prompt": "Which age groups of **Mexico** in the year 2015 has largest population?",
           "location": "sidebar",
           "type": "dropdown",
           "required": true,

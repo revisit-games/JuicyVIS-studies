@@ -228,7 +228,7 @@
             "Bangladesh",
             "Albania",
             "East Timor",
-            "Laos"
+            "Nepal"
           ]
         },
         {
@@ -269,7 +269,7 @@
         },
         {
           "id": "juicy_0_Q2",
-          "answer": "Afghanistan"
+          "answer": "Bangladesh"
         },
         {
           "id": "juicy_0_Q3",
@@ -485,10 +485,10 @@
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "China",
+            "Gabon",
             "Turkey",
             "Nepal",
-            "Thailand",
+            "Libya",
             "Syria"
           ]
         },
@@ -530,7 +530,7 @@
         },
         {
           "id": "juicy_3_Q2",
-          "answer": "Nepal"
+          "answer": "Gabon"
         },
         {
           "id": "juicy_3_Q3",
@@ -572,11 +572,11 @@
           "required": true,
           "placeholder": "Select the answer",
           "options": [
-            "Niger",
-            "Cambodia",
-            "Sudan",
-            "Afghanistan",
-            "Burkina Faso"
+            "Maldives",
+            "Niue",
+            "Bhutan",
+            "Ghana",
+            "Bangladesh"
           ]
         },
         {
@@ -617,7 +617,7 @@
         },
         {
           "id": "juicy_4_Q2",
-          "answer": "Niger"
+          "answer": "Bangladesh"
         },
         {
           "id": "juicy_4_Q3",
@@ -878,7 +878,7 @@
         },
         {
           "id": "juicy_7_Q2",
-          "answer": "United Arab Emirates"
+          "answer": "Bahrain"
         },
         {
           "id": "juicy_7_Q3",

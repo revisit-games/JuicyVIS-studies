@@ -3,6 +3,7 @@
   "configsList": [
     "juicyvis-study-1",
     "juicyvis-study-2",
+    "juicyvis-study-3",
     "tutorial",
     "example-brush-interactions",
     "example-cleveland",
@@ -42,6 +43,9 @@
     },
     "juicyvis-study-2": {
       "path": "juicyvis-study-2/config.json"
+    },
+    "juicyvis-study-3": {
+      "path": "juicyvis-study-3/config.json"
     },
     "tutorial": {
       "path": "tutorial/config.json"

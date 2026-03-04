@@ -1,6 +1,6 @@
 # Before We End This Study:
 
-Thank you once again for taking the time and effort to play through all the infographics/diagrams/charts we made and complete the questionnaires. Your insights are incredibly valuable in helping us understand the difference in using experiences between infographics with or without embellishment/juicy feedback.
+Thank you once again for taking the time and effort to play through all the infographics/diagrams/charts we made and complete the questionnaires. Your insights are incredibly valuable in helping us understand the difference of using experiences between infographics with different types of embellishment/juicy feedback.
 
 **You're almost at the end of the survey. Congratulations!**
 

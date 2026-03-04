@@ -1,4 +1,4 @@
-In this study, you will interact a total of 7 interactable Infographics/diagrams/charts, **some of which may have, and some may not have** embellishments/juicy feedback (*such as animation, visual arts, and sound effects*). Each interactive graphic has an instruction and tasks (for example, questions about what you may learned from the graphics). For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
+In this study, you will interact with a total of 5 interactable Infographics/diagrams/charts with different **embellishments and juicy feedback** (such as animation, visual art, and sound effects) that **play at different timings/phases**. Each interactive graphic has an instruction and tasks (for example, questions about what you may learned from the graphics). For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
 
 ---
 
@@ -11,6 +11,10 @@ We will review your consent form signature, graphics interaction logs/records, a
 ---
 
 We suggest **maximizing** your browser window, as the infographics/diagrams/charts can be on the larger side.
+
+---
+
+Each infographic has a **"*Name*"** shown in the top-left corner. At the end, we will ask about your experience with a specific infographic. Please try to notice/remember the "*Name*" so we know which one you mean. Thank you!
 
 ---
 

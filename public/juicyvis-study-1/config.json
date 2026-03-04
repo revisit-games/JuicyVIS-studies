@@ -129,6 +129,46 @@
       ],
       "type": "markdown"
     },
+    "Color Blindness Test": {
+      "instruction": "What number do you see in this image?",
+      "path": "juicyvis-study-1/assets/Ishihara9.png",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "colorblindness-test",
+          "location": "sidebar",
+          "prompt": "Enter the number you see:",
+          "required": true,
+          "type": "numerical",
+          "withDontKnow": true
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "colorblindness-test",
+          "answer": 45
+        }
+      ],
+      "style": {
+        "width": "300px"
+      },
+      "type": "image"
+    },
+    "Disqualification_c": {
+      "correctAnswer": [],
+      "path": "juicyvis-study-1/assets/disqualification-c.md",
+      "nextButtonText":"Disqualified",
+      "response": [
+        {
+          "hidden": true,
+          "id": "disqualification-c",
+          "prompt":"You have been disqualified from this study.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    },
     "JuicyCharts Intro": {
       "correctAnswer": [],
       "path": "juicyvis-study-1/assets/juicycharts-intro.md",
@@ -504,7 +544,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_3_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value.",
+      "instruction": "**[Infographic Name]: Energy** \n\n **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=3&juicy=0",
@@ -591,7 +631,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_3_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value.",
+      "instruction": "**[Infographic Name]: Energy** \n\n**[Instruction]**: Select one energy source type button below, then drag the slider (at bottom-right) to reorder countries from High to Low or from Low to High. You can hover over a country's bar to see its value. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=3&juicy=1",
@@ -678,7 +718,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_4_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year.",
+      "instruction": "**[Infographic Name]: Foods** \n\n **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=4&juicy=0",
@@ -765,7 +805,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_4_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year.",
+      "instruction": "**[Infographic Name]: Foods** \n\n**[Instruction]**: Select a year in the first page's chart (it shows **Currently Selected: [YEAR]**), then use the bottom slider or mouse wheel to switch between different infographics of your selected year. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=4&juicy=1",
@@ -852,7 +892,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_5_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Left-click a rectangle to drill in. Right-click to go back. Hover to see the tooltip number.",
+      "instruction": "**[Infographic Name]: People** \n\n **[Instruction]**: Left-click a rectangle to drill in. Right-click to go back. Hover to see the tooltip number. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=5&juicy=0",
@@ -939,7 +979,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_5_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Left-click a rectangle to drill in. Right-click to go back. Hover to see the tooltip number.",
+      "instruction": "**[Infographic Name]: People** \n\n **[Instruction]**: Left-click a rectangle to drill in. Right-click to go back. Hover to see the tooltip number. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=5&juicy=1",
@@ -1026,7 +1066,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_6_0": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Use the controls on the right to filter (**Focus Year**, **Gini min/max**, **Regions**). Hover a line to see a country tooltip.",
+      "instruction": "**[Infographic Name]: Income** \n\n **[Instruction]**: Use the controls on the right to filter (**Focus Year**, **Gini min/max**, **Regions**). Hover a line to see a country tooltip. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=6&juicy=0",
@@ -1113,7 +1153,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_6_1": {
-      "instruction": "Please **TRY YOUR BEST** to find the answers from the infographic. **[Instruction]**: Use the controls on the right to filter (**Focus Year**, **Gini min/max**, **Regions**). Hover a line to see a country tooltip.",
+      "instruction": "**[Infographic Name]: Income** \n\n **[Instruction]**: Use the controls on the right to filter (**Focus Year**, **Gini min/max**, **Regions**). Hover a line to see a country tooltip. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=6&juicy=1",
@@ -1200,7 +1240,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_7_0": {
-      "instruction": "Use the **Focus Year** slider to set the year. Click a dot or line to select a country, and the bottom-right will show the related countries to the selected country.",
+      "instruction": "**[Infographic Name]: Internet** \n\n **[Instruction]**: Use the **Focus Year** slider to set the year. Click a dot or line to select a country, and the bottom-right will show the related countries to the selected country. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=7&juicy=0",
@@ -1287,7 +1327,7 @@
       "instructionLocation": "sidebar"
     },
     "JuicyChart_7_1": {
-      "instruction": "Use the **Focus Year** slider to set the year. Click a dot or line to select a country, and the bottom-right will show the related countries to the selected country.",
+      "instruction": "**[Infographic Name]: Internet** \n\n **[Instruction]**: Use the **Focus Year** slider to set the year. Click a dot or line to select a country, and the bottom-right will show the related countries to the selected country. \n\n Please **TRY YOUR BEST** to find the answers from the infographic.",
       "type": "website",
       "nextButtonLocation": "sidebar",
       "path": "juicyvis-study-1/assets/juicyvis/index.html?chart=7&juicy=1",
@@ -1823,6 +1863,7 @@
         {
           "id": "q-all-2",
           "prompt": "Reflecting on the visualization versions you interacted with in this study, which version did you prefer overall, and why?",
+          "secondaryText": "For your memory, names of all infographics we have are: **[AI System]**, **[The Map]**, **[Energy]**, **[Foods]**, **[People]**, **[Income]**, **[Internet]**.",
           "location": "aboveStimulus",
           "type": "longText",
           "required": true,
@@ -1950,6 +1991,23 @@
             "check": "response",
             "responseId": "quiz2",
             "value": "3179",
+            "comparison": "equal",
+            "to": "Color Blindness Test"
+          }
+        ]
+      },
+      {
+        "components": [
+          "Color Blindness Test",
+          "Disqualification_c"
+        ],
+        "order": "fixed",
+        "skip": [
+          {
+            "name": "Color Blindness Test",
+            "check": "response",
+            "responseId": "colorblindness-test",
+            "value": 45,
             "comparison": "equal",
             "to": "JuicyCharts Intro"
           }

@@ -14,4 +14,8 @@ We suggest **maximizing** your browser window, as the infographics/diagrams/char
 
 ---
 
+Each infographic has a **"*Name*"** shown in the top-left corner. At the end, we will ask about your experience with a specific infographic. Please try to notice/remember the "*Name*" so we know which one you mean. Thank you!
+
+---
+
 If you faced any issues during the study, please contact the investigator through either Prolific's chat (an investigator will be online to answer your questions during the study) or via email (sliang1@wpi.edu / mjchen@wpi.edu / ltharrison@wpi.edu).

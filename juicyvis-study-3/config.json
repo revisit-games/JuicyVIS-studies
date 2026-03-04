@@ -796,10 +796,9 @@
           "withDivider": true,
           "options": [
             "No feedback/embellishments",
-            "Feedback/embellishments **before** my interaction",
-            "Feedback/embellishments **during** my interaction",
-            "Feedback/embellishments **just after** my interaction",
-            "All feedback/embellishments",
+            "Low intensity Feedback/embellishments",
+            "Medium intensity Feedback/embellishments",
+            "High intensity Feedback/embellishments",
             "No difference"
           ],
           "withOther": true
@@ -1017,7 +1016,7 @@
     "nextOnEnter": true,
     "sidebar": true,
     "sidebarWidth": 350,
-    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: []()",
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C7QLNP3I](https://app.prolific.com/submissions/complete?cc=C7QLNP3I)",
     "withProgressBar": true,
     "urlParticipantIdParam": "PROLIFIC_PID",
     "participantNameField": "introduction.prolificId",

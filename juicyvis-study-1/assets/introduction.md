@@ -1,4 +1,4 @@
-# Evaluating Users' Experience of Infographics with/without Embellishment and Juicy Feedback
+# Evaluating Users' Experience of Infographics with Embellishment and Juicy Feedback
 
 Thank you for participating in this research study! This study aims to evaluate your experiences of using different infographics/diagrams/charts **with or without** embellishments and **juicy feedback** (*such as animation, visual arts, and sound effects*).
 
@@ -8,6 +8,8 @@ The study has two sections:
 - **(2)** the second section includes a series of interactive infographics/diagrams/charts that may have or not have embellishment and juicy feedbacks, where you will be asked to interact with them and gain the answer for tasks. After each infographic, you will be asked about your experiences of using/playing them.
 
 **Your insights are incredibly valuable in helping us understand the difference of using experiences between infographics with or without embellishment/juicy feedback!**
+
+**Participants whose answers meaningfully contribute to the study may receive a $1-3 additional bonus payment as a token of appreciation.**
 
 ---
 

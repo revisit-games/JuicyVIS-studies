@@ -225,21 +225,6 @@
             "9",
             "8"
           ]
-        },
-        {
-          "id": "juicy_0_Q4",
-          "prompt": "Set Filter. In 2015, how many countries had values above 80%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "177",
-            "163",
-            "161",
-            "158",
-            "152"
-          ]
         }
       ],
       "correctAnswer": [
@@ -254,10 +239,6 @@
         {
           "id": "juicy_0_Q3",
           "answer": "11"
-        },
-        {
-          "id": "juicy_0_Q4",
-          "answer": "163"
         }
       ],
       "instructionLocation": "sidebar"
@@ -312,21 +293,6 @@
             "6",
             "4"
           ]
-        },
-        {
-          "id": "juicy_1_Q4",
-          "prompt": "Set Filter. In 2020, how many countries had values below 40%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "58",
-            "56",
-            "51",
-            "47",
-            "45"
-          ]
         }
       ],
       "correctAnswer": [
@@ -341,10 +307,6 @@
         {
           "id": "juicy_1_Q3",
           "answer": "10"
-        },
-        {
-          "id": "juicy_1_Q4",
-          "answer": "51"
         }
       ],
       "instructionLocation": "sidebar"
@@ -399,21 +361,6 @@
             "80% to 90%",
             "90% to 100%"
           ]
-        },
-        {
-          "id": "juicy_2_Q4",
-          "prompt": "Set Filter. In 2017, how many countries had values below 10%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "17",
-            "15",
-            "13",
-            "11",
-            "9"
-          ]
         }
       ],
       "correctAnswer": [
@@ -428,10 +375,6 @@
         {
           "id": "juicy_2_Q3",
           "answer": "60% to 70%"
-        },
-        {
-          "id": "juicy_2_Q4",
-          "answer": "13"
         }
       ],
       "instructionLocation": "sidebar"
@@ -486,21 +429,6 @@
             "6",
             "5"
           ]
-        },
-        {
-          "id": "juicy_3_Q4",
-          "prompt": "Set Filter. In 1980, how many countries had values above 80%?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "19",
-            "18",
-            "17",
-            "16",
-            "15"
-          ]
         }
       ],
       "correctAnswer": [
@@ -515,10 +443,6 @@
         {
           "id": "juicy_3_Q3",
           "answer": "9"
-        },
-        {
-          "id": "juicy_3_Q4",
-          "answer": "18"
         }
       ],
       "instructionLocation": "sidebar"
@@ -774,16 +698,16 @@
       "response": [
         {
           "id": "q-all-1",
-          "prompt": "Considering the different visualization experiences you encountered in this study, if you had to choose a default style, which would you prefer?",
+          "prompt": "Considering the different infographic experiences you encountered in this study, if you had to choose a default style, which would you prefer?",
           "location": "aboveStimulus",
           "type": "radio",
           "required": true,
           "withDivider": true,
           "options": [
-            "No feedback/embellishments",
-            "Less feedback/embellishments",
-            "More feedback/embellishments",
-            "No difference"
+            "No juicy feedback/embellishments",
+            "Less juicy feedback/embellishments",
+            "Moderate juicy feedback/embellishments",
+            "More juicy feedback/embellishments"
           ],
           "withOther": true
         },
@@ -805,7 +729,7 @@
         },
         {
           "id": "q-all-3",
-          "prompt": "Reflecting on the visualization versions you interacted with in this study, which version did you prefer overall, and why?",
+          "prompt": "Reflecting on the various infographics you interacted with in this study, which infographic did you prefer overall, and why?",
           "secondaryText": "For your memory, names of all infographics we have are: **[Electricity]**, **[Cooking]**, **[Renewables]**, **[Urban]**, **[One-Year-Olds]**, **[Tobacco]**, **[Obesity]**, **[Internet]**.",
           "location": "aboveStimulus",
           "type": "longText",
@@ -815,7 +739,7 @@
         },
         {
           "id": "q-all-4",
-          "prompt": "What's your preference on the feedback/embellishments of infographics/charts?",
+          "prompt": "Overall, how's your preference for adding (or not adding) juicy feedback/embellishments to infographics/charts?",
           "location": "aboveStimulus",
           "type": "slider",
           "startingValue": 5,
@@ -823,18 +747,18 @@
           "withDivider": true,
           "options": [
             {
-              "label": "strongly prefer substantially less feedback/embellishments",
+              "label": "strongly prefer not adding juicy feedback/embellishments",
               "value": 0
             },
             {
-              "label": "strongly prefer substantially more feedback/embellishments",
+              "label": "strongly prefer adding juicy feedback/embellishments",
               "value": 10
             }
           ]
         },
         {
           "id": "q-all-5",
-          "prompt": "Please explain why you made the selections/answers above.",
+          "prompt": "Please explain why you made the selections/answers above, and how juicy feedback/embellishments influenced your experience.",
           "location": "aboveStimulus",
           "type": "longText",
           "required": true,
@@ -1000,13 +924,13 @@
     "authors": [
       "Shano Liang, Max Chen, Lane Harrison"
     ],
-    "date": "2026-03-04",
+    "date": "2026-03-05",
     "description": "",
     "organizations": [
       "VIEW Lab, WPI"
     ],
-    "title": "Juicy VIS study 3: Embellishment and Juicy Feedback on infographics",
-    "version": "0.1"
+    "title": "Juicy VIS study 3: Juicy Feedback/Embellishment on infographics",
+    "version": "1.0"
   },
   "uiConfig": {
     "contactEmail": "sliang1@wpi.edu",
@@ -1017,7 +941,7 @@
     "sidebar": true,
     "sidebarWidth": 350,
     "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C7QLNP3I](https://app.prolific.com/submissions/complete?cc=C7QLNP3I)",
-    "withProgressBar": true,
+    "withProgressBar": false,
     "urlParticipantIdParam": "PROLIFIC_PID",
     "participantNameField": "introduction.prolificId",
     "autoDownloadStudy": false,

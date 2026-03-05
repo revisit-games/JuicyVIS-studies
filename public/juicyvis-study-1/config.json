@@ -245,21 +245,6 @@
             "Samuel Neural Checkers",
             "GNN"
           ]
-        },
-        {
-          "id": "chart1_0_Q4",
-          "prompt": "Still on the lowest yellow point, what is its Parameters value shown in the details box?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "12",
-            "24",
-            "36",
-            "48",
-            "60"
-          ]
         }
       ],
       "correctAnswer": [
@@ -274,10 +259,6 @@
         {
           "id": "chart1_0_Q3",
           "answer": "Bankruptcy-NN"
-        },
-        {
-          "id": "chart1_0_Q4",
-          "answer": "36"
         }
       ],
       "instructionLocation": "sidebar"
@@ -332,21 +313,6 @@
             "Samuel Neural Checkers",
             "GNN"
           ]
-        },
-        {
-          "id": "chart1_1_Q4",
-          "prompt": "Still on the lowest yellow point, what is its Parameters value shown in the details box?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "12",
-            "24",
-            "36",
-            "48",
-            "60"
-          ]
         }
       ],
       "correctAnswer": [
@@ -361,10 +327,6 @@
         {
           "id": "chart1_1_Q3",
           "answer": "Bankruptcy-NN"
-        },
-        {
-          "id": "chart1_1_Q4",
-          "answer": "36"
         }
       ],
       "instructionLocation": "sidebar"
@@ -419,21 +381,6 @@
             "2.21",
             "3.38"
           ]
-        },
-        {
-          "id": "chart2_0_Q4",
-          "prompt": "Between **Mexico**, **India**, and **Germany**, which country has the highest value?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Mexico",
-            "India",
-            "Germany",
-            "They are the same",
-            "Not sure"
-          ]
         }
       ],
       "correctAnswer": [
@@ -448,10 +395,6 @@
         {
           "id": "chart2_0_Q3",
           "answer": "0.37"
-        },
-        {
-          "id": "chart2_0_Q4",
-          "answer": "India"
         }
       ],
       "instructionLocation": "sidebar"
@@ -506,21 +449,6 @@
             "2.21",
             "3.38"
           ]
-        },
-        {
-          "id": "chart2_1_Q4",
-          "prompt": "Between **Mexico**, **India**, and **Germany**, which country has the highest value?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Mexico",
-            "India",
-            "Germany",
-            "They are the same",
-            "Not sure"
-          ]
         }
       ],
       "correctAnswer": [
@@ -535,10 +463,6 @@
         {
           "id": "chart2_1_Q3",
           "answer": "0.37"
-        },
-        {
-          "id": "chart2_1_Q4",
-          "answer": "India"
         }
       ],
       "instructionLocation": "sidebar"
@@ -593,21 +517,6 @@
             "Australia",
             "United States"
           ]
-        },
-        {
-          "id": "chart3_0_Q4",
-          "prompt": "Which country is ranked 4th highest for the **Wind** energy source type?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Norway",
-            "Spain",
-            "Sweden",
-            "Netherlands",
-            "Germany"
-          ]
         }
       ],
       "correctAnswer": [
@@ -622,10 +531,6 @@
         {
           "id": "chart3_0_Q3",
           "answer": "Spain"
-        },
-        {
-          "id": "chart3_0_Q4",
-          "answer": "Germany"
         }
       ],
       "instructionLocation": "sidebar"
@@ -680,21 +585,6 @@
             "Australia",
             "United States"
           ]
-        },
-        {
-          "id": "chart3_1_Q4",
-          "prompt": "Which country is ranked 4th highest for the **Wind** energy source type?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Norway",
-            "Spain",
-            "Sweden",
-            "Netherlands",
-            "Germany"
-          ]
         }
       ],
       "correctAnswer": [
@@ -709,10 +599,6 @@
         {
           "id": "chart3_1_Q3",
           "answer": "Spain"
-        },
-        {
-          "id": "chart3_1_Q4",
-          "answer": "Germany"
         }
       ],
       "instructionLocation": "sidebar"
@@ -767,21 +653,6 @@
             "94.1kg",
             "141kg"
           ]
-        },
-        {
-          "id": "chart4_0_Q4",
-          "prompt": "For the year 2013, wwhich country had the highest **Pork** share (**%**) of its country's total meat & fish consumption?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Spain",
-            "China",
-            "France",
-            "Japan",
-            "Australia"
-          ]
         }
       ],
       "correctAnswer": [
@@ -796,10 +667,6 @@
         {
           "id": "chart4_0_Q3",
           "answer": "96.1kg"
-        },
-        {
-          "id": "chart4_0_Q4",
-          "answer": "China"
         }
       ],
       "instructionLocation": "sidebar"
@@ -854,21 +721,6 @@
             "94.1kg",
             "141kg"
           ]
-        },
-        {
-          "id": "chart4_1_Q4",
-          "prompt": "For the year 2013, wwhich country had the highest **Pork** share (**%**) of its country's total meat & fish consumption?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Spain",
-            "China",
-            "France",
-            "Japan",
-            "Australia"
-          ]
         }
       ],
       "correctAnswer": [
@@ -883,10 +735,6 @@
         {
           "id": "chart4_1_Q3",
           "answer": "96.1kg"
-        },
-        {
-          "id": "chart4_1_Q4",
-          "answer": "China"
         }
       ],
       "instructionLocation": "sidebar"
@@ -941,21 +789,6 @@
             "Ages 15-24",
             "Ages 5-14"
           ]
-        },
-        {
-          "id": "chart5_0_Q4",
-          "prompt": "Which age groups in the United States in 2023 have the largest population?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Ages 65+",
-            "Ages 25-64",
-            "Ages Under 25",
-            "Ages 15-24",
-            "Ages 5-14"
-          ]
         }
       ],
       "correctAnswer": [
@@ -969,10 +802,6 @@
         },
         {
           "id": "chart5_0_Q3",
-          "answer": "Ages 25-64"
-        },
-        {
-          "id": "chart5_0_Q4",
           "answer": "Ages 25-64"
         }
       ],
@@ -1028,21 +857,6 @@
             "Ages 15-24",
             "Ages 5-14"
           ]
-        },
-        {
-          "id": "chart5_1_Q4",
-          "prompt": "Which age groups in the United States in 2023 have the largest population?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Ages 65+",
-            "Ages 25-64",
-            "Ages Under 25",
-            "Ages 15-24",
-            "Ages 5-14"
-          ]
         }
       ],
       "correctAnswer": [
@@ -1056,10 +870,6 @@
         },
         {
           "id": "chart5_1_Q3",
-          "answer": "Ages 25-64"
-        },
-        {
-          "id": "chart5_1_Q4",
           "answer": "Ages 25-64"
         }
       ],
@@ -1115,21 +925,6 @@
             "4",
             "3"
           ]
-        },
-        {
-          "id": "chart6_0_Q4",
-          "prompt": "In the year 2018, which country in Asia had the highest Gini index?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Thailand",
-            "Malaysia",
-            "Turkey",
-            "Vietnam",
-            "Philippines"
-          ]
         }
       ],
       "correctAnswer": [
@@ -1144,10 +939,6 @@
         {
           "id": "chart6_0_Q3",
           "answer": "4"
-        },
-        {
-          "id": "chart6_0_Q4",
-          "answer": "Turkey"
         }
       ],
       "instructionLocation": "sidebar"
@@ -1202,21 +993,6 @@
             "4",
             "3"
           ]
-        },
-        {
-          "id": "chart6_1_Q4",
-          "prompt": "In the year 2018, which country in Asia had the highest Gini index?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Thailand",
-            "Malaysia",
-            "Turkey",
-            "Vietnam",
-            "Philippines"
-          ]
         }
       ],
       "correctAnswer": [
@@ -1231,10 +1007,6 @@
         {
           "id": "chart6_1_Q3",
           "answer": "4"
-        },
-        {
-          "id": "chart6_1_Q4",
-          "answer": "Turkey"
         }
       ],
       "instructionLocation": "sidebar"
@@ -1289,21 +1061,6 @@
             "Sweden, Netherlands, Denmark",
             "Luxembourg, Denmark, United Kingdom"
           ]
-        },
-        {
-          "id": "chart7_0_Q4",
-          "prompt": "What were the two countries with internet use above 60% in 2001?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Switzerland and Canada",
-            "New Zealand and Norway",
-            "Australia and New Zealand",
-            "Norway and Switzerland",
-            "Norway and Canada"
-          ]
         }
       ],
       "correctAnswer": [
@@ -1318,10 +1075,6 @@
         {
           "id": "chart7_0_Q3",
           "answer": "Norway, Sweden, Netherlands"
-        },
-        {
-          "id": "chart7_0_Q4",
-          "answer": "Norway and Canada"
         }
       ],
       "instructionLocation": "sidebar"
@@ -1376,21 +1129,6 @@
             "Sweden, Netherlands, Denmark",
             "Luxembourg, Denmark, United Kingdom"
           ]
-        },
-        {
-          "id": "chart7_1_Q4",
-          "prompt": "What were the two countries with internet use above 60% in 2001?",
-          "location": "sidebar",
-          "type": "dropdown",
-          "required": true,
-          "placeholder": "Select the answer",
-          "options": [
-            "Switzerland and Canada",
-            "New Zealand and Norway",
-            "Australia and New Zealand",
-            "Norway and Switzerland",
-            "Norway and Canada"
-          ]
         }
       ],
       "correctAnswer": [
@@ -1405,10 +1143,6 @@
         {
           "id": "chart7_1_Q3",
           "answer": "Norway, Sweden, Netherlands"
-        },
-        {
-          "id": "chart7_1_Q4",
-          "answer": "Norway and Canada"
         }
       ],
       "instructionLocation": "sidebar"
@@ -1847,22 +1581,22 @@
       "response": [
         {
           "id": "q-all-1",
-          "prompt": "Considering the different visualization experiences you encountered in this study, if you had to choose a default style, which would you prefer?",
+          "prompt": "Considering the different infographic experiences you encountered in this study, if you had to choose a default style, which would you prefer?",
           "location": "aboveStimulus",
           "type": "radio",
           "required": true,
           "withDivider": true,
           "options": [
-            "No feedback/embellishments",
-            "Less feedback/embellishments",
-            "More feedback/embellishments",
-            "No difference"
+            "No juicy feedback/embellishments",
+            "Less juicy feedback/embellishments",
+            "Moderate juicy feedback/embellishments",
+            "More juicy feedback/embellishments"
           ],
           "withOther": true
         },
         {
           "id": "q-all-2",
-          "prompt": "Reflecting on the visualization versions you interacted with in this study, which version did you prefer overall, and why?",
+          "prompt": "Reflecting on the various infographics you interacted with in this study, which infographic did you prefer overall, and why?",
           "secondaryText": "For your memory, names of all infographics we have are: **[AI System]**, **[The Map]**, **[Energy]**, **[Foods]**, **[People]**, **[Income]**, **[Internet]**.",
           "location": "aboveStimulus",
           "type": "longText",
@@ -1872,7 +1606,7 @@
         },
         {
           "id": "q-all-3",
-          "prompt": "What's your preference on the feedback/embellishments of infographics/charts?",
+          "prompt": "Overall, how's your preference for adding (or not adding) juicy feedback/embellishments to infographics/charts?",
           "location": "aboveStimulus",
           "type": "slider",
           "startingValue": 5,
@@ -1880,18 +1614,18 @@
           "withDivider": true,
           "options": [
             {
-              "label": "strongly prefer substantially less feedback/embellishments",
+              "label": "strongly prefer not adding juicy feedback/embellishments",
               "value": 0
             },
             {
-              "label": "strongly prefer substantially more feedback/embellishments",
+              "label": "strongly prefer adding juicy feedback/embellishments",
               "value": 10
             }
           ]
         },
         {
           "id": "q-all-4",
-          "prompt": "Please explain why you made the selections/answers above.",
+          "prompt": "Please explain why you made the selections/answers above, and how juicy feedback/embellishments influenced your experience.",
           "location": "aboveStimulus",
           "type": "longText",
           "required": true,
@@ -2274,13 +2008,13 @@
     "authors": [
       "Shano Liang, Max Chen, Lane Harrison"
     ],
-    "date": "2026-03-03",
+    "date": "2026-03-05",
     "description": "",
     "organizations": [
       "VIEW Lab, WPI"
     ],
-    "title": "Juicy VIS study 1: Embellishment and Juicy Feedback on infographics",
-    "version": "0.2"
+    "title": "Juicy VIS study 1: Juicy Feedback/Embellishment on infographics",
+    "version": "1.0"
   },
   "uiConfig": {
     "contactEmail": "sliang1@wpi.edu",
@@ -2291,7 +2025,7 @@
     "sidebar": true,
     "sidebarWidth": 400,
     "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C10PIQT8](https://app.prolific.com/submissions/complete?cc=C10PIQT8)",
-    "withProgressBar": true,
+    "withProgressBar": false,
     "urlParticipantIdParam": "PROLIFIC_PID",
     "participantNameField": "introduction.prolificId",
     "autoDownloadStudy": false,

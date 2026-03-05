@@ -1,4 +1,6 @@
-In this study, you will interact with a total of 4 interactable Infographics/diagrams/charts with different **embellishments and juicy feedback** (such as animation, visual art, and sound effects) that that have **various levels of intensity**. Each interactive graphic has an instruction and tasks (for example, questions about what you may learned from the graphics). For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
+"**Juicy**" or "Juiciness" is a concept from video games that refers to adding immediate feedback on users' every input/interaction, such as ***micro-animations, visual effects, graphic transitions, and sound effects***. Meanwhile, visualization is the practice of creating infographics to present complex data to audiences to read, learn, and gain insights. This study aims to evaluate your experiences with using different infographics/diagrams/charts at **various levels of intensity/degree** of embellishments and juicy feedback.
+
+You will interact with a total of 4 interactable Infographics/diagrams/charts with different embellishments and juicy feedback that that have **various levels of intensity**. Each interactive graphic has an instruction and tasks (for example, questions about what you may learned from the graphics). For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
 
 ---
 

@@ -1,8 +1,6 @@
 # PART II: Play the Infographics!
 
-This is the second, as well as the main body, of this study. In this part, you will be randomly given a total of 5 interactable Infographics/diagrams/charts with different **embellishments and juicy feedback** (such as animation, visual art, and sound effects) that **play at different timings/phases**. For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
-
-Your insights are incredibly valuable in helping us understand the difference of using experiences between infographics with different types of embellishment/juicy feedback!
+This is the second, as well as the main body, of this study. In this part, you will be randomly given a total of **5** interactable Infographics/diagrams/charts **with (or without)** embellishments and juicy feedback (such as animation, visual art, and sound effects) that **play at different timings/phases**. For each of the infographics, you will be asked to interact with them, gain the answer for tasks, and report your experience of using or playing them.
 
 Whenever you finish your answer, you will be able to click the **[Next]** button, to move to the next page of the study. We suggest maximizing your browser window, as the infographics/diagrams/charts can be on the larger side.
 
